@@ -1,32 +1,33 @@
-<!-- -------------------------------------------footer part start--------------------------------------- -->
+<!-- -------------------------------------------Whole footer part start--------------------------------------- -->
+<!-- ===================================footer up part html starts============================== -->
 <div class="footer-up">
-			<div class="row">
-				<div class="col-md-6">
-					<div class="footer-up-left">
-						<i class="fa-solid fa-car-side"></i>
-						<p>We successfully cope with tasks of varying complexity, provide long-term guarantees and
-							regularly master new technologies.</p>
+	<div class="row">
+		<div class="col-md-6">
+			<div class="footer-up-left">
+				<i class="fa-solid fa-car-side"></i>
+				<p>We successfully cope with tasks of varying complexity, provide long-term guarantees and
+					regularly master new technologies.</p>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="footer-up-right">
+				<div class="row">
+					<div class="col-md-6 call-icon">
+						<i class="fa-solid fa-phone-volume"></i>
 					</div>
-				</div>
-				<div class="col-md-6">
-					<div class="footer-up-right">
-						<div class="row">
-							<div class="col-md-6 call-icon">
-								<i class="fa-solid fa-phone-volume"></i>
-							</div>
-							<div class="col-md-6">
-								<p>Call Us</p>
-								<strong><a
-										href="tel:403-948-2002/403-809-5353">403-948-2002<br>403-809-5353</a></strong>
-							</div>
-						</div>
+					<div class="col-md-6">
+						<!-- <p>Call Us</p> -->
+						<!-- <strong><a href="tel:403-948-2002/403-809-5353">403-948-2002<br>403-809-5353</a></strong> -->
 					</div>
 				</div>
 			</div>
 		</div>
+	</div>
+</div>
+<!-- =======================footer up part html ends=============================== -->
 <section class="footer">
 	<div class="container">
-		
+		<!-- ===============footer middle part start================ -->
 		<div class="footer-middle">
 			<div class="row">
 				<div class="col-md-4">
@@ -75,8 +76,8 @@
 				</div>
 			</div>
 		</div>
-
 	</div>
+	<!-- =======================footer middle part ends -->
 	<div class="footer-2">
 		<div class="container">
 			<div class="row">
@@ -90,4 +91,4 @@
 		</div>
 	</div>
 </section>
-<!-- -------------------------------------------footer part end--------------------------------------- -->
+<!-- ----------------------------------------Whole footer part end--------------------------------------- -->

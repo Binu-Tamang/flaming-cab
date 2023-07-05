@@ -40,12 +40,12 @@
 				<div class="col-md-8">
 					<div class="second-top-header-menubar">
 						<ul>
-							<li><a href="#">HOME</a></li>
-							<li><a href="#">ABOUT US</a></li>
-							<li><a href="#">SERVICES</a></li>
-							<li><a href="#">FLEET</a></li>
-							<li><a href="#">BLOG</a></li>
-							<li><a href="#">CONTACT</a></li>
+							<li><a href="#"><i class="fa-solid fa-house"></i> HOME</a></li>
+							<li><a href="#"><i class="fa-solid fa-user"></i> ABOUT US</a></li>
+							<li><a href="#"><i class="fa-solid fa-gears"></i> SERVICES</a></li>
+							<li><a href="#"><i class="fa-solid fa-users"></i> FLEET</a></li>
+							<li><a href="#"><i class="fa-solid fa-blog"></i> BLOG</a></li>
+							<li><a href="#"><i class="fa-solid fa-address-book"></i> CONTACT</a></li>
 						</ul>
 					</div>
 				</div>

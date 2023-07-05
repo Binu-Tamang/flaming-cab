@@ -33,17 +33,17 @@
 
 			<!-- The slideshow -->
 			<div class="carousel-inner" data-bs-interval="3000">
-				<div class="carousel-item active">
+				<div class="carousel-item bg-element active">
 					<!-- ACTIVE SHOULD BE AT 1ST ONLY -->
 					<img src="assets/img/slider/3.jpg">
 				</div>
-				<div class="carousel-item">
+				<div class="carousel-item bg-element">
 					<img src="assets/img/slider/2.jpg">
 				</div>
-				<div class="carousel-item">
+				<div class="carousel-item bg-element">
 					<img src="assets/img/slider/1.png">
 				</div>
-				<div class="carousel-item">
+				<div class="carousel-item bg-element">
 					<img src="assets/img/slider/3.jpg">
 				</div>
 
@@ -62,71 +62,6 @@
 		<div class="banner-bg-color"></div>
 	</section>
 	<!-- -------------------------------------banner slider end------------------------------------ -->
-
-	<section class="welcome-section my-5">
-		<div class="welcome-wrap">
-			<div class="container">
-				<div class="welcome-header">
-					<div class="text-center capitalize-text 	">
-						<p>welcome to</p>
-						<h1 class="welcome-heading">flames cab</h1>
-					</div>
-					<div class="underline-flames">
-						<span class="outer-line"></span>
-						<i class="fa-solid fa-user"></i>
-						<span class="outer-line"></span>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-lg-6">
-						<div class="welcome-image-container">
-							<img src="assets/img/cab1.jpg" class="img-fluid h-100">
-
-						</div>
-					</div>
-					<div class="col-lg-6  mt-lg-0 mt-md-5">
-						<div class="welcome-part-box-right">
-							<h2>we are <span>flames cab</span></h2>
-							<p>We are a leading company sit amet, consectetur adipisicing elit. Minus obcaecati pariatur
-								officiis molestias eveniet harum laudantium obcaecati pariatur officiis molestias
-								eveniet harum laudantium sed optio iste.</p>
-							<div class="flames-content-nav-tab">
-								<ul class="nav nav-pills mb-3  flex-sm-row  justify-content-around" id="pills-tab" role="tablist">
-									<li class="nav-item " role="presentation">
-										<button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Our Mission</button>
-									</li>
-									<li class="nav-item " role="presentation">
-										<button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Our Advantange</button>
-									</li>
-									<li class="nav-item " role="presentation">
-										<button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Our Guarantee</button>
-									</li>
-								</ul>
-								<div class="tab-content" id="pills-tabContent">
-									<div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">consectetur adipiscing elit, sed do eiusmod
-										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-										consequat. Duis aute irure dolor in</div>
-									<div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">Ut enim ad minim veniam, quis nostrud
-										exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-										irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-										nulla pariatur.</div>
-									<div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">Laboris nisi ut aliquip ex ea commodo
-										consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-										dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-										sunt in culpa qui officia</div>
-
-								</div>
-							</div>
-							<div class="welcome-part-button">
-								<button>Read More <i class="fa fa-arrow-right"></i></button>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-	</section>
-
 
 	<!-- -------------------------------welcome part starts------------------------------------------- -->
 	<section class="welcome-part">
@@ -161,25 +96,37 @@
 							<div class="flames-content-nav-tab">
 								<ul class="nav nav-pills mb-3 flex-column flex-sm-row" id="pills-tab" role="tablist">
 									<li class="nav-item flex-sm-fill" role="presentation">
-										<button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true"><i class="fa-solid fa-circle-check"></i> Our Mission</button>
+										<button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+											data-bs-target="#pills-home" type="button" role="tab"
+											aria-controls="pills-home" aria-selected="true"><i
+												class="fa-solid fa-circle-check"></i> Our Mission</button>
 									</li>
 									<li class="nav-item flex-sm-fill" role="presentation">
-										<button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Our Advantange<i class="fa-solid fa-circle-user"></i></button>
+										<button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+											data-bs-target="#pills-profile" type="button" role="tab"
+											aria-controls="pills-profile" aria-selected="false"><i
+												class="fa-solid fa-circle-user"></i> Our Advantange</button>
 									</li>
 									<li class="nav-item flex-sm-fill" role="presentation">
-										<button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Our Guarantee<i class="fa-solid fa-face-smile"></i></button>
+										<button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+											data-bs-target="#pills-contact" type="button" role="tab"
+											aria-controls="pills-contact" aria-selected="false"><i
+												class="fa-solid fa-face-smile"></i> Our Guarantee</button>
 									</li>
 								</ul>
 								<div class="tab-content" id="pills-tabContent">
-									<div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">consectetur adipiscing elit, sed do eiusmod
+									<div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+										aria-labelledby="pills-home-tab">consectetur adipiscing elit, sed do eiusmod
 										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 										consequat. Duis aute irure dolor in</div>
-									<div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">Ut enim ad minim veniam, quis nostrud
+									<div class="tab-pane fade" id="pills-profile" role="tabpanel"
+										aria-labelledby="pills-profile-tab">Ut enim ad minim veniam, quis nostrud
 										exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
 										irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
 										nulla pariatur.</div>
-									<div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">Laboris nisi ut aliquip ex ea commodo
+									<div class="tab-pane fade" id="pills-contact" role="tabpanel"
+										aria-labelledby="pills-contact-tab">Laboris nisi ut aliquip ex ea commodo
 										consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
 										dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
 										sunt in culpa qui officia</div>
@@ -284,10 +231,12 @@
 				<div class="col-md-8">
 					<div class="booked-content">
 						<h3>Call Us Now <span>Book Your Cab </span>For Your Next Ride!</h3>
-						<p>We successfully cope with tasks of varying complexity, guarantees and regularly master new technologies.</p>
+						<p>We successfully cope with tasks of varying complexity, guarantees and regularly master new
+							technologies.</p>
 						<div class="cta-call">
 							<i class="fa-solid fa-phone-volume"></i>
-							<p><span>Call Us Now</span><a href="tel:403-948-2002/403-809-5353">403-948-2002<br>403-809-5353</a></p>
+							<p><span>Call Us Now</span><a
+									href="tel:403-948-2002/403-809-5353">403-948-2002<br>403-809-5353</a></p>
 						</div>
 					</div>
 				</div>
@@ -352,11 +301,118 @@
 		</div>
 	</section>
 	<!-- ------------------------------Our Gallery start ----------------------------->
+	<!-- --------------------testimonials starts--------------------- -->
+	<section class="testimonial-sec testimonial-center sec-bg sec-main bg-sec"
+		style="background-image:url('assets/img/testimonials.jpg');">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="sec-title center text-center">
+						<h5 class="title-small wow animate__ animate__fadeInDown animate__delay-200ms animated"
+							style="visibility: visible; animation-name: fadeInDown;">Our customer says</h5>
+						<h3 class="title-big wow animate__  animate__bounceInDown animate__delay-200ms animated"
+							style="visibility: visible; animation-name: bounceInDown;">Testimonials</h3>
+						<span class="title-seperator wow animate__  animate__fadeInUp animate__delay-200ms animated"
+							style="visibility: visible; animation-name: fadeInUp;"></span>
 
+					</div>
+				</div>
+				<div class="col-lg-8 col-md-12 mx-lg-auto">
+					<div class="testimonial-center wow animate__ animate__fadeIn animate__delay-200ms animated"
+						style="visibility: visible; animation-name: fadeIn;">
+						<div id="google-reviews">
+							<div id="map-plug">
+								<div style="height: 100%; width: 100%;">
+									<div style="overflow: hidden;"></div>
+								</div>
+							</div>
+							<div class="review-item" >
+								<div class="review-meta"><span class="review-author">Alex Pellegrino</span><span
+										class="review-sep">, </span><span class="review-date">Aug 6, 2022</span></div>
+								<div class="review-stars">
+									<ul>
+										<li><i class="star"></i></li>
+										<li><i class="star"></i></li>
+										<li><i class="star"></i></li>
+										<li><i class="star"></i></li>
+										<li><i class="star"></i></li>
+									</ul>
+								</div>
+								<p class="review-text">Marco and his team repaired some loose granite steps at the front
+									our house. He explained the process and took excellent care of a delicate project.
+									All the stones are now tightly secure and looks brand new. Highly recommend Marco!
+								</p>
+							</div>
+							<div class="review-item" style="display: none;">
+								<div class="review-meta"><span class="review-author">Mark Mcrae</span><span
+										class="review-sep">, </span><span class="review-date">Jun 30, 2022</span></div>
+								<div class="review-stars">
+									<ul>
+										<li><i class="star"></i></li>
+										<li><i class="star"></i></li>
+										<li><i class="star"></i></li>
+										<li><i class="star"></i></li>
+										<li><i class="star"></i></li>
+									</ul>
+								</div>
+								<p class="review-text">Marco is great. It’s pretty clear from the start of the quoting
+									he is passionate about doing quality work and never cutting corners. Once the job
+									started it was finished on schedule, no disappearing acts wondering where your
+									contractor is and when you will see him next. Always answers calls. Result was a
+									great new driveway where we had gravel and a basketball court on the property. I
+									would highly recommend him, not the cheapest out there but you get what you pay for.
+								</p>
+							</div>
+							<div class="review-item" style="display: none;">
+								<div class="review-meta"><span class="review-author">Ruchi Virdi</span><span
+										class="review-sep">, </span><span class="review-date">May 7, 2022</span></div>
+								<div class="review-stars">
+									<ul>
+										<li><i class="star"></i></li>
+										<li><i class="star"></i></li>
+										<li><i class="star"></i></li>
+										<li><i class="star"></i></li>
+										<li><i class="star"></i></li>
+									</ul>
+								</div>
+								<p class="review-text">Marco and his team were phenomenal to have for my concrete job! I
+									had a typical 'small' extension job but Marco was able to accommodate my needs
+									nonetheless and bring me along every step of the way. He was always easy to reach,
+									very on time and professional and ensured my extension was not only clean and
+									pretty, but also functional with his attention to detail. I would highly recommend
+									this team to anyone looking to get concrete work done.</p>
+							</div>
+							<div class="review-item" style="display: none;">
+								<div class="review-meta"><span class="review-author">Michelle Burger</span><span
+										class="review-sep">, </span><span class="review-date">Jun 7, 2021</span></div>
+								<div class="review-stars">
+									<ul>
+										<li><i class="star"></i></li>
+										<li><i class="star"></i></li>
+										<li><i class="star"></i></li>
+										<li><i class="star"></i></li>
+										<li><i class="star"></i></li>
+									</ul>
+								</div>
+								<p class="review-text">Marco is an excellent craftsmen in his trade and his customer
+									service skills are amazing. He's very responsive with great communication abilities.
+									Marco addresses the true needs of the client without compromising the end vision. He
+									isn't just about getting the job done... he's about providing quality work that will
+									last. I would definitely recommend Concrete Base Interlocking to anyone interested
+									in this service.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+	<!-- --------------------testimols ends--------------------- -->
 	<?php
 	include('inc/footer.php');
 	include('inc/js.php')
-	?>
+		?>
 
 </body>
 
