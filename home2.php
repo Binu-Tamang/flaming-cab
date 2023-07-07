@@ -32,19 +32,59 @@
 			</ul>
 
 			<!-- The slideshow -->
-			<div class="carousel-inner" data-bs-interval="3000">
+			<div class="carousel-inner" data-bs-interval="9000">
 				<div class="carousel-item bg-element active">
 					<!-- ACTIVE SHOULD BE AT 1ST ONLY -->
 					<img src="assets/img/slider/3.jpg">
+					<div class="banner-slider-text">
+						<h2>HELLO</h2>
+						<h3>Do you want to<span> BOOK A CAB</span></h3>
+						<p>Flames Cab in Airdrie offers professional<br> and reliable taxi service that get you where
+							you
+							have to go, on time.</p>
+						<div class="banner-slider-button">
+							<button><i class="fa-solid fa-gears"></i> Learn More</button>
+						</div>
+					</div>
 				</div>
 				<div class="carousel-item bg-element">
 					<img src="assets/img/slider/2.jpg">
+					<div class="banner-slider-text">
+						<h2>HELLO</h2>
+						<h3>Do you want to<span> BOOK A CAB</span></h3>
+						<p>Flames Cab in Airdrie offers professional<br> and reliable taxi service that get you where
+							you
+							have to go, on time.</p>
+						<div class="banner-slider-button">
+							<button><i class="fa-solid fa-gears"></i> Learn More</button>
+						</div>
+					</div>
 				</div>
 				<div class="carousel-item bg-element">
 					<img src="assets/img/slider/1.png">
+					<div class="banner-slider-text">
+						<h2>HELLO</h2>
+						<h3>We are here to<span> HELP YOU</span></h3>
+						<p>Flames Cab in Airdrie offers professional<br> and reliable taxi service that get you where
+							you
+							have to go, on time.</p>
+						<div class="banner-slider-button">
+							<button><i class="fa-solid fa-gears"></i> Learn More</button>
+						</div>
+					</div>
 				</div>
 				<div class="carousel-item bg-element">
 					<img src="assets/img/slider/3.jpg">
+					<div class="banner-slider-text">
+						<h2>HELLO</h2>
+						<h3>We are <span>FLAMES CAB</span></h3>
+						<p>Flames Cab in Airdrie offers professional<br> and reliable taxi service that get you where
+							you
+							have to go, on time.</p>
+						<div class="banner-slider-button">
+							<button><i class="fa-solid fa-gears"></i> Learn More</button>
+						</div>
+					</div>
 				</div>
 
 
@@ -64,54 +104,50 @@
 	<!-- -------------------------------------banner slider end------------------------------------ -->
 
 	<!-- -------------------------------welcome part starts------------------------------------------- -->
-	<section class="welcome-part">
-		<div class="container">
-			<div class="welcome-part-heading">
-				<p>welcome to</p>
-				<h1>flames cab</h1>
-			</div>
-			<div class="underline-flames">
-				<span class="outer-line"></span>
-				<i class="fa-solid fa-user"></i>
-				<span class="outer-line"></span>
-			</div>
-			<div class="welcome-part-box">
+	<section class="welcome-section my-5">
+		<div class="welcome-wrap">
+			<div class="container">
+				<div class="welcome-header">
+					<div class="text-center capitalize-text 	">
+						<p>welcome to</p>
+						<h1 class="welcome-heading">flames cab</h1>
+					</div>
+					<div class="underline-flames">
+						<span class="outer-line"></span>
+						<i class="fa-solid fa-user"></i>
+						<span class="outer-line"></span>
+					</div>
+				</div>
 				<div class="row">
-					<div class="col-md-6 col-sm-12">
-						<div class="welcome-part-box-left">
-							<div class="welcome-part-box-left-img">
-								<img src="assets/img/cab1.jpg" class="img-fluid welcome-img">
-								<div class="welcome-part-box-left-img2">
+					<div class="col-lg-6">
+						<div class="welcome-image-container">
+							<img src="assets/img/cab1.jpg" class="img-fluid h-100">
 
-								</div>
-							</div>
 						</div>
 					</div>
-					<div class="col-md-6 col-sm-12">
+					<div class="col-lg-6  mt-lg-0 mt-md-5">
 						<div class="welcome-part-box-right">
 							<h2>we are <span>flames cab</span></h2>
 							<p>We are a leading company sit amet, consectetur adipisicing elit. Minus obcaecati pariatur
 								officiis molestias eveniet harum laudantium obcaecati pariatur officiis molestias
 								eveniet harum laudantium sed optio iste.</p>
 							<div class="flames-content-nav-tab">
-								<ul class="nav nav-pills mb-3 flex-column flex-sm-row" id="pills-tab" role="tablist">
-									<li class="nav-item flex-sm-fill" role="presentation">
+								<ul class="nav nav-pills mb-3  flex-sm-row  justify-content-around" id="pills-tab"
+									role="tablist">
+									<li class="nav-item " role="presentation">
 										<button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
 											data-bs-target="#pills-home" type="button" role="tab"
-											aria-controls="pills-home" aria-selected="true"><i
-												class="fa-solid fa-circle-check"></i> Our Mission</button>
+											aria-controls="pills-home" aria-selected="true"><i class="fa-solid fa-arrow-trend-up"></i> Our Mission</button>
 									</li>
-									<li class="nav-item flex-sm-fill" role="presentation">
+									<li class="nav-item " role="presentation">
 										<button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
 											data-bs-target="#pills-profile" type="button" role="tab"
-											aria-controls="pills-profile" aria-selected="false"><i
-												class="fa-solid fa-circle-user"></i> Our Advantange</button>
+											aria-controls="pills-profile" aria-selected="false"><i class="fa-solid fa-hand-point-up"></i> Our Advantange</button>
 									</li>
-									<li class="nav-item flex-sm-fill" role="presentation">
+									<li class="nav-item " role="presentation">
 										<button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
 											data-bs-target="#pills-contact" type="button" role="tab"
-											aria-controls="pills-contact" aria-selected="false"><i
-												class="fa-solid fa-face-smile"></i> Our Guarantee</button>
+											aria-controls="pills-contact" aria-selected="false"><i class="fa-solid fa-seedling"></i> Our Guarantee</button>
 									</li>
 								</ul>
 								<div class="tab-content" id="pills-tabContent">
@@ -130,6 +166,7 @@
 										consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
 										dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
 										sunt in culpa qui officia</div>
+
 								</div>
 							</div>
 							<div class="welcome-part-button">
@@ -139,7 +176,6 @@
 					</div>
 				</div>
 			</div>
-		</div>
 	</section>
 	<!-- -------------------------------welcome part starts------------------------------------------- -->
 
@@ -158,7 +194,7 @@
 			</div>
 			<div class="service-intro">
 				<div class="row">
-					<div class="col-md-4 col-sm-12">
+					<div class="col-md-6 col-sm-12 col-lg-4	">
 						<div class="service-img-intro-container">
 							<img class="img-fluid service-img" src="assets/img/g1.jpg">
 							<div class="service-img-intro">
@@ -168,7 +204,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4 col-sm-12">
+					<div class="col-md-6 col-sm-12 col-lg-4	">
 						<div class="service-img-intro-container">
 							<img class="img-fluid service-img" src="assets/img/cab1.jpg">
 							<div class="service-img-intro">
@@ -178,7 +214,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4 col-sm-12">
+					<div class="col-md-6 col-sm-12 col-lg-4	">
 						<div class="service-img-intro-container">
 							<img class="img-fluid service-img" src="assets/img/g3.jpg">
 							<div class="service-img-intro">
@@ -188,7 +224,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4 col-sm-12">
+					<div class="col-md-6 col-sm-12 col-lg-4	">
 						<div class="service-img-intro-container">
 							<img class="img-fluid service-img" src="assets/img/about.jpg">
 							<div class="service-img-intro">
@@ -198,7 +234,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4 col-sm-12">
+					<div class="col-md-6 col-sm-12 col-lg-4	">
 						<div class="service-img-intro-container">
 							<img class="img-fluid service-img" src="assets/img/g2.jpg">
 							<div class="service-img-intro">
@@ -208,7 +244,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4 col-sm-12">
+					<div class="col-md-6 col-sm-12 col-lg-4	">
 						<div class="service-img-intro-container">
 							<img class="img-fluid service-img" src="assets/img/hand-shake.jpg">
 							<div class="service-img-intro">
@@ -326,7 +362,7 @@
 									<div style="overflow: hidden;"></div>
 								</div>
 							</div>
-							<div class="review-item" >
+							<div class="review-item">
 								<div class="review-meta"><span class="review-author">Alex Pellegrino</span><span
 										class="review-sep">, </span><span class="review-date">Aug 6, 2022</span></div>
 								<div class="review-stars">

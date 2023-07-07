@@ -4,20 +4,17 @@
 			<div class="row">
 				<div class="col-md-6">
 					<div class="top-header-left">
-						<!-- <ul>
-							<li><a href="#">LOGIN / REGISTER</a></li>
-							<li><a href="#"><button>BUY NOW</button></a></li>
-						</ul> -->
+						
 					</div>
 				</div>
 				<div class="col-md-6">
 					<div class="top-header-right">
 						<ul>
 							<li>
-								<a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i>7.30 AM-9.30 PM</a>
+								<a href="#"><i class="fa-solid fa-clock"></i> 24 Hours</a>
 							</li>
 							<li>
-								<a href="#"><i class="fa fa-phone" aria-hidden="true"></i>403-948-2002/403-809-5353</a>
+								<a href="#"><i class="fa fa-phone" aria-hidden="true"></i> 403-809-5353</a>
 							</li>
 						</ul>
 					</div>
@@ -37,28 +34,19 @@
 						<img src="assets/img/logo.png">
 					</div>
 				</div>
-				<div class="col-md-8">
+				<div class="col-md-10">
 					<div class="second-top-header-menubar">
 						<ul>
-							<li><a href="#"><i class="fa-solid fa-house"></i> HOME</a></li>
-							<li><a href="#"><i class="fa-solid fa-user"></i> ABOUT US</a></li>
-							<li><a href="#"><i class="fa-solid fa-gears"></i> SERVICES</a></li>
-							<li><a href="#"><i class="fa-solid fa-users"></i> FLEET</a></li>
-							<li><a href="#"><i class="fa-solid fa-blog"></i> BLOG</a></li>
-							<li><a href="#"><i class="fa-solid fa-address-book"></i> CONTACT</a></li>
+							<li><a href="home2.php"> HOME</a></li>
+							<li><a href="about.php"> ABOUT US</a></li>
+							<li><a href="#"> SERVICES</a></li>
+							<li><a href="#"> FLEET</a></li>
+							<li><a href="#"> BLOG</a></li>
+							<li><a href="#"> CONTACT</a></li>
 						</ul>
 					</div>
 				</div>
-				<div class="col-md-2">
-					<!-- <div class="second-top-header-search">
-						<form action="">
-							<div class="form-group">
-								<input type="text" class="form-control"  placeholder="search" name="search">
-								<button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
-							</div>
-						</form>
-					</div> -->
-				</div>
+				
 			</div>
 		</div>
 	</section>
