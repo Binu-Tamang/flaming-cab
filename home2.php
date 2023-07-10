@@ -36,53 +36,65 @@
 				<div class="carousel-item bg-element active">
 					<!-- ACTIVE SHOULD BE AT 1ST ONLY -->
 					<img src="assets/img/slider/3.jpg">
-					<div class="banner-slider-text">
-						<h2>HELLO</h2>
-						<h3>Do you want to<span> BOOK A CAB</span></h3>
-						<p>Flames Cab in Airdrie offers professional<br> and reliable taxi service that get you where
-							you
-							have to go, on time.</p>
-						<div class="banner-slider-button">
-							<button><i class="fa-solid fa-gears"></i> Learn More</button>
+					<div class="container">
+						<div class="banner-slider-text">
+							<h2>HELLO</h2>
+							<h3>Do you want to<span> BOOK A CAB</span></h3>
+							<p>Flames Cab in Airdrie offers professional<br> and reliable taxi service that get you
+								where
+								you
+								have to go, on time.</p>
+							<div class="banner-slider-button">
+								<button><i class="fa-solid fa-gears"></i> Learn More</button>
+							</div>
 						</div>
 					</div>
 				</div>
 				<div class="carousel-item bg-element">
 					<img src="assets/img/slider/2.jpg">
-					<div class="banner-slider-text">
-						<h2>HELLO</h2>
-						<h3>Do you want to<span> BOOK A CAB</span></h3>
-						<p>Flames Cab in Airdrie offers professional<br> and reliable taxi service that get you where
-							you
-							have to go, on time.</p>
-						<div class="banner-slider-button">
-							<button><i class="fa-solid fa-gears"></i> Learn More</button>
+					<div class="container">
+						<div class="banner-slider-text">
+							<h2>HELLO</h2>
+							<h3>Do you want to<span> BOOK A CAB</span></h3>
+							<p>Flames Cab in Airdrie offers professional<br> and reliable taxi service that get you
+								where
+								you
+								have to go, on time.</p>
+							<div class="banner-slider-button">
+								<button><i class="fa-solid fa-gears"></i> Learn More</button>
+							</div>
 						</div>
 					</div>
 				</div>
 				<div class="carousel-item bg-element">
 					<img src="assets/img/slider/1.png">
-					<div class="banner-slider-text">
-						<h2>HELLO</h2>
-						<h3>We are here to<span> HELP YOU</span></h3>
-						<p>Flames Cab in Airdrie offers professional<br> and reliable taxi service that get you where
-							you
-							have to go, on time.</p>
-						<div class="banner-slider-button">
-							<button><i class="fa-solid fa-gears"></i> Learn More</button>
+					<div class="container">
+						<div class="banner-slider-text">
+							<h2>HELLO</h2>
+							<h3>We are here to<span> HELP YOU</span></h3>
+							<p>Flames Cab in Airdrie offers professional<br> and reliable taxi service that get you
+								where
+								you
+								have to go, on time.</p>
+							<div class="banner-slider-button">
+								<button><i class="fa-solid fa-gears"></i> Learn More</button>
+							</div>
 						</div>
 					</div>
 				</div>
 				<div class="carousel-item bg-element">
 					<img src="assets/img/slider/3.jpg">
-					<div class="banner-slider-text">
-						<h2>HELLO</h2>
-						<h3>We are <span>FLAMES CAB</span></h3>
-						<p>Flames Cab in Airdrie offers professional<br> and reliable taxi service that get you where
-							you
-							have to go, on time.</p>
-						<div class="banner-slider-button">
-							<button><i class="fa-solid fa-gears"></i> Learn More</button>
+					<div class="container">
+						<div class="banner-slider-text">
+							<h2>HELLO</h2>
+							<h3>We are <span>FLAMES CAB</span></h3>
+							<p>Flames Cab in Airdrie offers professional<br> and reliable taxi service that get you
+								where
+								you
+								have to go, on time.</p>
+							<div class="banner-slider-button">
+								<button><i class="fa-solid fa-gears"></i> Learn More</button>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -137,17 +149,20 @@
 									<li class="nav-item " role="presentation">
 										<button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
 											data-bs-target="#pills-home" type="button" role="tab"
-											aria-controls="pills-home" aria-selected="true"><i class="fa-solid fa-arrow-trend-up"></i> Our Mission</button>
+											aria-controls="pills-home" aria-selected="true"><i
+												class="fa-solid fa-arrow-trend-up"></i> Our Mission</button>
 									</li>
 									<li class="nav-item " role="presentation">
 										<button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
 											data-bs-target="#pills-profile" type="button" role="tab"
-											aria-controls="pills-profile" aria-selected="false"><i class="fa-solid fa-hand-point-up"></i> Our Advantange</button>
+											aria-controls="pills-profile" aria-selected="false"><i
+												class="fa-solid fa-hand-point-up"></i> Our Advantange</button>
 									</li>
 									<li class="nav-item " role="presentation">
 										<button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
 											data-bs-target="#pills-contact" type="button" role="tab"
-											aria-controls="pills-contact" aria-selected="false"><i class="fa-solid fa-seedling"></i> Our Guarantee</button>
+											aria-controls="pills-contact" aria-selected="false"><i
+												class="fa-solid fa-seedling"></i> Our Guarantee</button>
 									</li>
 								</ul>
 								<div class="tab-content" id="pills-tabContent">
@@ -449,7 +464,9 @@
 	include('inc/footer.php');
 	include('inc/js.php')
 		?>
-
+	<!-- ==================Js section starts==================== -->
+	<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>

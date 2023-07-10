@@ -30,7 +30,7 @@
 		<!-- ===============footer middle part start================ -->
 		<div class="footer-middle">
 			<div class="row">
-				<div class="col-md-4">
+				<div class="col-md-4 col-lg-4 col-sm-4">
 					<div class="footer-boxes">
 						<div class="footer-logo">
 							<img src="assets/img/logo.png">
@@ -47,7 +47,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 col-lg-4 col-sm-4">
 					<div class="footer-boxes">
 						<h3>Quick Menu</h3>
 						<ul>
@@ -60,7 +60,7 @@
 						</ul>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 col-lg-4 col-sm-4">
 					<div class="footer-boxes">
 						<h3>Contact Us</h3>
 						<div class="footer-contact-ul">
@@ -81,10 +81,10 @@
 	<div class="footer-2">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6">
+				<div class="col-md-6 col-lg-5 col-sm-6">
 					<p>Copyright © 2023 Airdrie Flames Taxi Ltd All rights reserved</p>
 				</div>
-				<div class="col-md-6">
+				<div class="col-md-6 col-lg-5 col-sm-6">
 					<p>Design With<i class="far fa-heart"></i>By MapleLeapGroups</p>
 				</div>
 			</div>

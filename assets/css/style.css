@@ -2,6 +2,12 @@
     margin: 0px;
     padding: 0px;
 }
+html{
+    overflow-x: hidden;
+}
+body{
+    overflow-x: hidden;
+}
 /*--------------------TOP HEADER CSS START-------------------------*/
 section.top-header{
     background: #ffb400;
@@ -99,6 +105,79 @@ section.second-top-header{
     top: 8px;
     color: #bfbfbf;
     right: 0;
+}
+/* ================reponsive css starts====================== */
+.mobile-nav-btn {
+    color: #fff;
+    text-align: end;
+    display: none;
+    z-index: 999;
+    border: 3px solid #fff;
+    color: #fff;
+}
+.nav-bar-icons[name="close-outline"]{
+display: none;
+}
+.nav-bar-icons {
+    width: 3rem;
+    height: 3rem;
+}
+.second-top-header-menubar{
+    position: relative;
+}
+/* =====responsive code====== */
+@media(max-width:62em){
+    .mobile-nav-btn{
+         display: block;
+    }
+
+    .second-top-header-logo {
+        width: 40%;
+    }
+
+    .second-top-header-menubar{
+        /* display: none; */
+        width: 100%;
+        height: 100vh;
+        background: #fbb400;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border:3px solid #000;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        /* to get the transition */
+        transform: translateX(100%);
+        transition: all 0.5s linear;
+
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+
+    }
+
+    .second-top-header-menubar ul{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ative .second-top-header-menubar{
+        transform: translateX(0);
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+    }
+
+    .active .mobile-nav-btn .nav-bar-icons[name="close-outline"]{
+        display: block;
+    }
+
+    .active .mobile-nav-btn .nav-bar-icons[name="menu-outline"]{
+        display: none;
+    }
 }
 /*-----------------------------------------TOP 2ND HEADER CSS END----------------------------------*/
 
@@ -361,9 +440,6 @@ button.nav-link {
 }
 
 /* Welcome Section CSS */
-.welcome-wrap{
-
-}
 .welcome-heading {
     font-size: 48px;
     /* line-height: 48px; */
@@ -371,28 +447,21 @@ button.nav-link {
     margin: 0 0  0;
     color: #ffb400;
 }
-
 .welcome-header p {
     margin: 15px 0 0px;
     font-weight: 400;
     color: gray;
     font-family: "Raleway", sans-serif;
 }
-
 .capitalize-text{
     text-transform: uppercase;
 }
-
 .welcome-image-container{
-
    position: relative;
    margin-top: 24px;
    margin-left: 14px;
    height: 100%;
-
-
 }
-
 .welcome-image-container img{
     object-fit: cover;
     object-position: top;
