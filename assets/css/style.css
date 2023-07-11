@@ -1,955 +1,989 @@
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+  margin: 0px;
+  padding: 0px;
 }
-html{
-    overflow-x: hidden;
+html {
+  overflow-x: hidden;
 }
-body{
-    overflow-x: hidden;
+body {
+  overflow-x: hidden;
 }
 /*--------------------TOP HEADER CSS START-------------------------*/
-section.top-header{
-    background: #ffb400;
-    height: 46px;
+section.top-header {
+  background: #ffb400;
+  height: 46px;
 }
 .top-header-left:before {
-    content: "";
-    width: 100%;
-    z-index: 3;
-    clip-path: polygon(77% 0, 100% 100%, 51% 100%, 0 100%, 0 0);
-    background: #191F23;
-    height: 75px;
-    position: absolute;
-    top: 0;
-    right: 128px;
+  content: "";
+  width: 100%;
+  z-index: 3;
+  clip-path: polygon(77% 0, 100% 100%, 51% 100%, 0 100%, 0 0);
+  background: #191f23;
+  height: 75px;
+  position: absolute;
+  top: 0;
+  right: 128px;
 }
 .top-header-left {
-    position: relative;
+  position: relative;
 }
-.top-header-right ul li{
-    display: inline-block;
-    margin-left: 12px;
+.top-header-right ul li {
+  display: inline-block;
+  margin-left: 12px;
 }
-.top-header-right li a{
-    color: #000;
-    font-size: 14px;
-    font-weight: 700;
-    text-decoration: none;
+.top-header-right li a {
+  color: #000;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
 }
-.top-header-right{
-    text-align: right;
+.top-header-right {
+  text-align: right;
 }
 .top-header-right ul {
-    margin-top: 10px;
+  margin-top: 10px;
 }
-.top-header-right ul li{
-    display: inline-block;
-    margin-left: 12px;
+.top-header-right ul li {
+  display: inline-block;
+  margin-left: 12px;
 }
 /*---------------------------------------TOP HEADER CSS END----------------------------------*/
 
 /*------------------------------------TOP 2ND HEADER CSS START---------------------------------*/
-section.second-top-header{
-    background: #191f23;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    position: sticky;
-    top: 0;
-    z-index: 9;
+section.second-top-header {
+  background: #191f23;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 9;
 }
-.second-top-header-logo{
-    padding: 12px;
+.second-top-header-logo {
+  padding: 12px;
 }
-.second-top-header-logo img{
-    width: 200px;
-    position: absolute;
-    top: -10px;
-    z-index: 3;
+.second-top-header-logo img {
+  width: 200px;
+  position: absolute;
+  top: -10px;
+  z-index: 3;
 }
-.second-top-header  .second-top-header-menubar ul{    
-    text-align: center;
-    margin: 0px;
-    padding: 18px;
+.second-top-header .second-top-header-menubar ul {
+  text-align: center;
+  margin: 0px;
+  padding: 18px;
 }
-.second-top-header  .second-top-header-menubar ul li{
-    display: inline-block;
+.second-top-header .second-top-header-menubar ul li {
+  display: inline-block;
 }
-.second-top-header  .second-top-header-menubar li a{
-    color: #fff;
-    font-weight: 500;
-    text-decoration: none;
-    padding-left: 36px;
-    transition: ease 0.3s;
+.second-top-header .second-top-header-menubar li a {
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+  padding-left: 36px;
+  transition: ease 0.3s;
 }
-.second-top-header  .second-top-header-menubar li a:hover{
-    color:#ffb400;
+.second-top-header .second-top-header-menubar li a:hover {
+  color: #ffb400;
 }
-.second-top-header  .second-top-header-search form .form-group{
-    position: relative;
-    margin-top: 10px;
-    margin-bottom: 0px;
+.second-top-header .second-top-header-search form .form-group {
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 0px;
 }
-.second-top-header  .second-top-header-search form .form-group input{
-    border: 0;
-    border-bottom: 1px solid #E72511;
-    border-radius: 0;
-    padding: 0;
-    background: transparent;
-    /* color: #bfbfbf; */
+.second-top-header .second-top-header-search form .form-group input {
+  border: 0;
+  border-bottom: 1px solid #e72511;
+  border-radius: 0;
+  padding: 0;
+  background: transparent;
+  /* color: #bfbfbf; */
 }
-.second-top-header  .second-top-header-search button{
-    border: none;
-    background: transparent;
-    position: absolute;
-    top: 8px;
-    color: #bfbfbf;
-    right: 0;
+.second-top-header .second-top-header-search button {
+  border: none;
+  background: transparent;
+  position: absolute;
+  top: 8px;
+  color: #bfbfbf;
+  right: 0;
 }
 /* ================reponsive css starts====================== */
 .mobile-nav-btn {
-    color: #fff;
-    text-align: end;
-    display: none;
-    z-index: 999;
-    border: 3px solid #fff;
-    color: #fff;
+  color: #fff;
+  text-align: end;
+  display: none;
+  z-index: 999;
+  border: 3px solid #fff;
+  color: #fff;
 }
-.nav-bar-icons[name="close-outline"]{
-display: none;
+.nav-bar-icons[name="close-outline"] {
+  display: none;
 }
 .nav-bar-icons {
-    width: 3rem;
-    height: 3rem;
+  width: 3rem;
+  height: 3rem;
 }
-.second-top-header-menubar{
-    position: relative;
+.second-top-header-menubar {
+  position: relative;
 }
 /* =====responsive code====== */
-@media(max-width:62em){
-    .mobile-nav-btn{
-         display: block;
-    }
+/* below 980px */
+@media (max-width: 62em) {
+  .mobile-nav-btn {
+    display: inline-block;
+      }
 
-    .second-top-header-logo {
-        width: 40%;
-    }
+  .second-top-header-logo img {
+    width: 150px;
+  }
 
-    .second-top-header-menubar{
-        /* display: none; */
-        width: 100%;
-        height: 100vh;
-        background: #fbb400;
-        position: absolute;
-        top: 0;
-        left: 0;
-        border:3px solid #000;
+  .second-top-header-menubar {
+    /* display: none; */
+    width: 100%;
+    height: 75vh;
+    background: #191f23;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* border: 3px solid #000; */
 
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-        /* to get the transition */
-        transform: translateX(100%);
-        transition: all 0.5s linear;
+    /* to get the transition */
+    transform: translateX(100%);
+    transition: all 0.5s linear;
 
-        opacity: 0;
-        visibility: hidden;
-        pointer-events: none;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
 
-    }
+  .second-top-header-menubar ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #000;
+  }
 
-    .second-top-header-menubar ul{
-        flex-direction: column;
-        align-items: center;
-    }
+  .second-top-header-menubar ul li {
+    border-bottom: 2px solid #666;
+    padding: 12px;
+    width: 100%;
+  }
 
-    .ative .second-top-header-menubar{
-        transform: translateX(0);
-        opacity: 1;
-        visibility: visible;
-        pointer-events: auto;
-    }
+  .second-top-header-menubar li a{
+color: #000;
+  }
 
-    .active .mobile-nav-btn .nav-bar-icons[name="close-outline"]{
-        display: block;
-    }
+  .active .second-top-header-menubar {
+    transform: translateX(0);
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
 
-    .active .mobile-nav-btn .nav-bar-icons[name="menu-outline"]{
-        display: none;
-    }
+  .active .second-top-header-menubar ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .active .mobile-nav-btn .nav-bar-icons[name="close-outline"] {
+    display: block;
+    outline: none;
+  }
+
+  .active .mobile-nav-btn .nav-bar-icons[name="menu-outline"] {
+    display: none;
+    outline: none;
+
+  }
+}
+
+/* below 560px */
+@media (max-width: 35em) {
+  .second-top-header {
+    padding: 0 2.4rem;
+  }
+
+  .second-top-header .second-top-header-logo  img{
+    width: 100px;
+    display: block;
+  }
 }
 /*-----------------------------------------TOP 2ND HEADER CSS END----------------------------------*/
 
 /*------------------------------------banner slider start----------------------------------------*/
 section.banner-slider {
-    position: relative;
+  position: relative;
 }
 
 .carousel-item img {
-    object-fit: cover;
-    width: 100%;
+  object-fit: cover;
+  width: 100%;
 }
 section.banner-slider a span {
-    border: 2px solid #000;
-    padding: 6px 12px;
-    color: #fff;
-    background: #000;
-    border-radius: 25px;
+  border: 2px solid #000;
+  padding: 6px 12px;
+  color: #fff;
+  background: #000;
+  border-radius: 25px;
 }
 a.carousel-control-prev span {
-    position: absolute;
-    left: 8px;
+  position: absolute;
+  left: 8px;
 }
 a.carousel-control-next span {
-    position: absolute;
-    right: 6px;
+  position: absolute;
+  right: 6px;
 }
 section.banner-slider a span:hover {
-    background: #000000eb;
-    border: 2px solid #000000eb;
+  background: #000000eb;
+  border: 2px solid #000000eb;
 }
 section.banner-slider a {
-    color: #fff;
-    z-index: 9;
+  color: #fff;
+  z-index: 9;
 }
-.slider .carousel-control-prev span{    
-    background: black;  
-    border: 20px;   
-    padding: 9px 15px;
-    border-radius: 20px;
+.slider .carousel-control-prev span {
+  background: black;
+  border: 20px;
+  padding: 9px 15px;
+  border-radius: 20px;
 }
-.slider .carousel-control-next span{    
-    background: black;  
-    border: 20px;   
-    padding: 9px 15px;  
-    border-radius: 20px;
+.slider .carousel-control-next span {
+  background: black;
+  border: 20px;
+  padding: 9px 15px;
+  border-radius: 20px;
 }
 /* ================banner slider content====================== */
 .banner-slider-text {
-    position: absolute;
-    top: 110px;
-    right: 145px;
-    text-align: end;
-    height: 310px;
-    padding-right: 40px;
-    padding-left: 15px;
+  position: absolute;
+  top: 110px;
+  right: 145px;
+  text-align: end;
+  height: 310px;
+  padding-right: 40px;
+  padding-left: 15px;
 }
 
 .banner-slider-text h2 {
-    font-size: 48px;
-    font-weight: 700;
-    color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+  color: #fff;
 }
 
 .banner-slider-text h3 {
-    font-size: 60px;
-    font-weight: 700;
-    color: #fff;
-    border-bottom: 3px solid;
-    padding-bottom: 16px;
+  font-size: 60px;
+  font-weight: 700;
+  color: #fff;
+  border-bottom: 3px solid;
+  padding-bottom: 16px;
 }
 
 .banner-slider-text span {
-    color: #fbb400;
+  color: #fbb400;
 }
 
 .banner-slider-text p {
-    font-size: 1.4rem;
-    color: #fff;
+  font-size: 1.4rem;
+  color: #fff;
 }
 /* ========banner silder content with button================ */
 .banner-slider-button button {
-    padding: 8px;
-    width: 25%;
-    border: 2px solid #ffb400;
-    background: #ffb400;
-    border-radius: 11px;
+  padding: 8px;
+  width: 25%;
+  border: 2px solid #ffb400;
+  background: #ffb400;
+  border-radius: 11px;
 }
 
 .banner-slider-button button:hover {
-    background: transparent;
-    border: 2px solid;
-    transition: .3s ease;
-    color: #fff;
+  background: transparent;
+  border: 2px solid;
+  transition: 0.3s ease;
+  color: #fff;
 }
 /* ================banner slider content====================== */
 
 /* ================banner slider bg color===================== */
 .bg-element {
-    position: relative;
+  position: relative;
 }
 
 .bg-element:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 /* ================banner slider bg color=================== */
 /*-----------------------------banner slider css end----------------------------------------*/
 /*--------------------------------------welcome part css starts--------------------------------------------*/
 section.welcome-part {
-    margin-top: 60px;
+  margin-top: 60px;
 }
 .welcome-part-heading p {
-    margin: 15px 0 0px;
-    font-weight: 400;
-    color: gray;
-    font-family: "Raleway", sans-serif;
+  margin: 15px 0 0px;
+  font-weight: 400;
+  color: gray;
+  font-family: "Raleway", sans-serif;
 }
 .welcome-part-heading h1 {
-    font-size: 48px;
-    font-weight: 800;
-    margin: 0 0  0;
-    color: #ffb400;
+  font-size: 48px;
+  font-weight: 800;
+  margin: 0 0 0;
+  color: #ffb400;
 }
 .welcome-part-heading {
-    text-align: center;
-    text-transform: uppercase;
+  text-align: center;
+  text-transform: uppercase;
 }
 .welcome-part-heading .heading {
-    margin: 0 0 1rem 0;
-    font-family: "Raleway", sans-serif;
+  margin: 0 0 1rem 0;
+  font-family: "Raleway", sans-serif;
 }
 .underline-flames {
-    text-align: center;
-    margin-bottom: 25px;
+  text-align: center;
+  margin-bottom: 25px;
 }
 .underline-flames i {
-    padding: 18px;
-    font-size: 20px;
-    color: #ffb400;
-    margin: 0 20px;
+  padding: 18px;
+  font-size: 20px;
+  color: #ffb400;
+  margin: 0 20px;
 }
 .underline-flames span {
-    width: 100%;
-    border-bottom: 2px solid;
+  width: 100%;
+  border-bottom: 2px solid;
 }
 span.outer-line {
-    display: inline-block;
-    width: 25%;
-    border-bottom: 1px solid #ffb4007d;
-    vertical-align: middle;
+  display: inline-block;
+  width: 25%;
+  border-bottom: 1px solid #ffb4007d;
+  vertical-align: middle;
 }
 .welcome-part-box-right {
-    text-align: justify;
+  text-align: justify;
 }
 .welcome-part-box-right h2 {
-    text-align: end;
-    text-transform: uppercase;
-    font-family: "Raleway", sans-serif;
-    border-bottom: 1px solid #ffb4007d;
-    padding-bottom: 20px;
+  text-align: end;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  border-bottom: 1px solid #ffb4007d;
+  padding-bottom: 20px;
 }
 .welcome-part-box-right span {
-    color: #ffb400;
+  color: #ffb400;
 }
 .welcome-part-box-right p {
-    font-family: "Raleway", sans-serif;
-    font-size: 16px;
-    line-height: 1.8;
-    font-weight: 400;
-    margin-bottom: 15px;
-    margin-top: 0px;
-    color: #666;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+  font-weight: 400;
+  margin-bottom: 15px;
+  margin-top: 0px;
+  color: #666;
 }
 div#pills-home {
-    font-family: "Raleway", sans-serif;
-    font-size: 16px;
-    line-height: 1.8;
-    font-weight: 400;
-    margin-bottom: 15px;
-    margin-top: 0px;
-    color: #666;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+  font-weight: 400;
+  margin-bottom: 15px;
+  margin-top: 0px;
+  color: #666;
 }
 div#pills-tabContent {
-    font-family: "Raleway", sans-serif;
-    font-size: 16px;
-    line-height: 1.8;
-    font-weight: 400;
-    margin-bottom: 15px;
-    margin-top: 0px;
-    color: #666;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+  font-weight: 400;
+  margin-bottom: 15px;
+  margin-top: 0px;
+  color: #666;
 }
 button.nav-link {
-    text-transform: uppercase;
-    color: #000;
+  text-transform: uppercase;
+  color: #000;
 }
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
-    color: #000;
-    border-bottom: 2px solid #ffb400;
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #000;
+  border-bottom: 2px solid #ffb400;
 }
-.flames-content-nav-tab  .nav-pills .nav-link{
-    border-radius: 0;
-    font-size: 14px;
-    font-weight: 600;
+.flames-content-nav-tab .nav-pills .nav-link {
+  border-radius: 0;
+  font-size: 14px;
+  font-weight: 600;
 }
-.flames-content-nav-tab .nav-pills .nav-link:hover{
-       color: #ffb400;
+.flames-content-nav-tab .nav-pills .nav-link:hover {
+  color: #ffb400;
 }
 .welcome-part-button {
-    text-align: end;
-    position: relative;
+  text-align: end;
+  position: relative;
 }
 .welcome-part-button button {
-    padding: 8px;
-    width: 27%;
-    border: 2px solid #ffb400;
-    background:  #ffb400;
-    border-radius: 34px;
-    position: absolute;
-    top: -13px;
-    right: 0;
+  padding: 8px;
+  width: 27%;
+  border: 2px solid #ffb400;
+  background: #ffb400;
+  border-radius: 34px;
+  position: absolute;
+  top: -13px;
+  right: 0;
 }
 .welcome-part-button button:hover {
-    background:transparent;
-    border: 2px solid;
-    transition: .3s ease;
+  background: transparent;
+  border: 2px solid;
+  transition: 0.3s ease;
 }
 .welcome-part-box {
-    height: 423px;
-    margin-top: 18px;
+  height: 423px;
+  margin-top: 18px;
 }
 .welcome-part-box-left-img {
-    position: relative;
-    width: 92%;
+  position: relative;
+  width: 92%;
 }
-.flames-content-nav-tab .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-    color: #ffb400;
-    background-color: transparent;
+.flames-content-nav-tab .nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #ffb400;
+  background-color: transparent;
 }
 .img-fluid.welcme-img {
-    max-width: 90%;
-    height: auto;
-    position: absolute;
-    top: 58px;
-    right: -22px;
+  max-width: 90%;
+  height: auto;
+  position: absolute;
+  top: 58px;
+  right: -22px;
 }
 .welcome-part-box-left-img2 {
-    border: 3px solid #ffb400;
-    width: 100%;
-    height: 295px;
-    position: absolute;
-    top: 24px;
-    left: -14px;
-    z-index: -1;
+  border: 3px solid #ffb400;
+  width: 100%;
+  height: 295px;
+  position: absolute;
+  top: 24px;
+  left: -14px;
+  z-index: -1;
 }
 
 /* Welcome Section CSS */
 .welcome-heading {
-    font-size: 48px;
-    /* line-height: 48px; */
-    font-weight: 800;
-    margin: 0 0  0;
-    color: #ffb400;
+  font-size: 48px;
+  /* line-height: 48px; */
+  font-weight: 800;
+  margin: 0 0 0;
+  color: #ffb400;
 }
 .welcome-header p {
-    margin: 15px 0 0px;
-    font-weight: 400;
-    color: gray;
-    font-family: "Raleway", sans-serif;
+  margin: 15px 0 0px;
+  font-weight: 400;
+  color: gray;
+  font-family: "Raleway", sans-serif;
 }
-.capitalize-text{
-    text-transform: uppercase;
+.capitalize-text {
+  text-transform: uppercase;
 }
-.welcome-image-container{
-   position: relative;
-   margin-top: 24px;
-   margin-left: 14px;
-   height: 100%;
+.welcome-image-container {
+  position: relative;
+  margin-top: 24px;
+  margin-left: 14px;
+  height: 100%;
 }
-.welcome-image-container img{
-    object-fit: cover;
-    object-position: top;
-    width: 100%;
-}/*--------------------------------------welcome part css ends--------------------------------------------*/
+.welcome-image-container img {
+  object-fit: cover;
+  object-position: top;
+  width: 100%;
+} /*--------------------------------------welcome part css ends--------------------------------------------*/
 
 /*---------------------------------------our services css starts-------------------------------------------*/
 section.main-our-services {
-    margin-top: 70px;
+  margin-top: 70px;
 }
 .our-services-heading {
-    text-align: center;
+  text-align: center;
 }
 .our-services-heading h1 {
-    font-size: 48px;
-    /* line-height: 48px; */
-    font-weight: 800;
-    margin: 0 0 0;
+  font-size: 48px;
+  /* line-height: 48px; */
+  font-weight: 800;
+  margin: 0 0 0;
 }
 .our-services-heading h1 span {
-    color: #fbb400;
+  color: #fbb400;
 }
 .our-services-heading p {
-    margin: 0;
-    padding-top: 10px;
-    font-size: 16px;
-    color: #848484;
-    padding: 0 100px;
+  margin: 0;
+  padding-top: 10px;
+  font-size: 16px;
+  color: #848484;
+  padding: 0 100px;
 }
 img.img-fluid.service-img {
-    height: 14rem;
-    width: 100%;
+  height: 14rem;
+  width: 100%;
 }
 .service-img-intro {
-    background: #fff;
-    padding: 20px;
-    /* height: 186px; */
-    width: 88%;
-    position: absolute;
-    top: 150px;
-    right: 18px;
-    box-shadow: 5px 3px 6px -3px;
+  background: #fff;
+  padding: 20px;
+  /* height: 186px; */
+  width: 88%;
+  position: absolute;
+  top: 150px;
+  right: 18px;
+  box-shadow: 5px 3px 6px -3px;
 }
 .service-img-intro h4 {
-    font-size: 20px;
-    line-height: 24px;
-    margin-bottom: 20px;
-    font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 20px;
+  font-weight: 700;
 }
 .service-img-intro p {
-    line-height: 26px;
+  line-height: 26px;
 }
 .service-img-intro h4:hover {
-    color: #fbb400;
-    transition: .2s ease;
+  color: #fbb400;
+  transition: 0.2s ease;
 }
 .service-img-intro a {
-    text-decoration: none;
-    color: #fbb400;
-    font-weight: 700;
+  text-decoration: none;
+  color: #fbb400;
+  font-weight: 700;
 }
 .service-img-intro a:hover {
-    text-decoration: underline;
-    color: #fbb400c2;
+  text-decoration: underline;
+  color: #fbb400c2;
 }
 .service-img-intro-container {
-    position: relative;
-    height: 376px;
-    padding: 4px;
+  position: relative;
+  height: 376px;
+  padding: 4px;
 }
 .welcome-img {
-    position: absolute;
-    top: 57px;
-    right: -18px;
+  position: absolute;
+  top: 57px;
+  right: -18px;
 }
 /*------------------------------------our services css ends----------------------------------------------*/
 
 /*-----------------------------------booked css start------------------------------------*/
 .booked-img img {
-    object-fit: cover;
-    width: 100%;
-    position: absolute;
-    top: 156px;
-    right: 168px;
+  object-fit: cover;
+  width: 100%;
+  position: absolute;
+  top: 156px;
+  right: 168px;
 }
 section.booked {
-    background: #222;
-    color: #fff;
-    clip-path: polygon(100% 1%, 100% 38%, 59% 100%, 0 100%, 0 0);
-    height: 460px;
-    background-image: url(../img/background.png);
-    margin: 50px 0;
+  background: #222;
+  color: #fff;
+  clip-path: polygon(100% 1%, 100% 38%, 59% 100%, 0 100%, 0 0);
+  height: 460px;
+  background-image: url(../img/background.png);
+  margin: 50px 0;
 }
 .booked-img {
-    position: relative;
+  position: relative;
 }
 .booked-content h3 {
-    font-size: 46px;
-    line-height: 52px;
-    color: #fff;
-    margin-bottom: 20px;
+  font-size: 46px;
+  line-height: 52px;
+  color: #fff;
+  margin-bottom: 20px;
 }
 .booked-content h3 span {
-    color: #ffb400;
-    /* display: block; */
-    margin: 0;
-    padding: 0;
+  color: #ffb400;
+  /* display: block; */
+  margin: 0;
+  padding: 0;
 }
 .booked-content {
-    padding: 0;
-    margin-top: 90px;
+  padding: 0;
+  margin-top: 90px;
 }
 .booked-content p {
-    font-size: 18px;
-    font-weight: 500;
-    color: #ccc;
-    margin: 0;
-    margin-right: 115px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #ccc;
+  margin: 0;
+  margin-right: 115px;
 }
 .la-phone-volume:before {
-    content: "\f2a0";
+  content: "\f2a0";
 }
 i.bi.bi-phone-vibrate:before {
-    content: "\f2a0";
-    color: #ffb400;
+  content: "\f2a0";
+  color: #ffb400;
 }
 .cta-call {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    margin-top: 25px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 25px;
 }
 .cta-call i {
-    background-color: rgb(255 153 0 / 22%);
-    width: 60px;
-    height: 60px;
-    line-height: 60px;
-    text-align: center;
-    font-size: 40px;
-    color: #fbb400;
-    border-radius: 2px;
+  background-color: rgb(255 153 0 / 22%);
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  font-size: 40px;
+  color: #fbb400;
+  border-radius: 2px;
 }
 
 .cta-call p {
-    font-size: 18px;
-    font-weight: 500;
-    color: #ccc;
-    margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+  color: #ccc;
+  margin: 0;
 }
 
 .cta-call p span {
-    display: block;
-    text-transform: uppercase;
+  display: block;
+  text-transform: uppercase;
 }
 
 .cta-call p a {
-    color: #fbb400;
-    font-size: 26px;
-    font-weight: 700;
-    line-height: 1;
-    text-decoration: none;
+  color: #fbb400;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1;
+  text-decoration: none;
 }
 /*--------------------------------------------booked css ends --------------------------*/
 
 /* ---------------------------------our gallery css start----------------------------------- */
 .our-gallery-heading {
-    text-align: center;
+  text-align: center;
 }
 .our-gallery-heading h3 {
-    font-size: 48px;
-    font-weight: 800;
-    margin: 0 0 0;
+  font-size: 48px;
+  font-weight: 800;
+  margin: 0 0 0;
 }
 .our-gallery-heading h3 span {
-    color: #fbb400;
+  color: #fbb400;
 }
 .our-gallery-heading p {
-    margin: 0;
-    padding-top: 10px;
-    font-size: 16px;
-    color: #848484;
-    padding: 0 100px;
+  margin: 0;
+  padding-top: 10px;
+  font-size: 16px;
+  color: #848484;
+  padding: 0 100px;
 }
 section.our-gallery {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 .our-gallery-img img {
-    width: 100%;
-    object-fit: cover;
-    height: 18rem;
-    padding: 8px;
+  width: 100%;
+  object-fit: cover;
+  height: 18rem;
+  padding: 8px;
 }
 /*--------------------------------------------our gallery part css ends --------------------------*/
 /* -------------------testimonials css starts -------------------------*/
 .sec-title.center.text-center h3 {
-    font-size: 48px;
-    font-weight: 800;
-    margin: 0 0 11px 0;
+  font-size: 48px;
+  font-weight: 800;
+  margin: 0 0 11px 0;
 }
 .sec-title.center.text-center h5 {
-    margin: 15px 0 0px;
-    font-weight: 400;
-    color: gray;
-    font-family: "Raleway", sans-serif;
+  margin: 15px 0 0px;
+  font-weight: 400;
+  color: gray;
+  font-family: "Raleway", sans-serif;
 }
 /* testimonial sec sec*/
 .testimonial-sec {
-    background-size: cover;
-    background-position: center center;
-    height: 510px;
-    margin-top: 50px;
-  }
-  #google-reviews .review-item {
-    position: relative;
-    background: #fbb400;
-    padding: 4rem 2rem;
-    border: 0;
-    flex: 0 0 80%;
-    color: #000;
-    transition: all 0.3s ease-in 0s;
-    text-align: center;
-    /* display: flex; */
-  }
-  span.review-author {
-    display: block;
+  background-size: cover;
+  background-position: center center;
+  height: 510px;
+  margin-top: 50px;
+}
+#google-reviews .review-item {
+  position: relative;
+  background: #fbb400;
+  padding: 4rem 2rem;
+  border: 0;
+  flex: 0 0 80%;
+  color: #000;
+  transition: all 0.3s ease-in 0s;
+  text-align: center;
+  /* display: flex; */
+}
+span.review-author {
+  display: block;
 }
 
 .review-meta {
-    font-weight: 500;
+  font-weight: 500;
 }
-  /* #google-reviews .review-item:hover {
+/* #google-reviews .review-item:hover {
     color: #E72511;
     background-color: #000;
     background-image: url(../img/background.png);
   } */
-  #google-reviews .review-item:before {
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    content: "\f10d";
-    color: rgba(255, 255, 255, 0.651);
-    position: absolute;
-    left: 2.5rem;
-    top: 0;
-    font-size: 4rem;
-    line-height: 4rem;
-    transition: all 0.3s ease-in 0s;
-  }
-  #google-reviews .review-item:after {
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    content: "\f10e";
-    color: rgba(255, 255, 255, 0.651);
-    position: absolute;
-    right: 2.5rem;
-    bottom: 0;
-    font-size: 4rem;
-    line-height: 4rem;
-    transition: all 0.3s ease-in 0s;
-  }
-  #google-reviews .review-text {
-    font-size: 1.4rem;
-    color: #000;
-    text-align: center;
-  }
-  
-  .review-stars ul {
-    display: inline-block;
-    list-style: none;
-  }
-  
-  .review-stars ul li {
-    float: left;
-    margin-right: 5px;
-  }
-  
-  .review-stars ul li i {
-    color: #fee5a6 ;
-    font-size: 2rem;
-  }
-  .review-stars ul li i.inactive {
-    color: #c6c6c6;
-  }
-  .star:after {
-    content: "\2605";
-  }
-  /* Page Title */
-  .pageheader-wrapper {
-    position: relative;
-    height: 32rem;
-    background-size: cover;
-    padding: 6rem 0;
-    background-position: center center;
-    display: flex;
-    align-items: center;
-  }
-  .pageheader-wrapper:before {
-    position: absolute;
-    content: "";
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 44, 91, 0.8);
-  }
-  .pageheader-wrapper .pageheader-inner {
-    z-index: 2;
-    text-align: center;
-    margin-top: 7rem;
-  }
-  .pageheader-wrapper .page-title {
-    padding: 0;
-    margin: 0;
-    color: #fbb400;
-    font-size: 4rem;
-  }
-  .pageheader-wrapper ul.bread-crumb {
-    display: flex;
-    padding: 0;
-    justify-content: center;
-  }
-  .pageheader-wrapper .pageheader-inner .bread-crumb li {
-    color: #ffffff;
-  }
-  .pageheader-wrapper .pageheader-inner .bread-crumb li a {
-    position: relative;
-    color: #ffffff;
-    transition: all 0.3 ease-in 0s;
-  }
-  .pageheader-wrapper .pageheader-inner .bread-crumb li a:hover {
-    color: #fbb400;
-  }
-  .pageheader-wrapper .breadcrumb-item + .breadcrumb-item::before {
-    color: #ffffff;
-  }
-   /*-----------------------------testimonals css ends-------------------------------------s  */
+#google-reviews .review-item:before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f10d";
+  color: rgba(255, 255, 255, 0.651);
+  position: absolute;
+  left: 2.5rem;
+  top: 0;
+  font-size: 4rem;
+  line-height: 4rem;
+  transition: all 0.3s ease-in 0s;
+}
+#google-reviews .review-item:after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f10e";
+  color: rgba(255, 255, 255, 0.651);
+  position: absolute;
+  right: 2.5rem;
+  bottom: 0;
+  font-size: 4rem;
+  line-height: 4rem;
+  transition: all 0.3s ease-in 0s;
+}
+#google-reviews .review-text {
+  font-size: 1.4rem;
+  color: #000;
+  text-align: center;
+}
+
+.review-stars ul {
+  display: inline-block;
+  list-style: none;
+}
+
+.review-stars ul li {
+  float: left;
+  margin-right: 5px;
+}
+
+.review-stars ul li i {
+  color: #fee5a6;
+  font-size: 2rem;
+}
+.review-stars ul li i.inactive {
+  color: #c6c6c6;
+}
+.star:after {
+  content: "\2605";
+}
+/* Page Title */
+.pageheader-wrapper {
+  position: relative;
+  height: 32rem;
+  background-size: cover;
+  padding: 6rem 0;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+}
+.pageheader-wrapper:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 44, 91, 0.8);
+}
+.pageheader-wrapper .pageheader-inner {
+  z-index: 2;
+  text-align: center;
+  margin-top: 7rem;
+}
+.pageheader-wrapper .page-title {
+  padding: 0;
+  margin: 0;
+  color: #fbb400;
+  font-size: 4rem;
+}
+.pageheader-wrapper ul.bread-crumb {
+  display: flex;
+  padding: 0;
+  justify-content: center;
+}
+.pageheader-wrapper .pageheader-inner .bread-crumb li {
+  color: #ffffff;
+}
+.pageheader-wrapper .pageheader-inner .bread-crumb li a {
+  position: relative;
+  color: #ffffff;
+  transition: all 0.3 ease-in 0s;
+}
+.pageheader-wrapper .pageheader-inner .bread-crumb li a:hover {
+  color: #fbb400;
+}
+.pageheader-wrapper .breadcrumb-item + .breadcrumb-item::before {
+  color: #ffffff;
+}
+/*-----------------------------testimonals css ends-------------------------------------s  */
 /*--------------------------------footer css start---------------------------------------*/
 section.footer {
-    background: #191F23;
-    color: #fff;
-    height: 420px;
+  background: #191f23;
+  color: #fff;
+  height: 420px;
 }
 /* ================footer up part css starts================== */
 .footer-up-left {
-    clip-path: polygon(77% 0, 100% 100%, 51% 100%, 0 100%, 0 0);
-    background: #191F23;
-    height: 75px;
-    position: absolute;
-    top: 26px;
+  clip-path: polygon(77% 0, 100% 100%, 51% 100%, 0 100%, 0 0);
+  background: #191f23;
+  height: 75px;
+  position: absolute;
+  top: 26px;
 }
 .footer-up {
-    height: 100px;
-    position: relative;
-    margin-top: 30px;
+  height: 100px;
+  position: relative;
+  margin-top: 30px;
 }
 .footer-up-right {
-    background: #fbb400;
-    height: 75px;
-    position: absolute;
-    width: 100%;
-    z-index: -1;
-    top: 48px;
-    right: 0;
+  background: #fbb400;
+  height: 75px;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  top: 48px;
+  right: 0;
 }
 /* ===============footer up part css ends========================= */
 .footer-logo {
-    padding: 40px 0;
+  padding: 40px 0;
 }
 .footer-logo img {
-    width: 90%;
+  width: 90%;
 }
 .footer-boxes p {
-    text-align: left;
-    line-height: 26px;
+  text-align: left;
+  line-height: 26px;
 }
 .footer-boxes ul {
-    margin-top: 36px;
-    padding: 0;
+  margin-top: 36px;
+  padding: 0;
 }
 .footer-logo-ul ul {
-    display: flex;
-    margin: 0;
-    padding: 0;
+  display: flex;
+  margin: 0;
+  padding: 0;
 }
 .footer-logo-ul li {
-    list-style: none;
-    padding-right: 12px;
+  list-style: none;
+  padding-right: 12px;
 }
 .footer-logo-ul li a {
-    color: #fff;
-    list-style: none;
-    text-decoration: none;
-    padding: 3px;
-    border: 1px solid;
-    width: 25px;
-    text-align: center;
+  color: #fff;
+  list-style: none;
+  text-decoration: none;
+  padding: 3px;
+  border: 1px solid;
+  width: 25px;
+  text-align: center;
 }
 .footer-boxes {
-    margin-top: 10px;
-    padding: 10px 0;
+  margin-top: 10px;
+  padding: 10px 0;
 }
 .footer-boxes li {
-    list-style: none;
-    margin-bottom: 8px;
+  list-style: none;
+  margin-bottom: 8px;
 }
 .footer-boxes h3 {
-    color: #ffb400;
-    padding: 18px 0;
-    border-bottom: 2px solid #b1acac61;
+  color: #ffb400;
+  padding: 18px 0;
+  border-bottom: 2px solid #b1acac61;
 }
 .footer-boxes li a {
-    color: #fff;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 .footer-boxes li a:hover {
-    color: #ffb400;
-    transition: .2s ease;
+  color: #ffb400;
+  transition: 0.2s ease;
 }
 .footer-contact-ul li {
-    display: grid;
+  display: grid;
 }
 
 .footer-contact-ul strong {
-    text-transform: uppercase;
-    color: #ffb400;
+  text-transform: uppercase;
+  color: #ffb400;
 }
 /*======================footer-2 css starts=================*/
 .footer-2-ul ul {
-    display: flex;
+  display: flex;
 }
 .footer-2-ul ul li {
-    width: 30%;
-    list-style: none;
+  width: 30%;
+  list-style: none;
 }
 .footer-2-ul ul li a {
-    color: #fff;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 .footer-2 {
-    font-size: 14px;
-    font-weight: 700;
-    text-align: justify;
-    background-image: url(../img/background.png);
+  font-size: 14px;
+  font-weight: 700;
+  text-align: justify;
+  background-image: url(../img/background.png);
 }
 .footer-2 p {
-    text-align: center;
-    margin-top: 14px;
+  text-align: center;
+  margin-top: 14px;
 }
 i.far.fa-heart {
-    padding: 6px;
-    color: #ffb400;
-    font-size: 20px;
+  padding: 6px;
+  color: #ffb400;
+  font-size: 20px;
 }
 /*========================footer css ends======================*/
 /* --------------------------Whole footer part css ends ------------------------- */
 /* Welcome Section CSS */
 .welcome-heading {
-    font-size: 48px;
-    font-weight: 800;
-    margin: 0 0  0;
-    color: #ffb400;
+  font-size: 48px;
+  font-weight: 800;
+  margin: 0 0 0;
+  color: #ffb400;
 }
 .welcome-header p {
-    margin: 15px 0 0px;
-    font-weight: 400;
-    color: gray;
-    font-family: "Raleway", sans-serif;
+  margin: 15px 0 0px;
+  font-weight: 400;
+  color: gray;
+  font-family: "Raleway", sans-serif;
 }
-.capitalize-text{
-    text-transform: uppercase;
+.capitalize-text {
+  text-transform: uppercase;
 }
-.welcome-image-container{
-   position: relative;
-   margin-top: 24px;
-   margin-left: 14px;
-   height: 100%;
+.welcome-image-container {
+  position: relative;
+  margin-top: 24px;
+  margin-left: 14px;
+  height: 100%;
 }
-.welcome-image-container::before{
-    content: '';
-    border: 3px solid #ffb400;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: -27px;
-    left: -14px;
-    z-index: -1;
+.welcome-image-container::before {
+  content: "";
+  border: 3px solid #ffb400;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: -27px;
+  left: -29px;
+  z-index: -1;
 }
-.welcome-image-container img{
-    object-fit: cover;
-    object-position: top;
-    width: 100%;
+.welcome-image-container img {
+  object-fit: cover;
+  object-position: top;
+  width: 100%;
 }

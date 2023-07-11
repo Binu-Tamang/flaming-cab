@@ -26,3 +26,13 @@ function setEqualTabPaneHeight() {
 // Call the function to set equal heights initially and on window resize
 window.addEventListener('DOMContentLoaded', setEqualTabPaneHeight);
 window.addEventListener('resize', setEqualTabPaneHeight);
+
+// js for the menu navbar
+const mobile_nav = document.querySelector(".mobile-nav-btn");
+const nav_second_top_header = document.querySelector(".second-top-header");
+
+const toggleNavbar = () => {
+nav_second_top_header.classList.toggle("active");
+};
+
+mobile_nav.addEventListener("click", () => toggleNavbar()); 

@@ -39,10 +39,10 @@
 							tincidunt ut laoreet dolore agna aliquam erat.</p>
 						<div class="footer-logo-ul">
 							<ul>
-								<li><a href="#" class="fab fa-facebook-f"></a></li>
-								<li><a href="#" class="fab fa-twitter"></a></li>
-								<li><a href="#" class="fab fa-linkedin-in"></a></li>
-								<li><a href="#" class="fab fa-facebook-f"></a></li>
+								<li><a href="#" title="Facebook" class="fab fa-facebook-f"></a></li>
+								<li><a href="#" title="Twitter" class="fab fa-twitter"></a></li>
+								<li><a href="#" title="LinkedIn" class="fab fa-linkedin-in"></a></li>
+								<li><a href="#" title="Instagram" class="fab fa-instagram"></a></li>
 							</ul>
 						</div>
 					</div>

@@ -2,6 +2,8 @@
 <html>
 
 <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- fontawesome,custom css,bootstrap css -->
 	<?php include('inc/css.php') ?>
 
@@ -12,7 +14,6 @@
 	<!-- fontawsome link -->
 	<title>Flames Cab</title>
 </head>
-<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
 <body style="background: rgba(220, 225, 229, 0.17);">
 
