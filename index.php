@@ -39,7 +39,7 @@
 					<img src="assets/img/slider/3.jpg">
 					<div class="container">
 						<div class="banner-slider-text">
-							<h2>HELLO</h2>
+							<h2 class="banner-text">HELLO</h2>
 							<h3>Do you want to<span> BOOK A CAB</span></h3>
 							<p>Flames Cab in Airdrie offers professional<br> and reliable taxi service that get you
 								where
@@ -55,7 +55,7 @@
 					<img src="assets/img/slider/2.jpg">
 					<div class="container">
 						<div class="banner-slider-text">
-							<h2>HELLO</h2>
+							<h2 class="banner-text">HELLO</h2>
 							<h3>Do you want to<span> BOOK A CAB</span></h3>
 							<p>Flames Cab in Airdrie offers professional<br> and reliable taxi service that get you
 								where
@@ -71,7 +71,7 @@
 					<img src="assets/img/slider/1.png">
 					<div class="container">
 						<div class="banner-slider-text">
-							<h2>HELLO</h2>
+							<h2 class="banner-text">HELLO</h2>
 							<h3>We are here to<span> HELP YOU</span></h3>
 							<p>Flames Cab in Airdrie offers professional<br> and reliable taxi service that get you
 								where
@@ -87,7 +87,7 @@
 					<img src="assets/img/slider/3.jpg">
 					<div class="container">
 						<div class="banner-slider-text">
-							<h2>HELLO</h2>
+							<h2 class="banner-text">HELLO</h2>
 							<h3>We are <span>FLAMES CAB</span></h3>
 							<p>Flames Cab in Airdrie offers professional<br> and reliable taxi service that get you
 								where
@@ -199,7 +199,7 @@
 	<section class="main-our-services">
 		<div class="container">
 			<div class="our-services-heading">
-				<h1>Our <span>services</span></h1>
+				<h1 class="welcome-heading">Our <span>services</span></h1>
 				<p>There are many variations of passages of Lorem Ipsum typesetting industry has been the industry's
 					standard dummy text ever since the been when an unknown printer.</p>
 			</div>
@@ -282,7 +282,7 @@
 			<div class="row">
 				<div class="col-md-8">
 					<div class="booked-content">
-						<h3>Call Us Now <span>Book Your Cab </span>For Your Next Ride!</h3>
+						<h3 class="welcome-heading">Call Us Now <span>Book Your Cab </span>For Your Next Ride!</h3>
 						<p>We successfully cope with tasks of varying complexity, guarantees and regularly master new
 							technologies.</p>
 						<div class="cta-call">
@@ -301,12 +301,13 @@
 		</div>
 	</section>
 	<!------------------------------------------------booking html ends---------------------------------- -->
+	
 	<!-- ------------------------------Our Gallery start ----------------------------->
 	<section class="our-gallery">
 		<div class="container">
 			<div class="gallery-wrap">
 				<div class="our-gallery-heading">
-					<h3>Our <span>Gallery</span></h3>
+					<h3 class="welcome-heading">Our <span>Gallery</span></h3>
 					<p>There are many variations of passages of Lorem Ipsum typesetting industry has been the industry's
 						standard dummy text ever since the been when an unknown printer.</p>
 				</div>
@@ -353,6 +354,7 @@
 		</div>
 	</section>
 	<!-- ------------------------------Our Gallery start ----------------------------->
+	
 	<!-- --------------------testimonials starts--------------------- -->
 	<section class="testimonial-sec testimonial-center sec-bg sec-main bg-sec"
 		style="background-image:url('assets/img/testimonials.jpg');">
@@ -360,7 +362,7 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="sec-title center text-center">
-						<h5 class="title-small wow animate__ animate__fadeInDown animate__delay-200ms animated"
+						<h5 class="title-small wow animate__ animate__fadeInDown animate__delay-200ms animated welcome-heading"
 							style="visibility: visible; animation-name: fadeInDown;">Our customer says</h5>
 						<h3 class="title-big wow animate__  animate__bounceInDown animate__delay-200ms animated"
 							style="visibility: visible; animation-name: bounceInDown;">Testimonials</h3>
@@ -373,11 +375,6 @@
 					<div class="testimonial-center wow animate__ animate__fadeIn animate__delay-200ms animated"
 						style="visibility: visible; animation-name: fadeIn;">
 						<div id="google-reviews">
-							<div id="map-plug">
-								<div style="height: 100%; width: 100%;">
-									<div style="overflow: hidden;"></div>
-								</div>
-							</div>
 							<div class="review-item">
 								<div class="review-meta"><span class="review-author">Alex Pellegrino</span><span
 										class="review-sep">, </span><span class="review-date">Aug 6, 2022</span></div>
@@ -394,64 +391,6 @@
 									our house. He explained the process and took excellent care of a delicate project.
 									All the stones are now tightly secure and looks brand new. Highly recommend Marco!
 								</p>
-							</div>
-							<div class="review-item" style="display: none;">
-								<div class="review-meta"><span class="review-author">Mark Mcrae</span><span
-										class="review-sep">, </span><span class="review-date">Jun 30, 2022</span></div>
-								<div class="review-stars">
-									<ul>
-										<li><i class="star"></i></li>
-										<li><i class="star"></i></li>
-										<li><i class="star"></i></li>
-										<li><i class="star"></i></li>
-										<li><i class="star"></i></li>
-									</ul>
-								</div>
-								<p class="review-text">Marco is great. It’s pretty clear from the start of the quoting
-									he is passionate about doing quality work and never cutting corners. Once the job
-									started it was finished on schedule, no disappearing acts wondering where your
-									contractor is and when you will see him next. Always answers calls. Result was a
-									great new driveway where we had gravel and a basketball court on the property. I
-									would highly recommend him, not the cheapest out there but you get what you pay for.
-								</p>
-							</div>
-							<div class="review-item" style="display: none;">
-								<div class="review-meta"><span class="review-author">Ruchi Virdi</span><span
-										class="review-sep">, </span><span class="review-date">May 7, 2022</span></div>
-								<div class="review-stars">
-									<ul>
-										<li><i class="star"></i></li>
-										<li><i class="star"></i></li>
-										<li><i class="star"></i></li>
-										<li><i class="star"></i></li>
-										<li><i class="star"></i></li>
-									</ul>
-								</div>
-								<p class="review-text">Marco and his team were phenomenal to have for my concrete job! I
-									had a typical 'small' extension job but Marco was able to accommodate my needs
-									nonetheless and bring me along every step of the way. He was always easy to reach,
-									very on time and professional and ensured my extension was not only clean and
-									pretty, but also functional with his attention to detail. I would highly recommend
-									this team to anyone looking to get concrete work done.</p>
-							</div>
-							<div class="review-item" style="display: none;">
-								<div class="review-meta"><span class="review-author">Michelle Burger</span><span
-										class="review-sep">, </span><span class="review-date">Jun 7, 2021</span></div>
-								<div class="review-stars">
-									<ul>
-										<li><i class="star"></i></li>
-										<li><i class="star"></i></li>
-										<li><i class="star"></i></li>
-										<li><i class="star"></i></li>
-										<li><i class="star"></i></li>
-									</ul>
-								</div>
-								<p class="review-text">Marco is an excellent craftsmen in his trade and his customer
-									service skills are amazing. He's very responsive with great communication abilities.
-									Marco addresses the true needs of the client without compromising the end vision. He
-									isn't just about getting the job done... he's about providing quality work that will
-									last. I would definitely recommend Concrete Base Interlocking to anyone interested
-									in this service.</p>
 							</div>
 						</div>
 					</div>

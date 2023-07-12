@@ -1,4 +1,5 @@
-<!-- -------------------------------------------Whole footer part start--------------------------------------- -->
+<footer class="main-footer">
+	<!-- -------------------------------------------Whole footer part start--------------------------------------- -->
 <!-- ===================================footer up part html starts============================== -->
 <div class="footer-up">
 	<div class="row">
@@ -30,8 +31,8 @@
 		<!-- ===============footer middle part start================ -->
 		<div class="footer-middle">
 			<div class="row">
-				<div class="col-md-4 col-lg-4 col-sm-4">
-					<div class="footer-boxes">
+				<div class="col-md-4 col-lg-4 12">
+					<div class="footer-boxes fbox-1">
 						<div class="footer-logo">
 							<img src="assets/img/logo.png">
 						</div>
@@ -47,21 +48,21 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4 col-lg-4 col-sm-4">
-					<div class="footer-boxes">
+				<div class="col-md-4 col-lg-4 12">
+					<div class="footer-boxes fbox-2">
 						<h3>Quick Menu</h3>
 						<ul>
-							<li><a href="#">> HOME</a></li>
-							<li><a href="#">> ABOUT US</a></li>
-							<li><a href="#">> SERVICE</a></li>
-							<li><a href="#">> FLEET</a></li>
-							<li><a href="#">> BLOG</a></li>
-							<li><a href="#">> CONTACT</a></li>
+							<li><a href="#">HOME</a></li>
+							<li><a href="#">ABOUT US</a></li>
+							<li><a href="#">SERVICE</a></li>
+							<li><a href="#">FLEET</a></li>
+							<li><a href="#">BLOG</a></li>
+							<li><a href="#">CONTACT</a></li>
 						</ul>
 					</div>
 				</div>
-				<div class="col-md-4 col-lg-4 col-sm-4">
-					<div class="footer-boxes">
+				<div class="col-md-4 col-lg-4 12">
+					<div class="footer-boxes fbox-3">
 						<h3>Contact Us</h3>
 						<div class="footer-contact-ul">
 							<ul>
@@ -78,7 +79,8 @@
 		</div>
 	</div>
 	<!-- =======================footer middle part ends -->
-	<div class="footer-2">
+</section>
+<div class="footer-2">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 col-lg-5 col-sm-6">
@@ -90,5 +92,5 @@
 			</div>
 		</div>
 	</div>
-</section>
 <!-- ----------------------------------------Whole footer part end--------------------------------------- -->
+</footer>

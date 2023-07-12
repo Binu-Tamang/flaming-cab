@@ -472,6 +472,7 @@ button.nav-link {
   left: -14px;
   z-index: -1;
 }
+/* ============================= */
 
 /* Welcome Section CSS */
 .welcome-heading {
@@ -832,10 +833,13 @@ span.review-author {
 }
 /*-----------------------------testimonals css ends-------------------------------------s  */
 /*--------------------------------footer css start---------------------------------------*/
+footer.main-footer {
+  margin-top: 60px;
+}
 section.footer {
   background: #191f23;
   color: #fff;
-  height: 420px;
+  padding: 20px 0;
 }
 /* ================footer up part css starts================== */
 .footer-up-left {
@@ -862,9 +866,20 @@ section.footer {
 /* ===============footer up part css ends========================= */
 .footer-logo {
   padding: 40px 0;
+    display: table;
+    vertical-align: middle;
+    font-size: 36px;
+    color: #EFBB20;
+    width: 200px;
+    height: 60px;
 }
 .footer-logo img {
-  width: 90%;
+  max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+.footer-boxes.fbox-1 {
+  margin-top: -40px;
 }
 .footer-boxes p {
   text-align: left;
@@ -894,7 +909,7 @@ section.footer {
 }
 .footer-boxes {
   margin-top: 10px;
-  padding: 10px 0;
+  padding: 10px 6px;
 }
 .footer-boxes li {
   list-style: none;
@@ -936,54 +951,32 @@ section.footer {
 .footer-2 {
   font-size: 14px;
   font-weight: 700;
+  background: #222;
   text-align: justify;
   background-image: url(../img/background.png);
+  color: #fff;
 }
 .footer-2 p {
   text-align: center;
   margin-top: 14px;
 }
 i.far.fa-heart {
-  padding: 6px;
+  padding: 0 6px;
   color: #ffb400;
   font-size: 20px;
 }
+.footer-boxes.fbox-2 li:before {
+  position: relative;
+  content: "\f105";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-right: 10px;
+}
+
+.footer-boxes.fbox-2 li {
+  border-bottom: 1px dashed rgba(102, 102, 102, 0.3);
+  padding-bottom: 3px;
+}
 /*========================footer css ends======================*/
 /* --------------------------Whole footer part css ends ------------------------- */
-/* Welcome Section CSS */
-.welcome-heading {
-  font-size: 48px;
-  font-weight: 800;
-  margin: 0 0 0;
-  color: #ffb400;
-}
-.welcome-header p {
-  margin: 15px 0 0px;
-  font-weight: 400;
-  color: gray;
-  font-family: "Raleway", sans-serif;
-}
-.capitalize-text {
-  text-transform: uppercase;
-}
-.welcome-image-container {
-  position: relative;
-  margin-top: 24px;
-  margin-left: 14px;
-  height: 100%;
-}
-.welcome-image-container::before {
-  content: "";
-  border: 3px solid #ffb400;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: -27px;
-  left: -29px;
-  z-index: -1;
-}
-.welcome-image-container img {
-  object-fit: cover;
-  object-position: top;
-  width: 100%;
-}
+
