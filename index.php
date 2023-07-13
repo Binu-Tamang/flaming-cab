@@ -186,7 +186,7 @@
 								</div>
 							</div>
 							<div class="welcome-part-button">
-								<button>Read More <i class="fa fa-arrow-right"></i></button>
+							<button><a href="about.php">Read More <i class="fa fa-arrow-right"></a></i></button>
 							</div>
 						</div>
 					</div>
@@ -273,6 +273,7 @@
 				</div>
 			</div>
 		</div>
+		<div class="services-respo"><button class="serives-respo-btn"><a href="services.php"></a></button></div>
 	</section>
 	<!-- ------------------------------------our services parts starts--------------------------------------- -->
 
@@ -302,12 +303,12 @@
 	</section>
 	<!------------------------------------------------booking html ends---------------------------------- -->
 	
-	<!-- ------------------------------Our Gallery start ----------------------------->
-	<section class="our-gallery">
+	<!-- ------------------------------Our fleets start ----------------------------->
+	<section class="our-fleets">
 		<div class="container">
-			<div class="gallery-wrap">
-				<div class="our-gallery-heading">
-					<h3 class="welcome-heading">Our <span>Gallery</span></h3>
+			<div class="fleets-wrap">
+				<div class="our-fleets-heading">
+					<h3 class="welcome-heading">Our <span>Fleets</span></h3>
 					<p>There are many variations of passages of Lorem Ipsum typesetting industry has been the industry's
 						standard dummy text ever since the been when an unknown printer.</p>
 				</div>
@@ -316,7 +317,7 @@
 					<i class="fa-solid fa-user"></i>
 					<span class="outer-line"></span>
 				</div>
-				<div class="our-gallery-img">
+				<div class="our-fleets-img">
 					<div class="row">
 						<div class="col-lg-4 col-sm-12 col-md-6 p-3">
 							<a href="assets/img/g1.jpg" class="image-link-js">
@@ -352,8 +353,9 @@
 				</div>
 			</div>
 		</div>
+		<div class="fleets-respo"><button class="fleets-respo-btn"></button></div>
 	</section>
-	<!-- ------------------------------Our Gallery start ----------------------------->
+	<!-- ------------------------------Our fleets start ----------------------------->
 	
 	<!-- --------------------testimonials starts--------------------- -->
 	<section class="testimonial-sec testimonial-center sec-bg sec-main bg-sec"
@@ -400,10 +402,13 @@
 		</div>
 	</section>
 	<!-- --------------------testimols ends--------------------- -->
+<!-- ---------------------------footer starts--------------------- -->
 	<?php
 	include('inc/footer.php');
 	include('inc/js.php')
 		?>
+<!-- ---------------------------footer ends--------------------- -->
+
 	<!-- ==================Js section starts==================== -->
 	<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 	<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>

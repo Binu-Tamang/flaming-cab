@@ -130,7 +130,7 @@ section.second-top-header {
 @media (max-width: 62em) {
   .mobile-nav-btn {
     display: inline-block;
-      }
+  }
 
   .second-top-header-logo img {
     width: 150px;
@@ -172,8 +172,8 @@ section.second-top-header {
     width: 100%;
   }
 
-  .second-top-header-menubar li a{
-color: #000;
+  .second-top-header-menubar li a {
+    color: #000;
   }
 
   .active .second-top-header-menubar {
@@ -196,7 +196,6 @@ color: #000;
   .active .mobile-nav-btn .nav-bar-icons[name="menu-outline"] {
     display: none;
     outline: none;
-
   }
 }
 
@@ -206,7 +205,7 @@ color: #000;
     padding: 0 2.4rem;
   }
 
-  .second-top-header .second-top-header-logo  img{
+  .second-top-header .second-top-header-logo img {
     width: 100px;
     display: block;
   }
@@ -416,6 +415,11 @@ button.nav-link {
   color: #000;
   border-bottom: 2px solid #ffb400;
 }
+.welcome-part-button button a {
+  color: #000;
+  text-decoration: none;
+  font-weight: 600;
+}
 .flames-content-nav-tab .nav-pills .nav-link {
   border-radius: 0;
   font-size: 14px;
@@ -497,6 +501,21 @@ button.nav-link {
   margin-left: 14px;
   height: 100%;
 }
+.welcome-image-container::before {
+  content: '';
+  height: 100%;
+  width: 100%;
+  border: 3px solid #fbb400;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  transform: translate3d(-28px, -22px, 20px);
+  border-radius: 4px;
+}
 .welcome-image-container img {
   object-fit: cover;
   object-position: top;
@@ -571,6 +590,12 @@ img.img-fluid.service-img {
   position: absolute;
   top: 57px;
   right: -18px;
+}
+/* ======responsive of our services====== */
+@media (max-width: 62em){
+.section.main-our-services{
+  
+}
 }
 /*------------------------------------our services css ends----------------------------------------------*/
 
@@ -661,35 +686,51 @@ i.bi.bi-phone-vibrate:before {
 }
 /*--------------------------------------------booked css ends --------------------------*/
 
-/* ---------------------------------our gallery css start----------------------------------- */
-.our-gallery-heading {
+/* ---------------------------------our fleets css start----------------------------------- */
+.our-fleets-heading {
   text-align: center;
 }
-.our-gallery-heading h3 {
+.our-fleets-heading h3 {
   font-size: 48px;
   font-weight: 800;
   margin: 0 0 0;
 }
-.our-gallery-heading h3 span {
+.our-fleets-heading h3 span {
   color: #fbb400;
 }
-.our-gallery-heading p {
+.our-fleets-heading p {
   margin: 0;
   padding-top: 10px;
   font-size: 16px;
   color: #848484;
   padding: 0 100px;
 }
-section.our-gallery {
+section.our-fleets {
   margin-top: 50px;
 }
-.our-gallery-img img {
+.our-fleets-img img {
   width: 100%;
   object-fit: cover;
   height: 18rem;
   padding: 8px;
 }
-/*--------------------------------------------our gallery part css ends --------------------------*/
+button.fleets-respo-btn {
+  border: none;
+}
+@media (max-width: 62em){
+  .fleets-respo button::before{
+    content: 'View More';
+background: #fbb400;
+border: 2px solid #fbb400;
+border-radius: 25px;
+padding: 10px;
+  }
+  .fleets-respo{
+text-align: center;
+border: none;
+  }
+}
+/*--------------------------------------------our fleets part css ends --------------------------*/
 /* -------------------testimonials css starts -------------------------*/
 .sec-title.center.text-center h3 {
   font-size: 48px;
@@ -866,17 +907,17 @@ section.footer {
 /* ===============footer up part css ends========================= */
 .footer-logo {
   padding: 40px 0;
-    display: table;
-    vertical-align: middle;
-    font-size: 36px;
-    color: #EFBB20;
-    width: 200px;
-    height: 60px;
+  display: table;
+  vertical-align: middle;
+  font-size: 36px;
+  color: #efbb20;
+  width: 200px;
+  height: 60px;
 }
 .footer-logo img {
   max-width: 100%;
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 .footer-boxes.fbox-1 {
   margin-top: -40px;
@@ -979,4 +1020,111 @@ i.far.fa-heart {
 }
 /*========================footer css ends======================*/
 /* --------------------------Whole footer part css ends ------------------------- */
+
+/* =================================================================================== 
+                  ABOUT US PAGE CSS STARTED FROM HERE
+   =================================================================================== */
+/* ---BANNER ABOUT US CSS STARTS */
+section.banner-about-us {
+  width: 100%;
+  position: relative;
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+}
+.banner-about-us-2 h1 {
+  text-align: center;
+}
+/* ----banner about us css ends---- */
+
+/* ----why choose us css start---- */
+.banner-about-us-2::before {
+  content: '';
+  height: 250px;
+  background: rgb(13 110 253 / 34%);
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.why-choose-us-2 {
+  background: #fbb400c2;
+  height: 350px;
+  color: #fff;
+}
+.wcu-2-content h3 {
+  font-size: 38px;
+  color: #222;
+  font-weight: 900;
+  text-align: center;
+}
+.wcu-2-content p {
+  margin-bottom: 12px;
+  text-align: center;
+  font-weight: 600;
+}
+.why-choose-us-2::before {
+  /* content: ''; */
+  height: 100%;
+  background: #222222bd;
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  width: 80%;
+  clip-path: polygon(0 0, 65% 0, 38% 100%, 0% 100%);
+}
+section.main-why-choose-us {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+  background-position: center;
+}
+.wcu-2-content {
+  margin: 200px 0 0 0;
+  top: 82px;
+  position: relative;
+  display: block;
+  padding: 82px;
+  color: #000;
+}
+/* ----why choose us part 2---- */
+.why-choose-2-box.bb2 {
+  background: #222;
+  color: #fff;
+  height: 150px;
+  background-image: url(../img/background.png);
+  margin: 50px 0;
+}
+.why-choose-2-box {
+  display: flex;
+  padding: 20px;
+  margin: 0;
+  text-align: left;
+  align-items: center;
+}
+.icon-why-choose i {
+  font-size: 40px;
+  padding: 0 16px;
+  color: #fbb400;
+}
+.content-why-choose h2 {
+  font-size: 26px;
+}
+.why-choose-2-box.bb1 {
+  background: #fff;
+  color: #000;
+  height: 150px;
+  margin: 50px 0;
+}
+.why-choose-us-1 {
+  position: absolute;
+  top: -126px;
+  right: 80px;
+  left: 80px;
+  z-index: 9999;
+}
 

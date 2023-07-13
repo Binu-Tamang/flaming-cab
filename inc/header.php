@@ -34,13 +34,13 @@
 
 			<div class="col-md-2 col-sm-2 ">
 				<div class="second-top-header-logo">
-					<img src="assets/img/logo.png">
+					<img src="assets/img/logo.png" href="index.php">
 				</div>
 			</div>
 			<div class="col-md-10 text-end">
 				<div class="second-top-header-menubar" id="my-top-nav">
 					<ul>
-						<li><a href="home2.php" class="active"> HOME</a></li>
+						<li><a href="index.php" class="active"> HOME</a></li>
 						<li><a href="about.php"> ABOUT US</a></li>
 						<li><a href="#"> SERVICES</a></li>
 						<li><a href="#"> FLEET</a></li>
