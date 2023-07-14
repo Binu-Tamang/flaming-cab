@@ -7,6 +7,8 @@ $(document).ready(function () {
     },
   });
 });
+// up popup js 
+
 function setEqualTabPaneHeight() {
   // Get all the tab panes
   var tabPanes = document.querySelectorAll('.flames-content-nav-tab .tab-pane');

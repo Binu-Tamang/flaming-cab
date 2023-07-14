@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
 	<meta charset="UTF-8">
@@ -186,7 +186,7 @@
 								</div>
 							</div>
 							<div class="welcome-part-button">
-							<button><a href="about.php">Read More <i class="fa fa-arrow-right"></a></i></button>
+								<button><a href="about.php">Read More <i class="fa fa-arrow-right"></a></i></button>
 							</div>
 						</div>
 					</div>
@@ -211,7 +211,7 @@
 			<div class="service-intro">
 				<div class="row">
 					<div class="col-md-6 col-sm-12 col-lg-4	">
-						<div class="service-img-intro-container">
+						<div class="service-img-intro-container services1">
 							<img class="img-fluid service-img" src="assets/img/g1.jpg">
 							<div class="service-img-intro">
 								<h4>Engineering Chemistry</h4>
@@ -221,7 +221,7 @@
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-12 col-lg-4	">
-						<div class="service-img-intro-container">
+						<div class="service-img-intro-container services1">
 							<img class="img-fluid service-img" src="assets/img/cab1.jpg">
 							<div class="service-img-intro">
 								<h4>Engineering Chemistry</h4>
@@ -231,7 +231,7 @@
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-12 col-lg-4	">
-						<div class="service-img-intro-container">
+						<div class="service-img-intro-container services2">
 							<img class="img-fluid service-img" src="assets/img/g3.jpg">
 							<div class="service-img-intro">
 								<h4>Engineering Chemistry</h4>
@@ -241,7 +241,7 @@
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-12 col-lg-4	">
-						<div class="service-img-intro-container">
+						<div class="service-img-intro-container services2">
 							<img class="img-fluid service-img" src="assets/img/about.jpg">
 							<div class="service-img-intro">
 								<h4>Engineering Chemistry</h4>
@@ -251,7 +251,7 @@
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-12 col-lg-4	">
-						<div class="service-img-intro-container">
+						<div class="service-img-intro-container services2">
 							<img class="img-fluid service-img" src="assets/img/g2.jpg">
 							<div class="service-img-intro">
 								<h4>Engineering Chemistry</h4>
@@ -261,7 +261,7 @@
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-12 col-lg-4	">
-						<div class="service-img-intro-container">
+						<div class="service-img-intro-container services2">
 							<img class="img-fluid service-img" src="assets/img/hand-shake.jpg">
 							<div class="service-img-intro">
 								<h4>Engineering Chemistry</h4>
@@ -271,9 +271,14 @@
 						</div>
 					</div>
 				</div>
+				<div class="services-respo text-center">
+					<button class="serives-respo-btn">
+						<a href="#">View More <i class="fa fa-arrow-right"></i></a>
+					</button>
+				</div>
 			</div>
 		</div>
-		<div class="services-respo"><button class="serives-respo-btn"><a href="services.php"></a></button></div>
+
 	</section>
 	<!-- ------------------------------------our services parts starts--------------------------------------- -->
 
@@ -302,7 +307,7 @@
 		</div>
 	</section>
 	<!------------------------------------------------booking html ends---------------------------------- -->
-	
+
 	<!-- ------------------------------Our fleets start ----------------------------->
 	<section class="our-fleets">
 		<div class="container">
@@ -321,42 +326,46 @@
 					<div class="row">
 						<div class="col-lg-4 col-sm-12 col-md-6 p-3">
 							<a href="assets/img/g1.jpg" class="image-link-js">
-								<img src="assets/img/g1.jpg">
+								<img class="fleets1" src="assets/img/g1.jpg">
 							</a>
 						</div>
 						<div class="col-lg-4 col-sm-12 col-md-6 p-3">
 							<a href="assets/img/cab1.jpg" class="image-link-js">
-								<img src="assets/img/cab1.jpg">
+								<img class="fleets1" src="assets/img/cab1.jpg">
 							</a>
 						</div>
 						<div class="col-lg-4 col-sm-12 col-md-6 p-3">
 							<a href="assets/img/g3.jpg" class="image-link-js">
-								<img src="assets/img/g3.jpg">
+								<img class="fleets2" src="assets/img/g3.jpg">
 							</a>
 						</div>
 						<div class="col-lg-4 col-sm-12 col-md-6 p-3">
 							<a href="assets/img/about.jpg" class="image-link-js">
-								<img src="assets/img/about.jpg">
+								<img class="fleets2" src="assets/img/about.jpg">
 							</a>
 						</div>
 						<div class="col-lg-4 col-sm-12 col-md-6 p-3">
 							<a href="assets/img/g2.jpg" class="image-link-js">
-								<img src="assets/img/g2.jpg">
+								<img class="fleets2" src="assets/img/g2.jpg">
 							</a>
 						</div>
 						<div class="col-lg-4 col-sm-12 col-md-6 p-3">
 							<a href="assets/img/hand-shake.jpg" class="image-link-js">
-								<img src="assets/img/hand-shake.jpg">
+								<img class="fleets2" src="assets/img/hand-shake.jpg">
 							</a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="fleets-respo"><button class="fleets-respo-btn"></button></div>
+		<div class="fleets-respo">
+			<button class="fleets-respo-btn">
+				<a href="#">View More <i class="fa fa-arrow-right"></i></a>
+			</button>
+		</div>
 	</section>
 	<!-- ------------------------------Our fleets start ----------------------------->
-	
+
 	<!-- --------------------testimonials starts--------------------- -->
 	<section class="testimonial-sec testimonial-center sec-bg sec-main bg-sec"
 		style="background-image:url('assets/img/testimonials.jpg');">
@@ -402,16 +411,13 @@
 		</div>
 	</section>
 	<!-- --------------------testimols ends--------------------- -->
-<!-- ---------------------------footer starts--------------------- -->
+	<!-- ---------------------------footer starts--------------------- -->
 	<?php
 	include('inc/footer.php');
 	include('inc/js.php')
 		?>
-<!-- ---------------------------footer ends--------------------- -->
+	<!-- ---------------------------footer ends--------------------- -->
 
-	<!-- ==================Js section starts==================== -->
-	<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-	<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>

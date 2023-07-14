@@ -112,13 +112,12 @@ section.second-top-header {
   text-align: end;
   display: none;
   z-index: 999;
-  border: 3px solid #fff;
   color: #fff;
 }
-.nav-bar-icons[name="close-outline"] {
+.toggle-nav-icons-js[name="close-outline"] {
   display: none;
 }
-.nav-bar-icons {
+.toggle-nav-icons-js {
   width: 3rem;
   height: 3rem;
 }
@@ -130,6 +129,8 @@ section.second-top-header {
 @media (max-width: 62em) {
   .mobile-nav-btn {
     display: inline-block;
+    position:relative;
+    z-index: 3;
   }
 
   .second-top-header-logo img {
@@ -188,12 +189,12 @@ section.second-top-header {
     align-items: center;
   }
 
-  .active .mobile-nav-btn .nav-bar-icons[name="close-outline"] {
+  .active .mobile-nav-btn .toggle-nav-icons-js[name="close-outline"] {
     display: block;
     outline: none;
   }
 
-  .active .mobile-nav-btn .nav-bar-icons[name="menu-outline"] {
+  .active .mobile-nav-btn .toggle-nav-icons-js[name="menu-outline"] {
     display: none;
     outline: none;
   }
@@ -502,7 +503,7 @@ button.nav-link {
   height: 100%;
 }
 .welcome-image-container::before {
-  content: '';
+  content: "";
   height: 100%;
   width: 100%;
   border: 3px solid #fbb400;
@@ -591,11 +592,47 @@ img.img-fluid.service-img {
   top: 57px;
   right: -18px;
 }
-/* ======responsive of our services====== */
-@media (max-width: 62em){
-.section.main-our-services{
-  
+.services-respo.text-center {
+  display: none;
 }
+
+
+/* =================responsive of services part starts============ */
+@media (max-width: 62em) {
+button.services-respo-btn {
+  border: none;
+}
+button.serives-respo-btn a {
+  color: #000;
+  text-decoration: none;
+}
+.services-respo button {
+  background: #fbb400;
+  border: 2px solid #fbb400;
+  border-radius: 25px;
+  padding: 10px;
+  font-weight: 600;
+}
+.services-respo-btn a {
+  color: #000;
+  text-decoration: none;
+}
+
+.services-respo button:hover {
+  background: transparent;
+  border: 2px solid;
+  transition: 0.3s ease;
+}
+.services-respo-btn a:hover {
+  color: #000;
+}
+  .services-respo {
+    text-align: center;
+    border: none;
+  }
+  .service-img-intro-container.services2 {
+    display: none;
+  }
 }
 /*------------------------------------our services css ends----------------------------------------------*/
 
@@ -714,20 +751,40 @@ section.our-fleets {
   height: 18rem;
   padding: 8px;
 }
-button.fleets-respo-btn {
-  border: none;
+/* =================responsive of fleets part starts============ */
+@media (max-width: 62em) {
+ 
+.fleets-respo button {
+  background: #fbb400;
+  border: 2px solid #fbb400;
+  border-radius: 25px;
+  padding: 10px;
+  font-weight: 600;
 }
-@media (max-width: 62em){
-  .fleets-respo button::before{
-    content: 'View More';
-background: #fbb400;
-border: 2px solid #fbb400;
-border-radius: 25px;
-padding: 10px;
+.fleets-respo-btn a {
+  color: #000;
+  text-decoration: none;
+}
+.fleets-respo button:hover {
+  background: transparent;
+  border: 2px solid;
+  transition: 0.3s ease;
+}
+
+.fleets-respo-btn a:hover {
+  color: #000;
+}
+.fleets-respo {
+  text-align: center;
+}
+  .fleets-respo {
+    text-align: center;
+    border: none;
+    margin-top: -100px;
   }
-  .fleets-respo{
-text-align: center;
-border: none;
+  
+  .fleets2 {
+    display: none;
   }
 }
 /*--------------------------------------------our fleets part css ends --------------------------*/
@@ -1015,7 +1072,6 @@ i.far.fa-heart {
 }
 
 .footer-boxes.fbox-2 li {
-  border-bottom: 1px dashed rgba(102, 102, 102, 0.3);
   padding-bottom: 3px;
 }
 /*========================footer css ends======================*/
@@ -1039,8 +1095,8 @@ section.banner-about-us {
 /* ----banner about us css ends---- */
 
 /* ----why choose us css start---- */
-.banner-about-us-2::before {
-  content: '';
+/* .banner-about-us-2::before {
+  content: "";
   height: 250px;
   background: rgb(13 110 253 / 34%);
   position: absolute;
@@ -1048,7 +1104,7 @@ section.banner-about-us {
   top: 0;
   left: 0;
   width: 100%;
-}
+} */
 .why-choose-us-2 {
   background: #fbb400c2;
   height: 350px;
@@ -1127,4 +1183,3 @@ section.main-why-choose-us {
   left: 80px;
   z-index: 9999;
 }
-
