@@ -47,6 +47,12 @@ section.top-header {
   display: inline-block;
   margin-left: 12px;
 }
+/* =====responsive of top header====== */
+@media (max-width: 62em) {
+.top-header{
+  display: none;
+}
+}
 /*---------------------------------------TOP HEADER CSS END----------------------------------*/
 
 /*------------------------------------TOP 2ND HEADER CSS START---------------------------------*/
@@ -131,10 +137,13 @@ section.second-top-header {
     display: inline-block;
     position:relative;
     z-index: 3;
+    text-align: center;
   }
 
   .second-top-header-logo img {
     width: 150px;
+    position: absolute;
+    top: 16px;
   }
 
   .second-top-header-menubar {
@@ -207,8 +216,10 @@ section.second-top-header {
   }
 
   .second-top-header .second-top-header-logo img {
-    width: 100px;
+    width: 120px;
     display: block;
+    position: absolute;
+    top: 38px;
   }
 }
 /*-----------------------------------------TOP 2ND HEADER CSS END----------------------------------*/
@@ -322,6 +333,39 @@ section.banner-slider a {
   background-color: rgba(0, 0, 0, 0.7);
 }
 /* ================banner slider bg color=================== */
+/* ============responsive banner slider======= */
+@media (max-width: 62em){
+  .banner-slider-text {
+    position: absolute;
+    top: 40px;
+    right: 42px;
+    text-align: end;
+    height: 280px;
+}
+  .banner-slider-text h2 {
+    font-size: 34px;
+    font-weight: 700;
+    color: #fff;
+}
+.banner-slider-text h3 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+  border-bottom: 1px solid;
+  padding-bottom: 16px;
+}
+.banner-slider-text p {
+  font-size: 1rem;
+  color: #fff;
+}
+.banner-slider-button button {
+  padding: 5px;
+  width: 25%;
+  border: 2px solid #ffb400;
+  background: #ffb400;
+  border-radius: 11px;
+}
+}
 /*-----------------------------banner slider css end----------------------------------------*/
 /*--------------------------------------welcome part css starts--------------------------------------------*/
 section.welcome-part {
@@ -439,9 +483,6 @@ button.nav-link {
   border: 2px solid #ffb400;
   background: #ffb400;
   border-radius: 34px;
-  position: absolute;
-  top: -13px;
-  right: 0;
 }
 .welcome-part-button button:hover {
   background: transparent;
@@ -595,10 +636,6 @@ img.img-fluid.service-img {
 .services-respo.text-center {
   display: none;
 }
-
-
-/* =================responsive of services part starts============ */
-@media (max-width: 62em) {
 button.services-respo-btn {
   border: none;
 }
@@ -606,6 +643,8 @@ button.serives-respo-btn a {
   color: #000;
   text-decoration: none;
 }
+/* =================responsive of services part starts============ */
+@media (max-width: 62em) {
 .services-respo button {
   background: #fbb400;
   border: 2px solid #fbb400;
@@ -617,7 +656,6 @@ button.serives-respo-btn a {
   color: #000;
   text-decoration: none;
 }
-
 .services-respo button:hover {
   background: transparent;
   border: 2px solid;
@@ -751,9 +789,14 @@ section.our-fleets {
   height: 18rem;
   padding: 8px;
 }
+.fleets-respo{
+  display: block;
+}
 /* =================responsive of fleets part starts============ */
 @media (max-width: 62em) {
- 
+  .fleets-respo{
+    visibility: visible;
+  }
 .fleets-respo button {
   background: #fbb400;
   border: 2px solid #fbb400;
@@ -776,16 +819,12 @@ section.our-fleets {
 }
 .fleets-respo {
   text-align: center;
+  border: none;
+  margin-top: -100px;
 }
-  .fleets-respo {
-    text-align: center;
-    border: none;
-    margin-top: -100px;
-  }
-  
-  .fleets2 {
-    display: none;
-  }
+.fleets2 {
+  display: none;
+}
 }
 /*--------------------------------------------our fleets part css ends --------------------------*/
 /* -------------------testimonials css starts -------------------------*/

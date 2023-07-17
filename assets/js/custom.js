@@ -38,3 +38,8 @@ nav_second_top_header.classList.toggle("active");
 };
 
 mobile_nav.addEventListener("click", () => toggleNavbar()); 
+
+// =====================scroll aos animation
+AOS.init({
+  duration: 1200,
+})

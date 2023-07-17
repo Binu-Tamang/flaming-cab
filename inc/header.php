@@ -48,7 +48,7 @@
 						<li><a href="#"> CONTACT</a></li>
 					</ul>
 				</div>
-				<div class="mobile-nav-btn ">
+				<div class="mobile-nav-btn">
 					<i class="toggle-nav-icons-js fa fa-2x  fas fa-bars " name="menu-outline"></i>
 					<i class="toggle-nav-icons-js fa fa-2x fa-close" name="close-outline"></i>
 				</div>

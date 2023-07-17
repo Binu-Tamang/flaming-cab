@@ -132,7 +132,7 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-lg-6">
+					<div class="col-lg-6 welcomne-right" data-aos="fade-right">
 						<div class="welcome-image-container">
 							<img src="assets/img/cab1.jpg" class="img-fluid h-100">
 
