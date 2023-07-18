@@ -37,8 +37,8 @@
 					<img src="assets/img/logo.png" href="index.php">
 				</div>
 			</div>
-			<div class="col-md-10 text-end">
-				<div class="second-top-header-menubar" id="my-top-nav">
+			<div class="col-md-10 ">
+				<div class="second-top-header-menubar text-end" id="my-top-nav">
 					<ul>
 						<li><a href="index.php" class="active"> HOME</a></li>
 						<li><a href="about.php"> ABOUT US</a></li>
@@ -48,7 +48,7 @@
 						<li><a href="#"> CONTACT</a></li>
 					</ul>
 				</div>
-				<div class="mobile-nav-btn">
+				<div class="mobile-nav-btn text-end">
 					<i class="toggle-nav-icons-js fa fa-2x  fas fa-bars " name="menu-outline"></i>
 					<i class="toggle-nav-icons-js fa fa-2x fa-close" name="close-outline"></i>
 				</div>

@@ -26,10 +26,10 @@
 
 			<!-- Indicators -->
 			<ul class="carousel-indicators">
-				<button type="button" data-bs-target="#main-slider" data-bs-slide-to="0" class="active"></button>
-				<button type="button" data-bs-target="#main-slider" data-bs-slide-to="1"></button>
-				<button type="button" data-bs-target="#main-slider" data-bs-slide-to="2"></button>
-				<button type="button" data-bs-target="#main-slider" data-bs-slide-to="3"></button>
+			<li><button type="button" data-bs-target="#main-slider" data-bs-slide-to="0" class="active"></button></li>
+			<li><button type="button" data-bs-target="#main-slider" data-bs-slide-to="1"></button></li>
+			<li><button type="button" data-bs-target="#main-slider" data-bs-slide-to="2"></button></li>
+			<li><button type="button" data-bs-target="#main-slider" data-bs-slide-to="3"></button></li>
 			</ul>
 
 			<!-- The slideshow -->
@@ -102,11 +102,11 @@
 
 
 				<button class="carousel-control-prev" type="button" data-bs-target="#main-slider" data-bs-slide="prev">
-					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="carousel-control-prev-icon slider-icons" aria-hidden="true"></span>
 					<span class="visually-hidden">Previous</span>
 				</button>
 				<button class="carousel-control-next" type="button" data-bs-target="#main-slider" data-bs-slide="next">
-					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="carousel-control-next-icon slider-icons" aria-hidden="true"></span>
 					<span class="visually-hidden">Next</span>
 				</button>
 
@@ -132,13 +132,13 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-lg-6 welcomne-right" data-aos="fade-right">
+					<div class="col-lg-6 welcomne-right" >
 						<div class="welcome-image-container">
-							<img src="assets/img/cab1.jpg" class="img-fluid h-100">
+							<img src="assets/img/cab1.jpg" class="img-fluid h-100" data-aos="fade-right">
 
 						</div>
 					</div>
-					<div class="col-lg-6  mt-lg-0 mt-md-5">
+					<div class="col-lg-6  mt-lg-0 mt-5">
 						<div class="welcome-part-box-right">
 							<h2>we are <span>flames cab</span></h2>
 							<p>We are a leading company sit amet, consectetur adipisicing elit. Minus obcaecati pariatur
@@ -199,7 +199,7 @@
 	<section class="main-our-services">
 		<div class="container">
 			<div class="our-services-heading">
-				<h1 class="welcome-heading">Our <span>services</span></h1>
+				<h2 class="welcome-heading">Our services</h2>
 				<p>There are many variations of passages of Lorem Ipsum typesetting industry has been the industry's
 					standard dummy text ever since the been when an unknown printer.</p>
 			</div>
@@ -368,23 +368,19 @@
 
 	<!-- --------------------testimonials starts--------------------- -->
 	<section class="testimonial-sec testimonial-center sec-bg sec-main bg-sec"
-		style="background-image:url('assets/img/testimonials.jpg');">
+		style="background-image:url('assets/img/testimonials.jpg');" data-aos="fade-up">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
 					<div class="sec-title center text-center">
-						<h5 class="title-small wow animate__ animate__fadeInDown animate__delay-200ms animated welcome-heading"
-							style="visibility: visible; animation-name: fadeInDown;">Our customer says</h5>
-						<h3 class="title-big wow animate__  animate__bounceInDown animate__delay-200ms animated"
-							style="visibility: visible; animation-name: bounceInDown;">Testimonials</h3>
-						<span class="title-seperator wow animate__  animate__fadeInUp animate__delay-200ms animated"
-							style="visibility: visible; animation-name: fadeInUp;"></span>
+						<h5 class="title-small">Our customer says</h5>
+						<h3 class="title-big">Testimonials</h3>
+						<span class="title-seperator"></span>
 
 					</div>
 				</div>
 				<div class="col-lg-8 col-md-12 mx-lg-auto">
-					<div class="testimonial-center wow animate__ animate__fadeIn animate__delay-200ms animated"
-						style="visibility: visible; animation-name: fadeIn;">
+					<div class="testimonial-center">
 						<div id="google-reviews">
 							<div class="review-item">
 								<div class="review-meta"><span class="review-author">Alex Pellegrino</span><span

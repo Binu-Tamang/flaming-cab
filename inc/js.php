@@ -9,7 +9,8 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <!-- magnific popup js-->
 <script src="assets/js/magnific-popup.js"></script>
-
+<!-- Aos script -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <!-- custom js -->
 <script src="assets/js/custom.js"></script>
 

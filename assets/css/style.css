@@ -74,12 +74,11 @@ section.second-top-header {
   z-index: 3;
 }
 .second-top-header .second-top-header-menubar ul {
-  text-align: center;
   margin: 0px;
   padding: 18px;
 }
 .second-top-header .second-top-header-menubar ul li {
-  display: inline-block;
+  display: inline-flex;
 }
 .second-top-header .second-top-header-menubar li a {
   color: #fff;
@@ -134,10 +133,11 @@ section.second-top-header {
 /* below 980px */
 @media (max-width: 62em) {
   .mobile-nav-btn {
-    display: inline-block;
-    position:relative;
+    display: flex;
+    position: relative;
     z-index: 3;
-    text-align: center;
+    justify-content: end;
+    text-align: right;
   }
 
   .second-top-header-logo img {
@@ -272,8 +272,8 @@ section.banner-slider a {
 .banner-slider-text {
   position: absolute;
   top: 110px;
-  right: 145px;
-  text-align: end;
+  left: 145px;
+  text-align: left;
   height: 310px;
   padding-right: 40px;
   padding-left: 15px;
@@ -337,33 +337,82 @@ section.banner-slider a {
 @media (max-width: 62em){
   .banner-slider-text {
     position: absolute;
-    top: 40px;
-    right: 42px;
-    text-align: end;
+    top: 2rem;
+    left: 4rem;
     height: 280px;
 }
   .banner-slider-text h2 {
-    font-size: 34px;
+    font-size: 24px;
     font-weight: 700;
     color: #fff;
 }
 .banner-slider-text h3 {
-  font-size: 40px;
+  font-size: 26px;
   font-weight: 700;
   color: #fff;
   border-bottom: 1px solid;
   padding-bottom: 16px;
 }
 .banner-slider-text p {
-  font-size: 1rem;
+  font-size: 12px;
   color: #fff;
 }
 .banner-slider-button button {
   padding: 5px;
-  width: 25%;
+  /* width: 34%; */
   border: 2px solid #ffb400;
   background: #ffb400;
   border-radius: 11px;
+  font-size: 10px;
+}
+/* banner slider respo */
+span.slider-icons{
+  height: 15px;
+  border: 2px solid;
+  border-radius: 13px;
+  width: 16px;
+  padding: 8px;
+}
+div#main-slider li button{
+  width: 10px;
+}
+}
+/* below 560px */
+@media (max-width: 35em){ 
+  .banner-slider-text {
+    position: absolute;
+    top: 3rem;
+    left: 4rem;
+}
+.banner-slider-text h2 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0;
+}
+.banner-slider-text h3 {
+font-size: 16px;
+font-weight: 700;
+color: #fff;
+border-bottom: 1px solid;
+padding-bottom: 8px;
+}
+.banner-slider-text p {
+font-size: 10px;
+color: #fff;
+margin: 0;
+display: none;
+}
+.banner-slider-button button {
+padding: 2px;
+width: 35%;
+border: 2px solid #ffb400;
+background: #ffb400;
+border-radius: 10px;
+font-size: 8px;
+}
+.banner-slider-button button i {
+font-size: 8px;
 }
 }
 /*-----------------------------banner slider css end----------------------------------------*/
@@ -377,7 +426,7 @@ section.welcome-part {
   color: gray;
   font-family: "Raleway", sans-serif;
 }
-.welcome-part-heading h1 {
+.welcome-part-heading .welcome-heading {
   font-size: 48px;
   font-weight: 800;
   margin: 0 0 0;
@@ -479,7 +528,6 @@ button.nav-link {
 }
 .welcome-part-button button {
   padding: 8px;
-  width: 27%;
   border: 2px solid #ffb400;
   background: #ffb400;
   border-radius: 34px;
@@ -562,7 +610,30 @@ button.nav-link {
   object-fit: cover;
   object-position: top;
   width: 100%;
-} /*--------------------------------------welcome part css ends--------------------------------------------*/
+}
+/* ======responsive of welcome========= */
+@media (max-width: 62em){
+.welcome-heading{
+  font-size: 30px;
+}
+.col-lg-6.welcomne-right{
+padding: 0 32px;
+}
+.welcome-part-box-right h2{
+  font-size: 22px;
+  text-align: center;
+}
+.welcome-part-box-right p{
+  font-size: 14px;
+}
+.welcome-part-button button{
+  font-size: 12px;
+}
+.welcome-part-button{
+  text-align: center;
+}
+}
+ /*--------------------------------------welcome part css ends--------------------------------------------*/
 
 /*---------------------------------------our services css starts-------------------------------------------*/
 section.main-our-services {
@@ -571,13 +642,12 @@ section.main-our-services {
 .our-services-heading {
   text-align: center;
 }
-.our-services-heading h1 {
+/* .our-services-heading .welcome-heading {
   font-size: 48px;
-  /* line-height: 48px; */
   font-weight: 800;
   margin: 0 0 0;
-}
-.our-services-heading h1 span {
+} */
+.our-services-heading .welcome-heading span {
   color: #fbb400;
 }
 .our-services-heading p {
@@ -645,12 +715,16 @@ button.serives-respo-btn a {
 }
 /* =================responsive of services part starts============ */
 @media (max-width: 62em) {
+  .services-respo.text-center{
+    display: block;
+  }
 .services-respo button {
   background: #fbb400;
   border: 2px solid #fbb400;
   border-radius: 25px;
   padding: 10px;
   font-weight: 600;
+  font-size: 14px;
 }
 .services-respo-btn a {
   color: #000;
@@ -671,6 +745,9 @@ button.serives-respo-btn a {
   .service-img-intro-container.services2 {
     display: none;
   }
+  .our-services-heading p{
+    padding: 0;
+  }
 }
 /*------------------------------------our services css ends----------------------------------------------*/
 
@@ -686,7 +763,6 @@ section.booked {
   background: #222;
   color: #fff;
   clip-path: polygon(100% 1%, 100% 38%, 59% 100%, 0 100%, 0 0);
-  height: 460px;
   background-image: url(../img/background.png);
   margin: 50px 0;
 }
@@ -707,7 +783,7 @@ section.booked {
 }
 .booked-content {
   padding: 0;
-  margin-top: 90px;
+  margin: 5rem 0;
 }
 .booked-content p {
   font-size: 18px;
@@ -759,6 +835,14 @@ i.bi.bi-phone-vibrate:before {
   line-height: 1;
   text-decoration: none;
 }
+/* =========responsive of booked======= */
+@media (max-width: 62em){
+  .booked-content h3 {
+    font-size: 25px;
+    line-height: 30px;
+    color: #fff;
+}
+}
 /*--------------------------------------------booked css ends --------------------------*/
 
 /* ---------------------------------our fleets css start----------------------------------- */
@@ -790,7 +874,7 @@ section.our-fleets {
   padding: 8px;
 }
 .fleets-respo{
-  display: block;
+  display: block  ;
 }
 /* =================responsive of fleets part starts============ */
 @media (max-width: 62em) {
@@ -1134,16 +1218,6 @@ section.banner-about-us {
 /* ----banner about us css ends---- */
 
 /* ----why choose us css start---- */
-/* .banner-about-us-2::before {
-  content: "";
-  height: 250px;
-  background: rgb(13 110 253 / 34%);
-  position: absolute;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  width: 100%;
-} */
 .why-choose-us-2 {
   background: #fbb400c2;
   height: 350px;

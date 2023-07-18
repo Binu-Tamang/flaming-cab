@@ -23,6 +23,7 @@ function setEqualTabPaneHeight() {
   tabPanes.forEach(function(pane) {
     pane.style.height = maxHeight + 'px';
   });
+
 }
 
 // Call the function to set equal heights initially and on window resize

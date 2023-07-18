@@ -10,3 +10,5 @@
 
 <!-- magnific pop up csss -->
 <link rel="stylesheet" type="text/css" href="assets/css/magnific-popup.css">
+<!-- Aos css -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
