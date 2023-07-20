@@ -43,4 +43,5 @@ mobile_nav.addEventListener("click", () => toggleNavbar());
 // =====================scroll aos animation
 AOS.init({
   duration: 1200,
+  once: 'true',
 })

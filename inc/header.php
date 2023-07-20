@@ -34,7 +34,7 @@
 
 			<div class="col-md-2 col-sm-2 ">
 				<div class="second-top-header-logo">
-					<img src="assets/img/logo.png" href="index.php">
+					<img alt="flames-logo" src="assets/img/logo.png" href="index.php">
 				</div>
 			</div>
 			<div class="col-md-10 ">

@@ -49,9 +49,9 @@ section.top-header {
 }
 /* =====responsive of top header====== */
 @media (max-width: 62em) {
-.top-header{
-  display: none;
-}
+  .top-header {
+    display: none;
+  }
 }
 /*---------------------------------------TOP HEADER CSS END----------------------------------*/
 
@@ -301,15 +301,17 @@ section.banner-slider a {
   font-size: 1.4rem;
   color: #fff;
 }
-/* ========banner silder content with button================ */
+/* ========banner slider content with button================ */
 .banner-slider-button button {
-  padding: 8px;
+  padding: 6px;
   width: 25%;
   border: 2px solid #ffb400;
   background: #ffb400;
   border-radius: 11px;
 }
-
+.banner-slider-button i {
+  margin: 8px;
+}
 .banner-slider-button button:hover {
   background: transparent;
   border: 2px solid;
@@ -334,89 +336,92 @@ section.banner-slider a {
 }
 /* ================banner slider bg color=================== */
 /* ============responsive banner slider======= */
-@media (max-width: 62em){
+@media (max-width: 62em) {
   .banner-slider-text {
     position: absolute;
     top: 2rem;
     left: 4rem;
     height: 280px;
-}
+  }
   .banner-slider-text h2 {
     font-size: 24px;
     font-weight: 700;
     color: #fff;
-}
-.banner-slider-text h3 {
-  font-size: 26px;
-  font-weight: 700;
-  color: #fff;
-  border-bottom: 1px solid;
-  padding-bottom: 16px;
-}
-.banner-slider-text p {
-  font-size: 12px;
-  color: #fff;
-}
-.banner-slider-button button {
-  padding: 5px;
-  /* width: 34%; */
-  border: 2px solid #ffb400;
-  background: #ffb400;
-  border-radius: 11px;
-  font-size: 10px;
-}
-/* banner slider respo */
-span.slider-icons{
-  height: 15px;
-  border: 2px solid;
-  border-radius: 13px;
-  width: 16px;
-  padding: 8px;
-}
-div#main-slider li button{
-  width: 10px;
-}
+  }
+  .banner-slider-text h3 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #fff;
+    border-bottom: 1px solid;
+    padding-bottom: 16px;
+  }
+  .banner-slider-text p {
+    font-size: 12px;
+    color: #fff;
+  }
+  .banner-slider-button button {
+    padding: 5px;
+    /* width: 34%; */
+    border: 2px solid #ffb400;
+    background: #ffb400;
+    border-radius: 11px;
+    font-size: 10px;
+  }
+  /* banner slider responsive */
+  span.slider-icons {
+    height: 15px;
+    border: 2px solid;
+    border-radius: 13px;
+    width: 16px;
+    padding: 8px;
+  }
+  div#main-slider li button {
+    width: 10px;
+  }
 }
 /* below 560px */
-@media (max-width: 35em){ 
+@media (max-width: 35em) {
   .banner-slider-text {
     position: absolute;
     top: 3rem;
     left: 4rem;
+  }
+  .banner-slider-button i {
+    margin: 0;
+  }
+  .banner-slider-text h2 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+  }
+  .banner-slider-text h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    border-bottom: 1px solid;
+    padding-bottom: 8px;
+  }
+  .banner-slider-text p {
+    font-size: 10px;
+    color: #fff;
+    margin: 0;
+    display: none;
+  }
+  .banner-slider-button button {
+    padding: 2px;
+    width: 35%;
+    border: 2px solid #ffb400;
+    background: #ffb400;
+    border-radius: 10px;
+    font-size: 8px;
+  }
+  .banner-slider-button button i {
+    font-size: 8px;
+  }
 }
-.banner-slider-text h2 {
-  font-size: 14px;
-  font-weight: 700;
-  color: #fff;
-  margin: 0;
-}
-.banner-slider-text h3 {
-font-size: 16px;
-font-weight: 700;
-color: #fff;
-border-bottom: 1px solid;
-padding-bottom: 8px;
-}
-.banner-slider-text p {
-font-size: 10px;
-color: #fff;
-margin: 0;
-display: none;
-}
-.banner-slider-button button {
-padding: 2px;
-width: 35%;
-border: 2px solid #ffb400;
-background: #ffb400;
-border-radius: 10px;
-font-size: 8px;
-}
-.banner-slider-button button i {
-font-size: 8px;
-}
-}
-/*-----------------------------banner slider css end----------------------------------------*/
-/*--------------------------------------welcome part css starts--------------------------------------------*/
+/*---------banner slider css end---------------------*/
+/*-----------------welcome part css starts--------------------*/
 section.welcome-part {
   margin-top: 60px;
 }
@@ -526,8 +531,11 @@ button.nav-link {
   text-align: end;
   position: relative;
 }
+.welcome-part-button i {
+  margin: 8px;
+}
 .welcome-part-button button {
-  padding: 8px;
+  padding: 6px;
   border: 2px solid #ffb400;
   background: #ffb400;
   border-radius: 34px;
@@ -612,30 +620,30 @@ button.nav-link {
   width: 100%;
 }
 /* ======responsive of welcome========= */
-@media (max-width: 62em){
-.welcome-heading{
-  font-size: 30px;
+@media (max-width: 62em) {
+  .welcome-heading {
+    font-size: 30px;
+  }
+  .col-lg-6.welcome-right {
+    padding: 0 32px;
+  }
+  .welcome-part-box-right h2 {
+    font-size: 22px;
+    text-align: center;
+  }
+  .welcome-part-box-right p {
+    font-size: 14px;
+  }
+  .welcome-part-button button {
+    font-size: 12px;
+  }
+  .welcome-part-button {
+    text-align: center;
+  }
 }
-.col-lg-6.welcomne-right{
-padding: 0 32px;
-}
-.welcome-part-box-right h2{
-  font-size: 22px;
-  text-align: center;
-}
-.welcome-part-box-right p{
-  font-size: 14px;
-}
-.welcome-part-button button{
-  font-size: 12px;
-}
-.welcome-part-button{
-  text-align: center;
-}
-}
- /*--------------------------------------welcome part css ends--------------------------------------------*/
+/*-------------welcome part css ends----------------*/
 
-/*---------------------------------------our services css starts-------------------------------------------*/
+/*--------our services css starts--------------*/
 section.main-our-services {
   margin-top: 70px;
 }
@@ -715,29 +723,29 @@ button.serives-respo-btn a {
 }
 /* =================responsive of services part starts============ */
 @media (max-width: 62em) {
-  .services-respo.text-center{
+  .services-respo.text-center {
     display: block;
   }
-.services-respo button {
-  background: #fbb400;
-  border: 2px solid #fbb400;
-  border-radius: 25px;
-  padding: 10px;
-  font-weight: 600;
-  font-size: 14px;
-}
-.services-respo-btn a {
-  color: #000;
-  text-decoration: none;
-}
-.services-respo button:hover {
-  background: transparent;
-  border: 2px solid;
-  transition: 0.3s ease;
-}
-.services-respo-btn a:hover {
-  color: #000;
-}
+  .services-respo button {
+    background: #fbb400;
+    border: 2px solid #fbb400;
+    border-radius: 25px;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  .services-respo-btn a {
+    color: #000;
+    text-decoration: none;
+  }
+  .services-respo button:hover {
+    background: transparent;
+    border: 2px solid;
+    transition: 0.3s ease;
+  }
+  .services-respo-btn a:hover {
+    color: #000;
+  }
   .services-respo {
     text-align: center;
     border: none;
@@ -745,13 +753,14 @@ button.serives-respo-btn a {
   .service-img-intro-container.services2 {
     display: none;
   }
-  .our-services-heading p{
+  .our-services-heading p {
     padding: 0;
+    text-align: justify;
   }
 }
-/*------------------------------------our services css ends----------------------------------------------*/
+/*-------------------our services css ends----------------------*/
 
-/*-----------------------------------booked css start------------------------------------*/
+/*-------------booked css start--------------------*/
 .booked-img img {
   object-fit: cover;
   width: 100%;
@@ -836,16 +845,16 @@ i.bi.bi-phone-vibrate:before {
   text-decoration: none;
 }
 /* =========responsive of booked======= */
-@media (max-width: 62em){
+@media (max-width: 62em) {
   .booked-content h3 {
     font-size: 25px;
     line-height: 30px;
     color: #fff;
+  }
 }
-}
-/*--------------------------------------------booked css ends --------------------------*/
+/*----------------------booked css ends ---------------------*/
 
-/* ---------------------------------our fleets css start----------------------------------- */
+/* ----------------our fleets css start----------------- */
 .our-fleets-heading {
   text-align: center;
 }
@@ -873,42 +882,53 @@ section.our-fleets {
   height: 18rem;
   padding: 8px;
 }
-.fleets-respo{
-  display: block  ;
+.our-fleets-img img:hover {
+  transform: translateY(-10px)!important;
+  box-shadow: 4px 4px 14px 11px rgba(0,0,0,.05);
+  transition: cubic-bezier(0.075, 0.4, 0.165, 0.5);
+}
+.fleets-respo {
+  display: none;
 }
 /* =================responsive of fleets part starts============ */
 @media (max-width: 62em) {
-  .fleets-respo{
-    visibility: visible;
+  .fleets-respo {
+    display: block;
   }
-.fleets-respo button {
-  background: #fbb400;
-  border: 2px solid #fbb400;
-  border-radius: 25px;
-  padding: 10px;
-  font-weight: 600;
-}
-.fleets-respo-btn a {
-  color: #000;
-  text-decoration: none;
-}
-.fleets-respo button:hover {
-  background: transparent;
-  border: 2px solid;
-  transition: 0.3s ease;
-}
+  .fleets-respo button {
+    background: #fbb400;
+    border: 2px solid #fbb400;
+    border-radius: 25px;
+    padding: 10px;
+    font-weight: 600;
+  }
+  .fleets-respo-btn a {
+    color: #000;
+    text-decoration: none;
+  }
+  .fleets-respo button:hover {
+    background: transparent;
+    border: 2px solid;
+    transition: 0.3s ease;
+  }
 
-.fleets-respo-btn a:hover {
-  color: #000;
+  .fleets-respo-btn a:hover {
+    color: #000;
+  }
+  .fleets-respo {
+    text-align: center;
+    border: none;
+    margin-top: -100px;
+  }
+  .fleets2 {
+    display: none;
+  }
 }
-.fleets-respo {
-  text-align: center;
-  border: none;
-  margin-top: -100px;
-}
-.fleets2 {
-  display: none;
-}
+@media (max-width: 35em) {
+  .our-fleets-heading p {
+    padding: 0;
+    text-align: justify;
+  }
 }
 /*--------------------------------------------our fleets part css ends --------------------------*/
 /* -------------------testimonials css starts -------------------------*/
@@ -939,7 +959,7 @@ section.our-fleets {
   color: #000;
   transition: all 0.3s ease-in 0s;
   text-align: center;
-  /* display: flex; */
+  padding: 0;
 }
 span.review-author {
   display: block;
@@ -981,6 +1001,7 @@ span.review-author {
   font-size: 1.4rem;
   color: #000;
   text-align: center;
+  padding: 0 0 42px 0;
 }
 
 .review-stars ul {

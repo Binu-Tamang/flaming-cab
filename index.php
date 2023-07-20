@@ -26,86 +26,82 @@
 
 			<!-- Indicators -->
 			<ul class="carousel-indicators">
-			<li><button type="button" data-bs-target="#main-slider" data-bs-slide-to="0" class="active"></button></li>
-			<li><button type="button" data-bs-target="#main-slider" data-bs-slide-to="1"></button></li>
-			<li><button type="button" data-bs-target="#main-slider" data-bs-slide-to="2"></button></li>
-			<li><button type="button" data-bs-target="#main-slider" data-bs-slide-to="3"></button></li>
+				<li><button title="click button" type="button" data-bs-target="#main-slider" data-bs-slide-to="0"
+						class="active"></button></li>
+				<li><button title="click button" type="button" data-bs-target="#main-slider"
+						data-bs-slide-to="1"></button></li>
+				<li><button title="click button" type="button" data-bs-target="#main-slider"
+						data-bs-slide-to="2"></button></li>
+				<li><button title="click button" type="button" data-bs-target="#main-slider"
+						data-bs-slide-to="3"></button></li>
 			</ul>
 
 			<!-- The slideshow -->
 			<div class="carousel-inner" data-bs-interval="9000">
 				<div class="carousel-item bg-element active">
 					<!-- ACTIVE SHOULD BE AT 1ST ONLY -->
-					<img src="assets/img/slider/3.jpg">
+					<img alt="flames-car" src="assets/img/slider/3.jpg">
 					<div class="container">
 						<div class="banner-slider-text">
-							<h2 class="banner-text">HELLO</h2>
-							<h3>Do you want to<span> BOOK A CAB</span></h3>
-							<p>Flames Cab in Airdrie offers professional<br> and reliable taxi service that get you
-								where
-								you
-								have to go, on time.</p>
-							<div class="banner-slider-button">
-								<button><i class="fa-solid fa-gears"></i> Learn More</button>
+							<h2 class="banner-text" data-aos="fade-up">HELLO</h2>
+							<h3 data-aos="fade-up" data-aos-delay="500">We are <span>FLAMES CAB</span></h3>
+							<p data-aos="fade-up" data-aos-delay="1000">Flames Cab in Airdrie offers professional<br>
+								and reliable taxi service that get you
+								where you have to go, on time.</p>
+							<div class="banner-slider-button" data-aos="fade-up" data-aos-delay="1500">
+								<button title="learn more"><i class="fa-solid fa-gears"></i> Learn More</button>
 							</div>
 						</div>
 					</div>
 				</div>
 				<div class="carousel-item bg-element">
-					<img src="assets/img/slider/2.jpg">
+					<img alt="flames-cab" src="assets/img/slider/2.jpg">
 					<div class="container">
 						<div class="banner-slider-text">
-							<h2 class="banner-text">HELLO</h2>
 							<h3>Do you want to<span> BOOK A CAB</span></h3>
 							<p>Flames Cab in Airdrie offers professional<br> and reliable taxi service that get you
-								where
-								you
-								have to go, on time.</p>
+								where you have to go, on time.</p>
 							<div class="banner-slider-button">
-								<button><i class="fa-solid fa-gears"></i> Learn More</button>
+								<button title="learn more"><i class="fa-solid fa-gears"></i> Learn More</button>
 							</div>
 						</div>
 					</div>
 				</div>
 				<div class="carousel-item bg-element">
-					<img src="assets/img/slider/1.png">
+					<img alt="flames-taxi" src="assets/img/slider/1.jpg">
 					<div class="container">
 						<div class="banner-slider-text">
-							<h2 class="banner-text">HELLO</h2>
 							<h3>We are here to<span> HELP YOU</span></h3>
 							<p>Flames Cab in Airdrie offers professional<br> and reliable taxi service that get you
-								where
-								you
-								have to go, on time.</p>
+								where you have to go, on time.</p>
 							<div class="banner-slider-button">
-								<button><i class="fa-solid fa-gears"></i> Learn More</button>
+								<button title="learn more"><i class="fa-solid fa-gears"></i> Learn More</button>
 							</div>
 						</div>
 					</div>
 				</div>
 				<div class="carousel-item bg-element">
-					<img src="assets/img/slider/3.jpg">
+					<img alt="flames-car" src="assets/img/slider/3.jpg">
 					<div class="container">
 						<div class="banner-slider-text">
-							<h2 class="banner-text">HELLO</h2>
-							<h3>We are <span>FLAMES CAB</span></h3>
+							<h3>Do you want to<span> BOOK A CAB</span></h3>
 							<p>Flames Cab in Airdrie offers professional<br> and reliable taxi service that get you
-								where
-								you
-								have to go, on time.</p>
+								where you have to go, on time.</p>
 							<div class="banner-slider-button">
-								<button><i class="fa-solid fa-gears"></i> Learn More</button>
+								<button title="learn more"><i class="fa-solid fa-gears"></i> Learn More</button>
 							</div>
 						</div>
 					</div>
 				</div>
 
 
-				<button class="carousel-control-prev" type="button" data-bs-target="#main-slider" data-bs-slide="prev">
+				<button title="click icon" class="carousel-control-prev" type="button" data-bs-target="#main-slider"
+					data-bs-slide="prev">
 					<span class="carousel-control-prev-icon slider-icons" aria-hidden="true"></span>
 					<span class="visually-hidden">Previous</span>
 				</button>
-				<button class="carousel-control-next" type="button" data-bs-target="#main-slider" data-bs-slide="next">
+				<button title="click icon" class="carousel-control-next" type="button" data-bs-target="#main-slider"
+					data-bs-slide="next">
 					<span class="carousel-control-next-icon slider-icons" aria-hidden="true"></span>
 					<span class="visually-hidden">Next</span>
 				</button>
@@ -114,14 +110,14 @@
 		</div>
 		<div class="banner-bg-color"></div>
 	</section>
-	<!-- -------------------------------------banner slider end------------------------------------ -->
+	<!-- -----------------banner slider end------------------- -->
 
-	<!-- -------------------------------welcome part starts------------------------------------------- -->
+	<!-- ------------------welcome part starts--------------------- -->
 	<section class="welcome-section my-5">
 		<div class="welcome-wrap">
 			<div class="container">
 				<div class="welcome-header">
-					<div class="text-center capitalize-text 	">
+					<div class="text-center capitalize-text" data-aos="fade-down">
 						<p>welcome to</p>
 						<h1 class="welcome-heading">flames cab</h1>
 					</div>
@@ -132,76 +128,80 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-lg-6 welcomne-right" >
+					<div class="col-lg-6 welcome-right">
 						<div class="welcome-image-container">
-							<img src="assets/img/cab1.jpg" class="img-fluid h-100" data-aos="fade-right">
+							<img alt="yellow car" src="assets/img/about.jpg" class="img-fluid h-100"
+								data-aos="fade-right">
 
 						</div>
 					</div>
 					<div class="col-lg-6  mt-lg-0 mt-5">
 						<div class="welcome-part-box-right">
-							<h2>we are <span>flames cab</span></h2>
-							<p>We are a leading company sit amet, consectetur adipisicing elit. Minus obcaecati pariatur
-								officiis molestias eveniet harum laudantium obcaecati pariatur officiis molestias
-								eveniet harum laudantium sed optio iste.</p>
-							<div class="flames-content-nav-tab">
+							<h2 data-aos="fade-left">we are <span>flames cab</span></h2>
+							<p data-aos="fade-left">Flames Cab Taxi in Flames Cab, Airdrie offers professional and
+								reliable taxi services that get you where you have to go, on time. Our professional team
+								of drivers is trustworthy and knowledgeable about our roads and streets.</p>
+							<div class="flames-content-nav-tab" data-aos="fade-up">
 								<ul class="nav nav-pills mb-3  flex-sm-row  justify-content-around" id="pills-tab"
 									role="tablist">
 									<li class="nav-item " role="presentation">
-										<button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
-											data-bs-target="#pills-home" type="button" role="tab"
+										<button title="click next" class="nav-link active" id="pills-home-tab"
+											data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab"
 											aria-controls="pills-home" aria-selected="true"><i
 												class="fa-solid fa-arrow-trend-up"></i> Our Mission</button>
 									</li>
 									<li class="nav-item " role="presentation">
-										<button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
-											data-bs-target="#pills-profile" type="button" role="tab"
-											aria-controls="pills-profile" aria-selected="false"><i
+										<button title="click next" class="nav-link" id="pills-profile-tab"
+											data-bs-toggle="pill" data-bs-target="#pills-profile" type="button"
+											role="tab" aria-controls="pills-profile" aria-selected="false"><i
 												class="fa-solid fa-hand-point-up"></i> Our Advantange</button>
 									</li>
 									<li class="nav-item " role="presentation">
-										<button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
-											data-bs-target="#pills-contact" type="button" role="tab"
-											aria-controls="pills-contact" aria-selected="false"><i
+										<button title="click next" class="nav-link" id="pills-contact-tab"
+											data-bs-toggle="pill" data-bs-target="#pills-contact" type="button"
+											role="tab" aria-controls="pills-contact" aria-selected="false"><i
 												class="fa-solid fa-seedling"></i> Our Guarantee</button>
 									</li>
 								</ul>
 								<div class="tab-content" id="pills-tabContent">
 									<div class="tab-pane fade show active" id="pills-home" role="tabpanel"
-										aria-labelledby="pills-home-tab">consectetur adipiscing elit, sed do eiusmod
-										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-										consequat. Duis aute irure dolor in</div>
+										aria-labelledby="pills-home-tab">Flames cabs are a form of public transportation
+										that operates on-demand and usually charge fares based on distance traveled or
+										time spent in the vehicle. Their mission is to provide convenient, accessible,
+										and relatively fast transportation services to individuals within cities and
+										towns.</div>
 									<div class="tab-pane fade" id="pills-profile" role="tabpanel"
-										aria-labelledby="pills-profile-tab">Ut enim ad minim veniam, quis nostrud
-										exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-										irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-										nulla pariatur.</div>
+										aria-labelledby="pills-profile-tab">Flames cab offer direct transportation to a
+										passenger's desired destination, providing convenience and comfort, especially
+										when traveling with luggage or in adverse weather conditions. We are available
+										to people without access to private vehicles, making them an inclusive form of
+										transportation.</div>
 									<div class="tab-pane fade" id="pills-contact" role="tabpanel"
-										aria-labelledby="pills-contact-tab">Laboris nisi ut aliquip ex ea commodo
-										consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-										dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-										sunt in culpa qui officia</div>
-
+										aria-labelledby="pills-contact-tab">Flames cab is one of the local cab service
+										providers in Airdrie and its periphery, providing you with some tips to get the
+										taxi in Airdrie. You can book the taxi or the cab before the journey in Airdrie,
+										a city neighboring to Calgary.</div>
 								</div>
-							</div>
-							<div class="welcome-part-button">
-								<button><a href="about.php">Read More <i class="fa fa-arrow-right"></a></i></button>
+								<div class="welcome-part-button">
+									<button title="read more"><a href="about.php">Read More <i
+												class="fa fa-arrow-right"></a></i></button>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 	</section>
-	<!-- -------------------------------welcome part starts------------------------------------------- -->
+	<!-- ----------welcome part starts-------- -->
 
-	<!-- ------------------------------------our services parts starts--------------------------------------- -->
+	<!---------our services parts starts----------------- -->
 	<section class="main-our-services">
 		<div class="container">
 			<div class="our-services-heading">
-				<h2 class="welcome-heading">Our services</h2>
-				<p>There are many variations of passages of Lorem Ipsum typesetting industry has been the industry's
-					standard dummy text ever since the been when an unknown printer.</p>
+				<h2 class="welcome-heading" data-aos="fade-right">Our services</h2>
+				<p data-aos="fade-left">There are some several benefits you’ll get if you prefer selecting the best taxi
+					services. Our business strives to provide customers with exceptional quality driver services, timely
+					transportation, superior service, and guaranteed satisfaction</p>
 			</div>
 			<div class="underline-flames">
 				<span class="outer-line"></span>
@@ -211,68 +211,74 @@
 			<div class="service-intro">
 				<div class="row">
 					<div class="col-md-6 col-sm-12 col-lg-4	">
-						<div class="service-img-intro-container services1">
-							<img class="img-fluid service-img" src="assets/img/g1.jpg">
+						<div class="service-img-intro-container services1" data-aos="fade-right">
+							<img alt="airplane" class="img-fluid service-img" src="assets/img/g1.jpg">
 							<div class="service-img-intro">
-								<h4>Engineering Chemistry</h4>
-								<p>Lorem ipsum dolor sit adipiscing elit sed diam nonummy nibh euismod</p>
+								<h4>Airdrie Flames Cabs</h4>
+								<p>Airdrie Flames taxi is wonderful in comparison to other air terminal taxi suppliers
+									in Alberta.. </p>
 								<a href="#">Read More</a>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-12 col-lg-4	">
-						<div class="service-img-intro-container services1">
-							<img class="img-fluid service-img" src="assets/img/cab1.jpg">
+						<div class="service-img-intro-container services1" data-aos="fade-down" data-aos-offset="0">
+							<img alt="yellow car" class="img-fluid service-img" src="assets/img/cab1.jpg">
 							<div class="service-img-intro">
-								<h4>Engineering Chemistry</h4>
-								<p>Lorem ipsum dolor sit adipiscing elit sed diam nonummy nibh euismod</p>
+								<h4>Airdrie Transportation</h4>
+								<p>Airdire Flames taxi is one of the best airport taxi providers in Alberta who
+									currently ..</p>
 								<a href="#">Read More</a>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-12 col-lg-4	">
-						<div class="service-img-intro-container services2">
-							<img class="img-fluid service-img" src="assets/img/g3.jpg">
+						<div class="service-img-intro-container services2" data-aos="fade-left">
+							<img alt="raxi sign" class="img-fluid service-img" src="assets/img/slider/taxi4.jpg">
 							<div class="service-img-intro">
-								<h4>Engineering Chemistry</h4>
-								<p>Lorem ipsum dolor sit adipiscing elit sed diam nonummy nibh euismod</p>
+								<h4>Choose the BEST Cabs</h4>
+								<p>There are some several benefits you’ll get if you prefer selecting the best taxi
+									services..</p>
 								<a href="#">Read More</a>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-12 col-lg-4	">
-						<div class="service-img-intro-container services2">
-							<img class="img-fluid service-img" src="assets/img/about.jpg">
+						<div class="service-img-intro-container services2" data-aos="fade-right">
+							<img alt="girl with car" class="img-fluid service-img" src="assets/img/about.jpg">
 							<div class="service-img-intro">
-								<h4>Engineering Chemistry</h4>
-								<p>Lorem ipsum dolor sit adipiscing elit sed diam nonummy nibh euismod</p>
+								<h4>Deal with YOUR Cabs</h4>
+								<p>Get to understand your taxi driver before getting into the cab: Usually, your
+									driver..</p>
 								<a href="#">Read More</a>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-12 col-lg-4	">
-						<div class="service-img-intro-container services2">
-							<img class="img-fluid service-img" src="assets/img/g2.jpg">
+						<div class="service-img-intro-container services2" data-aos="fade-up" data-aos-offset="200">
+							<img alt="city" class="img-fluid service-img" src="assets/img/g2.jpg">
 							<div class="service-img-intro">
-								<h4>Engineering Chemistry</h4>
-								<p>Lorem ipsum dolor sit adipiscing elit sed diam nonummy nibh euismod</p>
+								<h4>Quick Response Time</h4>
+								<p>Taxis aim to reach passengers promptly, reducing wait times and providing efficient
+									transportation..</p>
 								<a href="#">Read More</a>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-12 col-lg-4	">
-						<div class="service-img-intro-container services2">
-							<img class="img-fluid service-img" src="assets/img/hand-shake.jpg">
+						<div class="service-img-intro-container services2" data-aos="fade-left">
+							<img alt="handshake" class="img-fluid service-img" src="assets/img/hand-shake.jpg">
 							<div class="service-img-intro">
-								<h4>Engineering Chemistry</h4>
-								<p>Lorem ipsum dolor sit adipiscing elit sed diam nonummy nibh euismod</p>
+								<h4>24/7 Availability</h4>
+								<p>Taxis operate round the clock, providing transportation options at any time,
+									including late nights.. </p>
 								<a href="#">Read More</a>
 							</div>
 						</div>
 					</div>
 				</div>
 				<div class="services-respo text-center">
-					<button class="serives-respo-btn">
+					<button title="view more" class="serives-respo-btn">
 						<a href="#">View More <i class="fa fa-arrow-right"></i></a>
 					</button>
 				</div>
@@ -280,18 +286,20 @@
 		</div>
 
 	</section>
-	<!-- ------------------------------------our services parts starts--------------------------------------- -->
+	<!-- -----our services parts starts------- -->
 
-	<!------------------------------------------------booking html starts---------------------------------- -->
+	<!--------------booking html starts-------- -->
 	<section class="booked">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8">
 					<div class="booked-content">
-						<h3 class="welcome-heading">Call Us Now <span>Book Your Cab </span>For Your Next Ride!</h3>
-						<p>We successfully cope with tasks of varying complexity, guarantees and regularly master new
+						<h3 class="welcome-heading" data-aos="fade-down">Call Us Now <span>Book Your Cab </span>For Your
+							Next Ride!</h3>
+						<p data-aos="fade-right">We successfully cope with tasks of varying complexity, guarantees and
+							regularly master new
 							technologies.</p>
-						<div class="cta-call">
+						<div class="cta-call" data-aos="fade-up">
 							<i class="fa-solid fa-phone-volume"></i>
 							<p><span>Call Us Now</span><a
 									href="tel:403-948-2002/403-809-5353">403-948-2002<br>403-809-5353</a></p>
@@ -300,22 +308,23 @@
 				</div>
 				<div class="col-md-4">
 					<div class="booked-img">
-						<!-- <img src="assets/img/cta-men.png"> -->
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<!------------------------------------------------booking html ends---------------------------------- -->
+	<!---------booking html ends-------- -->
 
-	<!-- ------------------------------Our fleets start ----------------------------->
+	<!-- -------------Our fleets start ------------>
 	<section class="our-fleets">
 		<div class="container">
 			<div class="fleets-wrap">
 				<div class="our-fleets-heading">
-					<h3 class="welcome-heading">Our <span>Fleets</span></h3>
-					<p>There are many variations of passages of Lorem Ipsum typesetting industry has been the industry's
-						standard dummy text ever since the been when an unknown printer.</p>
+					<h3 class="welcome-heading" data-aos="fade-right">Our <span>Fleets</span></h3>
+					<p data-aos="fade-left">These fleets are common in urban areas and city areas which provide
+						organized and systematic taxi services to the public. This are essential for providing
+						convenient and accessible transportation services in the environments, offering people a
+						reliable and efficient means of getting around the city.</p>
 				</div>
 				<div class="underline-flames">
 					<span class="outer-line"></span>
@@ -326,32 +335,34 @@
 					<div class="row">
 						<div class="col-lg-4 col-sm-12 col-md-6 p-3">
 							<a href="assets/img/g1.jpg" class="image-link-js">
-								<img class="fleets1" src="assets/img/g1.jpg">
-							</a>
+								<img alt="airplane" class="fleets1" src="assets/img/g1.jpg" data-aos="fade-right">
+							</a> 
 						</div>
 						<div class="col-lg-4 col-sm-12 col-md-6 p-3">
 							<a href="assets/img/cab1.jpg" class="image-link-js">
-								<img class="fleets1" src="assets/img/cab1.jpg">
+								<img alt="yellow taxi" class="fleets1" src="assets/img/cab1.jpg" data-aos="fade-down">
 							</a>
 						</div>
 						<div class="col-lg-4 col-sm-12 col-md-6 p-3">
 							<a href="assets/img/g3.jpg" class="image-link-js">
-								<img class="fleets2" src="assets/img/g3.jpg">
+								<img alt="taxi sign" class="fleets2" src="assets/img/g3.jpg" data-aos="fade-left">
 							</a>
 						</div>
 						<div class="col-lg-4 col-sm-12 col-md-6 p-3">
 							<a href="assets/img/about.jpg" class="image-link-js">
-								<img class="fleets2" src="assets/img/about.jpg">
+								<img alt="girl with car" class="fleets2" src="assets/img/about.jpg"
+									data-aos="fade-right">
 							</a>
 						</div>
 						<div class="col-lg-4 col-sm-12 col-md-6 p-3">
 							<a href="assets/img/g2.jpg" class="image-link-js">
-								<img class="fleets2" src="assets/img/g2.jpg">
+								<img alt="city" class="fleets2" src="assets/img/g2.jpg" data-aos="fade-up">
 							</a>
 						</div>
 						<div class="col-lg-4 col-sm-12 col-md-6 p-3">
 							<a href="assets/img/hand-shake.jpg" class="image-link-js">
-								<img class="fleets2" src="assets/img/hand-shake.jpg">
+								<img alt="hanf hand-shake" class="fleets2" src="assets/img/hand-shake.jpg"
+									data-aos="fade-left">
 							</a>
 						</div>
 					</div>
@@ -359,12 +370,12 @@
 			</div>
 		</div>
 		<div class="fleets-respo">
-			<button class="fleets-respo-btn">
+			<button title="view more" class="fleets-respo-btn">
 				<a href="#">View More <i class="fa fa-arrow-right"></i></a>
 			</button>
 		</div>
 	</section>
-	<!-- ------------------------------Our fleets start ----------------------------->
+	<!-- ----------------Our fleets ends --------------------->
 
 	<!-- --------------------testimonials starts--------------------- -->
 	<section class="testimonial-sec testimonial-center sec-bg sec-main bg-sec"
