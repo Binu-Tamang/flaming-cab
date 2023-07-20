@@ -339,8 +339,8 @@ section.banner-slider a {
 @media (max-width: 62em) {
   .banner-slider-text {
     position: absolute;
-    top: 2rem;
-    left: 4rem;
+    top: 3rem;
+    left: 5rem;
     height: 280px;
   }
   .banner-slider-text h2 {
@@ -361,7 +361,7 @@ section.banner-slider a {
   }
   .banner-slider-button button {
     padding: 5px;
-    /* width: 34%; */
+    width: 34%;
     border: 2px solid #ffb400;
     background: #ffb400;
     border-radius: 11px;
@@ -383,7 +383,7 @@ section.banner-slider a {
 @media (max-width: 35em) {
   .banner-slider-text {
     position: absolute;
-    top: 3rem;
+    top: 2rem;
     left: 4rem;
   }
   .banner-slider-button i {
@@ -639,6 +639,17 @@ button.nav-link {
   }
   .welcome-part-button {
     text-align: center;
+    padding-top: 30px;
+  }
+}
+@media (max-width: 35em) {
+  .welcome-part-button {
+    text-align: center;
+    padding-top: 30px;
+  }
+  .welcome-heading {
+    font-size: 40px;
+    padding: 6px;
   }
 }
 /*-------------welcome part css ends----------------*/
