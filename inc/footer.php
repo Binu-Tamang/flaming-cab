@@ -31,7 +31,7 @@
 			<!-- ===============footer middle part start================ -->
 			<div class="footer-middle">
 				<div class="row">
-					<div class="col-md-4 col-lg-4 12">
+					<div class="col-md-6 col-lg-4 col-12">
 						<div class="footer-boxes fbox-1">
 							<div class="footer-logo">
 								<img src="assets/img/logo.png">
@@ -49,28 +49,25 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4 col-lg-4 12">
+					<div class="col-md-6 col-lg-4 col-12">
 						<div class="footer-boxes fbox-2">
 							<h3>Quick Menu</h3>
 							<div class="row">
-								<div class="col-md-6">
-									<ul>
+								<div class="col-md-12">
+									<ul class="list-content list-x2">
 										<li><a href="#">HOME</a></li>
 										<li><a href="#">ABOUT US</a></li>
 										<li><a href="#">SERVICE</a></li>
-									</ul>
-								</div>
-								<div class="col-md-6">
-									<ul>
 										<li><a href="#">FLEET</a></li>
 										<li><a href="#">BLOG</a></li>
 										<li><a href="#">CONTACT</a></li>
 									</ul>
 								</div>
+								
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4 col-lg-4 12">
+					<div class="col-md-6 col-lg-4 col-12">
 						<div class="footer-boxes fbox-3">
 							<h3>Contact Us</h3>
 							<div class="footer-contact-ul">
@@ -87,6 +84,13 @@
 			</div>
 		</div>
 		<!-- =======================footer middle part ends -->
+		<!-- =====scroll up button======== -->
+		<div class="back-to-top visible" id="go-to-top">
+			<a href="#top">
+			<i class="fa-solid fa-chevron-up"></i>
+			</a>
+		</div>
+		<!-- =====scroll up button======== -->
 	</section>
 	<div class="footer-2">
 		<div class="container">

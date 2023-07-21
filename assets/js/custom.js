@@ -45,3 +45,21 @@ AOS.init({
   duration: 1200,
   once: 'true',
 })
+
+window.addEventListener('DOMContentLoaded',function(){
+  console.log('1');
+  document.addEventListener("scroll", (event) => {
+  console.log('2');
+
+    let lastKnownScrollPosition = window.scrollY;
+    const scroll_button= document.querySelector('#go-to-top');
+
+    if (lastKnownScrollPosition < '200') {
+        scroll_button.classList.remove('show');
+    }else{
+      scroll_button.classList.add('show');
+
+    }
+  });
+});
+

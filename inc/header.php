@@ -1,5 +1,5 @@
 <!---------------------- top header start -------------------->
-<section class="top-header">
+<section id="top" class="top-header">
 	<div class="container">
 
 		<div class="row">

@@ -43,8 +43,8 @@
 					<img alt="flames-car" src="assets/img/slider/3.jpg">
 					<div class="container">
 						<div class="banner-slider-text">
-							<h2 class="banner-text" data-aos="fade-up">HELLO</h2>
-							<h3 data-aos="fade-up" data-aos-delay="500">We are <span>FLAMES CAB</span></h3>
+							<!-- <h2 class="banner-text" data-aos="fade-up">HELLO</h2> -->
+							<h3 data-aos="fade-up" data-aos-delay="500">We Are <span>Flames Cab</span></h3>
 							<p data-aos="fade-up" data-aos-delay="1000">Flames Cab in Airdrie offers professional<br>
 								and reliable taxi service that get you
 								where you have to go, on time.</p>
@@ -58,7 +58,7 @@
 					<img alt="flames-cab" src="assets/img/slider/2.jpg">
 					<div class="container">
 						<div class="banner-slider-text">
-							<h3>Do you want to<span> BOOK A CAB</span></h3>
+							<h3>Do You Want To<span> Book A Cab</span></h3>
 							<p>Flames Cab in Airdrie offers professional<br> and reliable taxi service that get you
 								where you have to go, on time.</p>
 							<div class="banner-slider-button">
@@ -71,7 +71,7 @@
 					<img alt="flames-taxi" src="assets/img/slider/1.jpg">
 					<div class="container">
 						<div class="banner-slider-text">
-							<h3>We are here to<span> HELP YOU</span></h3>
+							<h3>We Are Here To<span> Help You</span></h3>
 							<p>Flames Cab in Airdrie offers professional<br> and reliable taxi service that get you
 								where you have to go, on time.</p>
 							<div class="banner-slider-button">
@@ -84,7 +84,7 @@
 					<img alt="flames-car" src="assets/img/slider/3.jpg">
 					<div class="container">
 						<div class="banner-slider-text">
-							<h3>Do you want to<span> BOOK A CAB</span></h3>
+							<h3>Do You Want To<span> Book A Cab</span></h3>
 							<p>Flames Cab in Airdrie offers professional<br> and reliable taxi service that get you
 								where you have to go, on time.</p>
 							<div class="banner-slider-button">
@@ -216,7 +216,9 @@
 							<div class="service-img-intro">
 								<h4>Airdrie Flames Cabs</h4>
 								<p>Airdrie Flames taxi is wonderful in comparison to other air terminal taxi suppliers
-									in Alberta.. </p>
+									in Alberta who as of now works certainly one of the biggest taxis among those
+									regions. We are the town’s high-quality selection for any transportation
+									preparations. </p>
 								<a href="#">Read More</a>
 							</div>
 						</div>
@@ -226,8 +228,11 @@
 							<img alt="yellow car" class="img-fluid service-img" src="assets/img/cab1.jpg">
 							<div class="service-img-intro">
 								<h4>Airdrie Transportation</h4>
-								<p>Airdire Flames taxi is one of the best airport taxi providers in Alberta who
-									currently ..</p>
+								<p>Airdire Flames Cabs is one of the best airport taxi providers in Alberta who
+									currently operates one of the largest taxi cabs among those areas. We are the city’s
+									top choice for any transportation solutions. Airdrie flames Taxi Ltd. offers
+									efficient and reliable taxi service in Airdrie and Cochrane to meet the
+									transportation needs of residents, visitors and our corporate clients. </p>
 								<a href="#">Read More</a>
 							</div>
 						</div>
@@ -236,9 +241,15 @@
 						<div class="service-img-intro-container services2" data-aos="fade-left">
 							<img alt="raxi sign" class="img-fluid service-img" src="assets/img/slider/taxi4.jpg">
 							<div class="service-img-intro">
-								<h4>Choose the BEST Cabs</h4>
+								<h4>Choose The Best Cabs</h4>
 								<p>There are some several benefits you’ll get if you prefer selecting the best taxi
-									services..</p>
+									services. However, choosing the best taxi services can be a daunting task since
+									several companies claim to offer the best services. Therefore, take your time,
+									analysis and know the best tips which will assist you to find the best taxi services
+									however still many people find it annoying to book a cab online. it’s essential to
+									know that you will find the best taxi services regardless of wherever you live. the
+									following are some of the best components you’re needed to consider before you make
+									your final choice.</p>
 								<a href="#">Read More</a>
 							</div>
 						</div>
@@ -247,9 +258,11 @@
 						<div class="service-img-intro-container services2" data-aos="fade-right">
 							<img alt="girl with car" class="img-fluid service-img" src="assets/img/about.jpg">
 							<div class="service-img-intro">
-								<h4>Deal with YOUR Cabs</h4>
-								<p>Get to understand your taxi driver before getting into the cab: Usually, your
-									driver..</p>
+								<h4>Deal With Your Cabs</h4>
+								<p>Get to understand your taxi driver before getting into the cab: Usually, your driver
+									can assist you with your luggage, thus this can be the opportune time to say hi.
+									remember that the two (or more) of you may be sharing the car for a few distances.
+								</p>
 								<a href="#">Read More</a>
 							</div>
 						</div>
@@ -260,7 +273,7 @@
 							<div class="service-img-intro">
 								<h4>Quick Response Time</h4>
 								<p>Taxis aim to reach passengers promptly, reducing wait times and providing efficient
-									transportation..</p>
+									transportation. We often provide airport transportation services. </p>
 								<a href="#">Read More</a>
 							</div>
 						</div>
@@ -270,8 +283,8 @@
 							<img alt="handshake" class="img-fluid service-img" src="assets/img/hand-shake.jpg">
 							<div class="service-img-intro">
 								<h4>24/7 Availability</h4>
-								<p>Taxis operate round the clock, providing transportation options at any time,
-									including late nights.. </p>
+								<p>Many taxi and cab services operate 24/7, offering round-the-clock transportation
+									options for passengers, including late-night or early-morning rides.</p>
 								<a href="#">Read More</a>
 							</div>
 						</div>
@@ -301,8 +314,8 @@
 							technologies.</p>
 						<div class="cta-call" data-aos="fade-up">
 							<i class="fa-solid fa-phone-volume"></i>
-							<p><span>Call Us Now</span><a
-									href="tel:403-948-2002/403-809-5353">403-948-2002<br>403-809-5353</a></p>
+							<p><span>Call Us Now</span><a href="tel:403-948-2002/403-809-5353">403-948-2002<br></a><a
+									href="tel:403-948-2002/403-809-5353">403-809-5353</a></p>
 						</div>
 					</div>
 				</div>
@@ -336,7 +349,7 @@
 						<div class="col-lg-4 col-sm-12 col-md-6 p-3">
 							<a href="assets/img/g1.jpg" class="image-link-js">
 								<img alt="airplane" class="fleets1" src="assets/img/g1.jpg" data-aos="fade-right">
-							</a> 
+							</a>
 						</div>
 						<div class="col-lg-4 col-sm-12 col-md-6 p-3">
 							<a href="assets/img/cab1.jpg" class="image-link-js">
@@ -368,11 +381,11 @@
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="fleets-respo">
-			<button title="view more" class="fleets-respo-btn">
-				<a href="#">View More <i class="fa fa-arrow-right"></i></a>
-			</button>
+			<div class="fleets-respo" data-aos="fade-up">
+				<button title="view more" class="fleets-respo-btn">
+					<a href="#">View More <i class="fa fa-arrow-right"></i></a>
+				</button>
+			</div>
 		</div>
 	</section>
 	<!-- ----------------Our fleets ends --------------------->
@@ -414,10 +427,11 @@
 					</div>
 				</div>
 			</div>
-
 		</div>
 	</section>
 	<!-- --------------------testimols ends--------------------- -->
+
+
 	<!-- ---------------------------footer starts--------------------- -->
 	<?php
 	include('inc/footer.php');

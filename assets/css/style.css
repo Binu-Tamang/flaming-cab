@@ -1,6 +1,8 @@
 * {
   margin: 0px;
   padding: 0px;
+  font-family: 'Roboto', sans-serif;
+
 }
 html {
   overflow-x: hidden;
@@ -145,11 +147,11 @@ section.second-top-header {
     position: absolute;
     top: 16px;
   }
-
   .second-top-header-menubar {
     /* display: none; */
+    padding: 100px 0;
     width: 100%;
-    height: 75vh;
+    /* height: 75vh; */
     background: #191f23;
     position: absolute;
     top: 0;
@@ -177,7 +179,7 @@ section.second-top-header {
   }
 
   .second-top-header-menubar ul li {
-    border-bottom: 2px solid #666;
+    border-bottom: 2px solid #424242;
     padding: 12px;
     width: 100%;
   }
@@ -300,11 +302,13 @@ section.banner-slider a {
 .banner-slider-text p {
   font-size: 1.4rem;
   color: #fff;
+  text-align: justify;
 }
 /* ========banner slider content with button================ */
 .banner-slider-button button {
-  padding: 6px;
-  width: 25%;
+  padding: 6px 20px;
+  text-align: center;
+  /* width: 25%; */
   border: 2px solid #ffb400;
   background: #ffb400;
   border-radius: 11px;
@@ -332,7 +336,7 @@ section.banner-slider a {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: hwb(0 0% 100% / 0.4);
 }
 /* ================banner slider bg color=================== */
 /* ============responsive banner slider======= */
@@ -360,8 +364,8 @@ section.banner-slider a {
     color: #fff;
   }
   .banner-slider-button button {
-    padding: 5px;
-    width: 34%;
+    padding: 5px 10px;
+    /* width: 34%; */
     border: 2px solid #ffb400;
     background: #ffb400;
     border-radius: 11px;
@@ -409,8 +413,8 @@ section.banner-slider a {
     display: none;
   }
   .banner-slider-button button {
-    padding: 2px;
-    width: 35%;
+    padding: 2px 10px;
+    /* width: 35%; */
     border: 2px solid #ffb400;
     background: #ffb400;
     border-radius: 10px;
@@ -429,7 +433,7 @@ section.welcome-part {
   margin: 15px 0 0px;
   font-weight: 400;
   color: gray;
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 .welcome-part-heading .welcome-heading {
   font-size: 48px;
@@ -443,7 +447,7 @@ section.welcome-part {
 }
 .welcome-part-heading .heading {
   margin: 0 0 1rem 0;
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 .underline-flames {
   text-align: center;
@@ -471,7 +475,7 @@ span.outer-line {
 .welcome-part-box-right h2 {
   text-align: end;
   text-transform: uppercase;
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   border-bottom: 1px solid #ffb4007d;
   padding-bottom: 20px;
 }
@@ -479,31 +483,31 @@ span.outer-line {
   color: #ffb400;
 }
 .welcome-part-box-right p {
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.8;
   font-weight: 400;
   margin-bottom: 15px;
   margin-top: 0px;
-  color: #666;
+  color: #424242;
 }
 div#pills-home {
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.8;
   font-weight: 400;
   margin-bottom: 15px;
   margin-top: 0px;
-  color: #666;
+  color: #424242;
 }
 div#pills-tabContent {
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.8;
   font-weight: 400;
   margin-bottom: 15px;
   margin-top: 0px;
-  color: #666;
+  color: #424242;
 }
 button.nav-link {
   text-transform: uppercase;
@@ -528,15 +532,16 @@ button.nav-link {
   color: #ffb400;
 }
 .welcome-part-button {
-  text-align: end;
+  text-align: start;
   position: relative;
 }
 .welcome-part-button i {
   margin: 8px;
 }
 .welcome-part-button button {
-  padding: 6px;
+  padding: 6px 20px;
   border: 2px solid #ffb400;
+  text-align: center;
   background: #ffb400;
   border-radius: 34px;
 }
@@ -588,7 +593,7 @@ button.nav-link {
   margin: 15px 0 0px;
   font-weight: 400;
   color: gray;
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 .capitalize-text {
   text-transform: uppercase;
@@ -673,7 +678,7 @@ section.main-our-services {
   margin: 0;
   padding-top: 10px;
   font-size: 16px;
-  color: #848484;
+  color: #424242;
   padding: 0 100px;
 }
 img.img-fluid.service-img {
@@ -690,6 +695,14 @@ img.img-fluid.service-img {
   right: 18px;
   box-shadow: 5px 3px 6px -3px;
 }
+.service-img-intro:hover {
+  background: #fbb400;
+  color: #000;
+  transition: 0.3s ease;
+}
+.service-img-intro:hover a {
+  color: #000;
+}
 .service-img-intro h4 {
   font-size: 20px;
   line-height: 24px;
@@ -698,20 +711,19 @@ img.img-fluid.service-img {
 }
 .service-img-intro p {
   line-height: 26px;
-}
-.service-img-intro h4:hover {
-  color: #fbb400;
-  transition: 0.2s ease;
+  color: #424242;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .service-img-intro a {
   text-decoration: none;
   color: #fbb400;
   font-weight: 700;
 }
-.service-img-intro a:hover {
-  text-decoration: underline;
-  color: #fbb400c2;
-}
+
 .service-img-intro-container {
   position: relative;
   height: 376px;
@@ -765,8 +777,8 @@ button.serives-respo-btn a {
     display: none;
   }
   .our-services-heading p {
-    padding: 0;
-    text-align: justify;
+    padding: 20px 0 0 0;
+    text-align: center;
   }
 }
 /*-------------------our services css ends----------------------*/
@@ -862,7 +874,16 @@ i.bi.bi-phone-vibrate:before {
     line-height: 30px;
     color: #fff;
   }
+  .cta-call p a {
+    font-size: 25px;
+  }
 }
+@media (max-width: 35em) {
+  .cta-call p a {
+    font-size: 20px;
+  }
+}
+
 /*----------------------booked css ends ---------------------*/
 
 /* ----------------our fleets css start----------------- */
@@ -881,7 +902,7 @@ i.bi.bi-phone-vibrate:before {
   margin: 0;
   padding-top: 10px;
   font-size: 16px;
-  color: #848484;
+  color: #424242;
   padding: 0 100px;
 }
 section.our-fleets {
@@ -894,12 +915,35 @@ section.our-fleets {
   padding: 8px;
 }
 .our-fleets-img img:hover {
-  transform: translateY(-10px)!important;
-  box-shadow: 4px 4px 14px 11px rgba(0,0,0,.05);
+  transform: translateY(-10px) !important;
+  box-shadow: 4px 4px 14px 11px rgba(0, 0, 0, 0.05);
   transition: cubic-bezier(0.075, 0.4, 0.165, 0.5);
 }
 .fleets-respo {
-  display: none;
+  /* display: none; */
+  text-align: center;
+  padding: 10px;
+}
+.fleets-respo button {
+  padding: 6px 20px;
+    border: 2px solid #ffb400;
+    text-align: center;
+    background: #ffb400;
+    border-radius: 34px;
+}
+.fleets-respo-btn a {
+  color: #000;
+  text-decoration: none;
+  padding: 6px;
+  font-weight: 600;
+}
+.fleets-respo button:hover {
+  background: transparent;
+  border: 2px solid;
+  transition: 0.3s ease;
+}
+.fleets-respo-btn a:hover {
+  color: #000;
 }
 /* =================responsive of fleets part starts============ */
 @media (max-width: 62em) {
@@ -922,17 +966,19 @@ section.our-fleets {
     border: 2px solid;
     transition: 0.3s ease;
   }
-
   .fleets-respo-btn a:hover {
     color: #000;
   }
   .fleets-respo {
     text-align: center;
     border: none;
-    margin-top: -100px;
   }
   .fleets2 {
     display: none;
+  }
+  .our-fleets-heading p{
+    padding: 20px 0 0 0;
+    text-align: center;
   }
 }
 @media (max-width: 35em) {
@@ -952,7 +998,7 @@ section.our-fleets {
   margin: 15px 0 0px;
   font-weight: 400;
   color: gray;
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 /* testimonial sec sec*/
 .testimonial-sec {
@@ -1084,7 +1130,99 @@ span.review-author {
 .pageheader-wrapper .breadcrumb-item + .breadcrumb-item::before {
   color: #ffffff;
 }
-/*-----------------------------testimonals css ends-------------------------------------s  */
+/*-----------------------------testimonals css ends------------------------------  */
+/* ========scroll up btn==== */
+.back-to-top i {
+  padding: 22px 0;
+  color: #000;
+}
+.back-to-top {
+  position: fixed;
+  bottom: -50px;
+  opacity: 0;
+  visibility: hidden;
+  right: -100px;
+  z-index: 1000;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+}
+.back-to-top.visible {
+  opacity: 1;
+  visibility: visible;
+  bottom: 27px;
+}
+.back-to-top a {
+  position: relative;
+  top: 0;
+  display: block;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: #fbb400;
+  font-size: 24px;
+  line-height: 64px;
+  text-align: center;
+  text-decoration: none !important;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+.back-to-top:hover a {
+  top: -10px;
+  opacity: .8;
+}
+/* =====responsive of scroll up==== */
+@media (max-width: 991px) {
+  .back-to-top.visible {
+      bottom: 23px;
+  }
+  .back-to-top i {
+    padding: 12px 0;
+    color: #000;
+  }
+}
+@media (max-width: 767px) {
+  .back-to-top.visible {
+      bottom: 42px;
+  }
+  .back-to-top i {
+    padding: 12px 0;
+    color: #000;
+  }
+}
+@media (max-width: 1199px) {
+  .back-to-top {
+      right: 15px;
+  }
+  .back-to-top i {
+    padding: 12px 0;
+    color: #000;
+  }
+}
+@media (max-width: 991px) {
+  .back-to-top {
+      right: 15px;
+  }
+  .back-to-top i {
+    padding: 12px 0;
+    color: #000;
+  }
+}
+@media (max-width: 575px) {
+  .back-to-top a {
+      width: 45px;
+      height: 45px;
+      line-height: 48px;
+      font-size: 21px;
+  }
+  .back-to-top i {
+    padding: 12px 0;
+    color: #000;
+  }
+}
 /*--------------------------------footer css start---------------------------------------*/
 footer.main-footer {
   margin-top: 60px;
@@ -1327,4 +1465,19 @@ section.main-why-choose-us {
   right: 80px;
   left: 80px;
   z-index: 9999;
+}
+.list-x2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+.list-x2 li {
+  width: 50%;
+  padding-right: 1rem;
+}
+.show {
+  right: 15px!important;
 }
