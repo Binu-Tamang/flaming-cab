@@ -45,7 +45,8 @@
 						<div class="banner-slider-text">
 							<!-- <h2 class="banner-text" data-aos="fade-up">HELLO</h2> -->
 							<h3 data-aos="fade-up" data-aos-delay="500">We Are <span>Flames Cab</span></h3>
-							<p data-aos="fade-up" data-aos-delay="1000">Flames Cab in Airdrie offers professional<br>
+							<p class="all-p" data-aos="fade-up" data-aos-delay="1000">Flames Cab in Airdrie offers
+								professional<br>
 								and reliable taxi service that get you
 								where you have to go, on time.</p>
 							<div class="banner-slider-button" data-aos="fade-up" data-aos-delay="1500">
@@ -59,7 +60,8 @@
 					<div class="container">
 						<div class="banner-slider-text">
 							<h3>Do You Want To<span> Book A Cab</span></h3>
-							<p>Flames Cab in Airdrie offers professional<br> and reliable taxi service that get you
+							<p class="all-p">Flames Cab in Airdrie offers professional<br> and reliable taxi service
+								that get you
 								where you have to go, on time.</p>
 							<div class="banner-slider-button">
 								<button title="learn more"><i class="fa-solid fa-gears"></i> Learn More</button>
@@ -72,7 +74,8 @@
 					<div class="container">
 						<div class="banner-slider-text">
 							<h3>We Are Here To<span> Help You</span></h3>
-							<p>Flames Cab in Airdrie offers professional<br> and reliable taxi service that get you
+							<p class="all-p">Flames Cab in Airdrie offers professional<br> and reliable taxi service
+								that get you
 								where you have to go, on time.</p>
 							<div class="banner-slider-button">
 								<button title="learn more"><i class="fa-solid fa-gears"></i> Learn More</button>
@@ -85,7 +88,8 @@
 					<div class="container">
 						<div class="banner-slider-text">
 							<h3>Do You Want To<span> Book A Cab</span></h3>
-							<p>Flames Cab in Airdrie offers professional<br> and reliable taxi service that get you
+							<p class="all-p">Flames Cab in Airdrie offers professional<br> and reliable taxi service
+								that get you
 								where you have to go, on time.</p>
 							<div class="banner-slider-button">
 								<button title="learn more"><i class="fa-solid fa-gears"></i> Learn More</button>
@@ -118,7 +122,7 @@
 			<div class="container">
 				<div class="welcome-header">
 					<div class="text-center capitalize-text" data-aos="fade-down">
-						<p>welcome to</p>
+						<p class="all-p">welcome to</p>
 						<h1 class="welcome-heading">flames cab</h1>
 					</div>
 					<div class="underline-flames">
@@ -138,7 +142,8 @@
 					<div class="col-lg-6  mt-lg-0 mt-5">
 						<div class="welcome-part-box-right">
 							<h2 data-aos="fade-left">we are <span>flames cab</span></h2>
-							<p data-aos="fade-left">Flames Cab Taxi in Flames Cab, Airdrie offers professional and
+							<p class="all-p" data-aos="fade-left">Flames Cab Taxi in Flames Cab, Airdrie offers
+								professional and
 								reliable taxi services that get you where you have to go, on time. Our professional team
 								of drivers is trustworthy and knowledgeable about our roads and streets.</p>
 							<div class="flames-content-nav-tab" data-aos="fade-up">
@@ -199,7 +204,8 @@
 		<div class="container">
 			<div class="our-services-heading">
 				<h2 class="welcome-heading" data-aos="fade-right">Our services</h2>
-				<p data-aos="fade-left">There are some several benefits you’ll get if you prefer selecting the best taxi
+				<p class="all-p" data-aos="fade-left">There are some several benefits you’ll get if you prefer selecting
+					the best taxi
 					services. Our business strives to provide customers with exceptional quality driver services, timely
 					transportation, superior service, and guaranteed satisfaction</p>
 			</div>
@@ -211,12 +217,17 @@
 			<div class="service-intro">
 				<div class="row">
 					<div class="col-md-6 col-sm-12 col-lg-4	">
-						<div class="service-img-intro-container services1" data-aos="fade-right">
-							<img alt="airplane" class="img-fluid service-img" src="assets/img/g1.jpg">
+						 <div class="service-img-intro-container services1" data-aos="fade-right">
+							<div class="figure">
+								<img alt="airplane" class="img-fluid service-img" src="assets/img/g1.jpg">
+							</div>
 							<div class="service-img-intro">
 								<h4>Airdrie Flames Cabs</h4>
-								<p>Airdrie Flames taxi is wonderful in comparison to other air terminal taxi suppliers
-									in Alberta who as of now works certainly one of the biggest taxis among those
+								<p class="all-p">Airdrie Flames taxi is wonderful in comparison to other air
+									terminal
+									taxi suppliers
+									in Alberta who as of now works certainly one of the biggest taxis among
+									those
 									regions. We are the town’s high-quality selection for any transportation
 									preparations. </p>
 								<a href="#">Read More</a>
@@ -224,11 +235,15 @@
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-12 col-lg-4	">
-						<div class="service-img-intro-container services1" data-aos="fade-down" data-aos-offset="0">
-							<img alt="yellow car" class="img-fluid service-img" src="assets/img/cab1.jpg">
+						 <div class="service-img-intro-container services1" data-aos="fade-down"
+							data-aos-offset="0">
+							<div class="figure">
+								<img alt="yellow car" class="img-fluid service-img" src="assets/img/cab1.jpg">
+							</div>
 							<div class="service-img-intro">
 								<h4>Airdrie Transportation</h4>
-								<p>Airdire Flames Cabs is one of the best airport taxi providers in Alberta who
+								<p class="all-p">Airdire Flames Cabs is one of the best airport taxi providers in
+									Alberta who
 									currently operates one of the largest taxi cabs among those areas. We are the city’s
 									top choice for any transportation solutions. Airdrie flames Taxi Ltd. offers
 									efficient and reliable taxi service in Airdrie and Cochrane to meet the
@@ -238,11 +253,14 @@
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-12 col-lg-4	">
-						<div class="service-img-intro-container services2" data-aos="fade-left">
-							<img alt="raxi sign" class="img-fluid service-img" src="assets/img/slider/taxi4.jpg">
+						 <div class="service-img-intro-container services2" data-aos="fade-left">
+							<div class="figure">
+								<img alt="raxi sign" class="img-fluid service-img" src="assets/img/slider/taxi4.jpg">
+							</div>
 							<div class="service-img-intro">
 								<h4>Choose The Best Cabs</h4>
-								<p>There are some several benefits you’ll get if you prefer selecting the best taxi
+								<p class="all-p">There are some several benefits you’ll get if you prefer selecting the
+									best taxi
 									services. However, choosing the best taxi services can be a daunting task since
 									several companies claim to offer the best services. Therefore, take your time,
 									analysis and know the best tips which will assist you to find the best taxi services
@@ -255,11 +273,14 @@
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-12 col-lg-4	">
-						<div class="service-img-intro-container services2" data-aos="fade-right">
-							<img alt="girl with car" class="img-fluid service-img" src="assets/img/about.jpg">
+						 <div class="service-img-intro-container services2" data-aos="fade-right">
+							<div class="figure">
+								<img alt="girl with car" class="img-fluid service-img" src="assets/img/about.jpg">
+							</div>
 							<div class="service-img-intro">
 								<h4>Deal With Your Cabs</h4>
-								<p>Get to understand your taxi driver before getting into the cab: Usually, your driver
+								<p class="all-p">Get to understand your taxi driver before getting into the cab:
+									Usually, your driver
 									can assist you with your luggage, thus this can be the opportune time to say hi.
 									remember that the two (or more) of you may be sharing the car for a few distances.
 								</p>
@@ -269,10 +290,13 @@
 					</div>
 					<div class="col-md-6 col-sm-12 col-lg-4	">
 						<div class="service-img-intro-container services2" data-aos="fade-up" data-aos-offset="200">
-							<img alt="city" class="img-fluid service-img" src="assets/img/g2.jpg">
+							<div class="figure">
+								<img alt="city" class="img-fluid service-img" src="assets/img/g2.jpg">
+							</div>
 							<div class="service-img-intro">
 								<h4>Quick Response Time</h4>
-								<p>Taxis aim to reach passengers promptly, reducing wait times and providing efficient
+								<p class="all-p">Taxis aim to reach passengers promptly, reducing wait times and
+									providing efficient
 									transportation. We often provide airport transportation services. </p>
 								<a href="#">Read More</a>
 							</div>
@@ -280,10 +304,13 @@
 					</div>
 					<div class="col-md-6 col-sm-12 col-lg-4	">
 						<div class="service-img-intro-container services2" data-aos="fade-left">
-							<img alt="handshake" class="img-fluid service-img" src="assets/img/hand-shake.jpg">
+							<div class="figure">
+								<img alt="handshake" class="img-fluid service-img" src="assets/img/hand-shake.jpg">
+							</div>
 							<div class="service-img-intro">
 								<h4>24/7 Availability</h4>
-								<p>Many taxi and cab services operate 24/7, offering round-the-clock transportation
+								<p class="all-p">Many taxi and cab services operate 24/7, offering round-the-clock
+									transportation
 									options for passengers, including late-night or early-morning rides.</p>
 								<a href="#">Read More</a>
 							</div>
@@ -309,13 +336,14 @@
 					<div class="booked-content">
 						<h3 class="welcome-heading" data-aos="fade-down">Call Us Now <span>Book Your Cab </span>For Your
 							Next Ride!</h3>
-						<p data-aos="fade-right">We successfully cope with tasks of varying complexity, guarantees and
+						<p class="all-p" data-aos="fade-right">We successfully cope with tasks of varying complexity,
+							guarantees and
 							regularly master new
 							technologies.</p>
 						<div class="cta-call" data-aos="fade-up">
 							<i class="fa-solid fa-phone-volume"></i>
-							<p><span>Call Us Now</span><a href="tel:403-948-2002/403-809-5353">403-948-2002<br></a><a
-									href="tel:403-948-2002/403-809-5353">403-809-5353</a></p>
+							<p class="all-p"><span>Call Us Now</span><a href="tel:403-948-2002">403-948-2002<br></a><a
+									href="tel:403-809-5353">403-809-5353</a></p>
 						</div>
 					</div>
 				</div>
@@ -334,7 +362,8 @@
 			<div class="fleets-wrap">
 				<div class="our-fleets-heading">
 					<h3 class="welcome-heading" data-aos="fade-right">Our <span>Fleets</span></h3>
-					<p data-aos="fade-left">These fleets are common in urban areas and city areas which provide
+					<p class="all-p" data-aos="fade-left">These fleets are common in urban areas and city areas which
+						provide
 						organized and systematic taxi services to the public. This are essential for providing
 						convenient and accessible transportation services in the environments, offering people a
 						reliable and efficient means of getting around the city.</p>
@@ -345,37 +374,37 @@
 					<span class="outer-line"></span>
 				</div>
 				<div class="our-fleets-img">
-					<div class="row">
+					<div class="row hide-child">
 						<div class="col-lg-4 col-sm-12 col-md-6 p-3">
 							<a href="assets/img/g1.jpg" class="image-link-js">
-								<img alt="airplane" class="fleets1" src="assets/img/g1.jpg" data-aos="fade-right">
+								<img alt="airplane" class="fleets" src="assets/img/g1.jpg" data-aos="zoom-in-up">
 							</a>
 						</div>
 						<div class="col-lg-4 col-sm-12 col-md-6 p-3">
 							<a href="assets/img/cab1.jpg" class="image-link-js">
-								<img alt="yellow taxi" class="fleets1" src="assets/img/cab1.jpg" data-aos="fade-down">
+								<img alt="yellow taxi" class="fleets" src="assets/img/cab1.jpg" data-aos="zoom-in-up">
 							</a>
 						</div>
 						<div class="col-lg-4 col-sm-12 col-md-6 p-3">
 							<a href="assets/img/g3.jpg" class="image-link-js">
-								<img alt="taxi sign" class="fleets2" src="assets/img/g3.jpg" data-aos="fade-left">
+								<img alt="taxi sign" class="fleets" src="assets/img/g3.jpg" data-aos="zoom-in-up">
 							</a>
 						</div>
 						<div class="col-lg-4 col-sm-12 col-md-6 p-3">
 							<a href="assets/img/about.jpg" class="image-link-js">
-								<img alt="girl with car" class="fleets2" src="assets/img/about.jpg"
-									data-aos="fade-right">
+								<img alt="girl with car" class="fleets" src="assets/img/about.jpg"
+									data-aos="zoom-in-up">
 							</a>
 						</div>
 						<div class="col-lg-4 col-sm-12 col-md-6 p-3">
 							<a href="assets/img/g2.jpg" class="image-link-js">
-								<img alt="city" class="fleets2" src="assets/img/g2.jpg" data-aos="fade-up">
+								<img alt="city" class="fleets" src="assets/img/g2.jpg" data-aos="zoom-in-up">
 							</a>
 						</div>
 						<div class="col-lg-4 col-sm-12 col-md-6 p-3">
 							<a href="assets/img/hand-shake.jpg" class="image-link-js">
-								<img alt="hanf hand-shake" class="fleets2" src="assets/img/hand-shake.jpg"
-									data-aos="fade-left">
+								<img alt="hanf hand-shake" class="fleets" src="assets/img/hand-shake.jpg"
+									data-aos="zoom-in-up">
 							</a>
 						</div>
 					</div>
@@ -418,7 +447,8 @@
 										<li><i class="star"></i></li>
 									</ul>
 								</div>
-								<p class="review-text">Marco and his team repaired some loose granite steps at the front
+								<p class="review-text all-p">Marco and his team repaired some loose granite steps at the
+									front
 									our house. He explained the process and took excellent care of a delicate project.
 									All the stones are now tightly secure and looks brand new. Highly recommend Marco!
 								</p>
