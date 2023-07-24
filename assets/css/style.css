@@ -1,14 +1,16 @@
 * {
   margin: 0px;
   padding: 0px;
-  font-family: 'Roboto', sans-serif;
-
+  font-family: "Roboto", sans-serif;
 }
 html {
   overflow-x: hidden;
 }
 body {
   overflow-x: hidden;
+}
+p.all-p {
+  line-height: 1.4;
 }
 /*--------------------TOP HEADER CSS START-------------------------*/
 section.top-header {
@@ -311,7 +313,6 @@ section.banner-slider a {
   /* width: 25%; */
   border: 2px solid #ffb400;
   background: #ffb400;
-  border-radius: 11px;
 }
 .banner-slider-button i {
   margin: 8px;
@@ -365,11 +366,9 @@ section.banner-slider a {
   }
   .banner-slider-button button {
     padding: 5px 10px;
-    /* width: 34%; */
     border: 2px solid #ffb400;
     background: #ffb400;
-    border-radius: 11px;
-    font-size: 10px;
+    font-size: 12px;
   }
   /* banner slider responsive */
   span.slider-icons {
@@ -414,10 +413,8 @@ section.banner-slider a {
   }
   .banner-slider-button button {
     padding: 2px 10px;
-    /* width: 35%; */
     border: 2px solid #ffb400;
     background: #ffb400;
-    border-radius: 10px;
     font-size: 8px;
   }
   .banner-slider-button button i {
@@ -428,6 +425,9 @@ section.banner-slider a {
 /*-----------------welcome part css starts--------------------*/
 section.welcome-part {
   margin-top: 60px;
+}
+.col-lg-6.welcome-right {
+  padding: 2rem;
 }
 .welcome-part-heading p {
   margin: 15px 0 0px;
@@ -473,7 +473,7 @@ span.outer-line {
   text-align: justify;
 }
 .welcome-part-box-right h2 {
-  text-align: end;
+  text-align: start;
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
   border-bottom: 1px solid #ffb4007d;
@@ -485,7 +485,7 @@ span.outer-line {
 .welcome-part-box-right p {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  line-height: 1.8;
+  line-height: 1.5;
   font-weight: 400;
   margin-bottom: 15px;
   margin-top: 0px;
@@ -494,7 +494,7 @@ span.outer-line {
 div#pills-home {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  line-height: 1.8;
+  line-height: 1.5;
   font-weight: 400;
   margin-bottom: 15px;
   margin-top: 0px;
@@ -527,6 +527,7 @@ button.nav-link {
   border-radius: 0;
   font-size: 14px;
   font-weight: 600;
+  padding: 0.5rem 1rem 0.5rem 0;
 }
 .flames-content-nav-tab .nav-pills .nav-link:hover {
   color: #ffb400;
@@ -534,6 +535,7 @@ button.nav-link {
 .welcome-part-button {
   text-align: start;
   position: relative;
+  padding-top: 40px;
 }
 .welcome-part-button i {
   margin: 8px;
@@ -543,7 +545,6 @@ button.nav-link {
   border: 2px solid #ffb400;
   text-align: center;
   background: #ffb400;
-  border-radius: 34px;
 }
 .welcome-part-button button:hover {
   background: transparent;
@@ -584,7 +585,7 @@ button.nav-link {
 /* Welcome Section CSS */
 .welcome-heading {
   font-size: 48px;
-  /* line-height: 48px; */
+  line-height: 1.8;
   font-weight: 800;
   margin: 0 0 0;
   color: #ffb400;
@@ -641,6 +642,7 @@ button.nav-link {
   }
   .welcome-part-button button {
     font-size: 12px;
+    margin-top: 12px;
   }
   .welcome-part-button {
     text-align: center;
@@ -681,8 +683,19 @@ section.main-our-services {
   color: #424242;
   padding: 0 100px;
 }
-img.img-fluid.service-img {
+.service-img-intro-container .service-img {
   height: 14rem;
+  width: 100%;
+  transition: all 1s linear;
+}
+.service-img-intro-container:hover h4 {
+  color: #fbb400;
+}
+.service-img-intro-container:hover img {
+  transform: scale(1.2);
+}
+.figure {
+  overflow: hidden;
   width: 100%;
 }
 .service-img-intro {
@@ -694,14 +707,6 @@ img.img-fluid.service-img {
   top: 150px;
   right: 18px;
   box-shadow: 5px 3px 6px -3px;
-}
-.service-img-intro:hover {
-  background: #fbb400;
-  color: #000;
-  transition: 0.3s ease;
-}
-.service-img-intro:hover a {
-  color: #000;
 }
 .service-img-intro h4 {
   font-size: 20px;
@@ -722,8 +727,13 @@ img.img-fluid.service-img {
   text-decoration: none;
   color: #fbb400;
   font-weight: 700;
+  border: 2px solid;
+  padding: 8px;
+  transition: 0.5s ease;
 }
-
+.service-img-intro a:hover {
+  color: #000;
+}
 .service-img-intro-container {
   position: relative;
   height: 376px;
@@ -752,7 +762,6 @@ button.serives-respo-btn a {
   .services-respo button {
     background: #fbb400;
     border: 2px solid #fbb400;
-    border-radius: 25px;
     padding: 10px;
     font-weight: 600;
     font-size: 14px;
@@ -778,7 +787,7 @@ button.serives-respo-btn a {
   }
   .our-services-heading p {
     padding: 20px 0 0 0;
-    text-align: center;
+    text-align: justify;
   }
 }
 /*-------------------our services css ends----------------------*/
@@ -926,15 +935,13 @@ section.our-fleets {
 }
 .fleets-respo button {
   padding: 6px 20px;
-    border: 2px solid #ffb400;
-    text-align: center;
-    background: #ffb400;
-    border-radius: 34px;
+  border: 2px solid #ffb400;
+  text-align: center;
+  background: #ffb400;
 }
 .fleets-respo-btn a {
   color: #000;
   text-decoration: none;
-  padding: 6px;
   font-weight: 600;
 }
 .fleets-respo button:hover {
@@ -953,9 +960,9 @@ section.our-fleets {
   .fleets-respo button {
     background: #fbb400;
     border: 2px solid #fbb400;
-    border-radius: 25px;
     padding: 10px;
     font-weight: 600;
+    font-size: 14px;
   }
   .fleets-respo-btn a {
     color: #000;
@@ -973,10 +980,10 @@ section.our-fleets {
     text-align: center;
     border: none;
   }
-  .fleets2 {
+  .row.hide-child .col-lg-4:nth-child(n + 3) {
     display: none;
   }
-  .our-fleets-heading p{
+  .our-fleets-heading p {
     padding: 20px 0 0 0;
     text-align: center;
   }
@@ -987,12 +994,13 @@ section.our-fleets {
     text-align: justify;
   }
 }
-/*--------------------------------------------our fleets part css ends --------------------------*/
+/*------------------------------our fleets part css ends --------------------------*/
 /* -------------------testimonials css starts -------------------------*/
 .sec-title.center.text-center h3 {
   font-size: 48px;
   font-weight: 800;
   margin: 0 0 11px 0;
+  line-height: 1.8;
 }
 .sec-title.center.text-center h5 {
   margin: 15px 0 0px;
@@ -1021,15 +1029,10 @@ section.our-fleets {
 span.review-author {
   display: block;
 }
-
 .review-meta {
   font-weight: 500;
+  padding: 12px 0;
 }
-/* #google-reviews .review-item:hover {
-    color: #E72511;
-    background-color: #000;
-    background-image: url(../img/background.png);
-  } */
 #google-reviews .review-item:before {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
@@ -1057,8 +1060,8 @@ span.review-author {
 #google-reviews .review-text {
   font-size: 1.4rem;
   color: #000;
-  text-align: center;
-  padding: 0 0 42px 0;
+  text-align: justify;
+  padding: 50px 42px;
 }
 
 .review-stars ul {
@@ -1159,7 +1162,6 @@ span.review-author {
   display: block;
   width: 64px;
   height: 64px;
-  border-radius: 50%;
   background-color: #fbb400;
   font-size: 24px;
   line-height: 64px;
@@ -1172,12 +1174,17 @@ span.review-author {
 }
 .back-to-top:hover a {
   top: -10px;
-  opacity: .8;
+  opacity: 0.8;
+}
+@media (max-width: 35em) {
+  #google-reviews .review-text {
+    padding: 0px 18px 20px 18px;
+  }
 }
 /* =====responsive of scroll up==== */
 @media (max-width: 991px) {
   .back-to-top.visible {
-      bottom: 23px;
+    bottom: 23px;
   }
   .back-to-top i {
     padding: 12px 0;
@@ -1186,7 +1193,7 @@ span.review-author {
 }
 @media (max-width: 767px) {
   .back-to-top.visible {
-      bottom: 42px;
+    bottom: 42px;
   }
   .back-to-top i {
     padding: 12px 0;
@@ -1195,7 +1202,7 @@ span.review-author {
 }
 @media (max-width: 1199px) {
   .back-to-top {
-      right: 15px;
+    right: 15px;
   }
   .back-to-top i {
     padding: 12px 0;
@@ -1204,7 +1211,7 @@ span.review-author {
 }
 @media (max-width: 991px) {
   .back-to-top {
-      right: 15px;
+    right: 15px;
   }
   .back-to-top i {
     padding: 12px 0;
@@ -1213,10 +1220,10 @@ span.review-author {
 }
 @media (max-width: 575px) {
   .back-to-top a {
-      width: 45px;
-      height: 45px;
-      line-height: 48px;
-      font-size: 21px;
+    width: 45px;
+    height: 45px;
+    line-height: 48px;
+    font-size: 21px;
   }
   .back-to-top i {
     padding: 12px 0;
@@ -1239,6 +1246,7 @@ section.footer {
   height: 75px;
   position: absolute;
   top: 26px;
+  width: 70%;
 }
 .footer-up {
   height: 100px;
@@ -1370,102 +1378,6 @@ i.far.fa-heart {
 /*========================footer css ends======================*/
 /* --------------------------Whole footer part css ends ------------------------- */
 
-/* =================================================================================== 
-                  ABOUT US PAGE CSS STARTED FROM HERE
-   =================================================================================== */
-/* ---BANNER ABOUT US CSS STARTS */
-section.banner-about-us {
-  width: 100%;
-  position: relative;
-  height: 250px;
-  background-position: center;
-  background-size: cover;
-  color: #fff;
-}
-.banner-about-us-2 h1 {
-  text-align: center;
-}
-/* ----banner about us css ends---- */
-
-/* ----why choose us css start---- */
-.why-choose-us-2 {
-  background: #fbb400c2;
-  height: 350px;
-  color: #fff;
-}
-.wcu-2-content h3 {
-  font-size: 38px;
-  color: #222;
-  font-weight: 900;
-  text-align: center;
-}
-.wcu-2-content p {
-  margin-bottom: 12px;
-  text-align: center;
-  font-weight: 600;
-}
-.why-choose-us-2::before {
-  /* content: ''; */
-  height: 100%;
-  background: #222222bd;
-  position: absolute;
-  z-index: 0;
-  top: 0;
-  left: 0;
-  width: 80%;
-  clip-path: polygon(0 0, 65% 0, 38% 100%, 0% 100%);
-}
-section.main-why-choose-us {
-  position: relative;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 350px;
-  background-position: center;
-}
-.wcu-2-content {
-  margin: 200px 0 0 0;
-  top: 82px;
-  position: relative;
-  display: block;
-  padding: 82px;
-  color: #000;
-}
-/* ----why choose us part 2---- */
-.why-choose-2-box.bb2 {
-  background: #222;
-  color: #fff;
-  height: 150px;
-  background-image: url(../img/background.png);
-  margin: 50px 0;
-}
-.why-choose-2-box {
-  display: flex;
-  padding: 20px;
-  margin: 0;
-  text-align: left;
-  align-items: center;
-}
-.icon-why-choose i {
-  font-size: 40px;
-  padding: 0 16px;
-  color: #fbb400;
-}
-.content-why-choose h2 {
-  font-size: 26px;
-}
-.why-choose-2-box.bb1 {
-  background: #fff;
-  color: #000;
-  height: 150px;
-  margin: 50px 0;
-}
-.why-choose-us-1 {
-  position: absolute;
-  top: -126px;
-  right: 80px;
-  left: 80px;
-  z-index: 9999;
-}
 .list-x2 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1479,5 +1391,5 @@ section.main-why-choose-us {
   padding-right: 1rem;
 }
 .show {
-  right: 15px!important;
+  right: 15px !important;
 }

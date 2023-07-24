@@ -5,22 +5,12 @@
 		<div class="row">
 			<div class="col-md-6">
 				<div class="footer-up-left">
-					<i class="fa-solid fa-car-side"></i>
-					<p>We successfully cope with tasks of varying complexity, provide long-term guarantees and
-						regularly master new technologies.</p>
+				
 				</div>
 			</div>
 			<div class="col-md-6">
 				<div class="footer-up-right">
-					<div class="row">
-						<div class="col-md-6 call-icon">
-							<i class="fa-solid fa-phone-volume"></i>
-						</div>
-						<div class="col-md-6">
-							<!-- <p>Call Us</p> -->
-							<!-- <strong><a href="tel:403-948-2002/403-809-5353">403-948-2002<br>403-809-5353</a></strong> -->
-						</div>
-					</div>
+					
 				</div>
 			</div>
 		</div>
@@ -36,7 +26,7 @@
 							<div class="footer-logo">
 								<img src="assets/img/logo.png">
 							</div>
-							<p>Auto Care ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+							<p class="all-p">Auto Care ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
 								euismod
 								tincidunt ut laoreet dolore agna aliquam erat.</p>
 							<div class="footer-logo-ul">
@@ -96,10 +86,10 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 col-lg-5 col-sm-6">
-					<p>Copyright © 2023 Airdrie Flames Taxi Ltd All rights reserved</p>
+					<p class="all-p">Copyright © 2023 Airdrie Flames Taxi Ltd All rights reserved</p>
 				</div>
 				<div class="col-md-6 col-lg-5 col-sm-6">
-					<p>Design With<i class="far fa-heart"></i>By MapleLeapGroups</p>
+					<p class="all-p">Design With<i class="far fa-heart"></i>By MapleLeapGroups</p>
 				</div>
 			</div>
 		</div>
