@@ -35,8 +35,7 @@
 				<li><button title="click button" type="button" data-bs-target="#main-slider"
 						data-bs-slide-to="3"></button></li>
 			</ul>
-			
-	<!-- slideshow section start -->
+	<!-- slideshow -->
 
 			<!-- The slideshow -->
 			<div class="carousel-inner" data-bs-interval="9000">
