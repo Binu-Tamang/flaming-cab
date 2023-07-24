@@ -9,7 +9,7 @@
 
 
 	<!-- favicon link -->
-	<link rel="icon" type="images/png" href="assets/img/service.png">
+	<link rel="icon" type="images/png" href="assets/img/logo.png">
 
 	<!-- fontawsome link -->
 	<title>Flames Cab</title>
@@ -20,7 +20,7 @@
 	<?php include('inc/header.php') ?>
 
 	<!-- --------------------------------banner slider start --------------------------->
-	<section class="banner-slider">
+	<section class="banner-slider"  id="top">
 
 		<div id="main-slider" class="carousel slide" data-bs-ride="carousel">
 
