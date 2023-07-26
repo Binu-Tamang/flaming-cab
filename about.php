@@ -2,28 +2,86 @@
 <html lang="en">
 
 <head>
-    <!-- fontawesome,custom css,bootstrap css -->
-    <?php include('inc/css.php') ?>
+	<!-- fontawesome,custom css,bootstrap css -->
+	<?php include('inc/css.php') ?>
 
-    <!-- favicon link -->
-    <link rel="icon" type="images/png" href="assets/img/service.png">
+	<!-- favicon link -->
+	<link rel="icon" type="images/png" href="assets/img/service.png">
 
-    <!-- fontawsome link -->
-    <title>About Flames Cab</title>
+	<!-- fontawsome link -->
+	<title>About Flames Cab</title>
 </head>
 
 <body style="background: rgba(220, 225, 229, 0.17);">
-    <?php include('inc/header.php') ?>
-    <!--------------- banner about us part starts-------- -->
-    <section class="banner-about-us" style="background-image:url('assets/img/g3.jpg');">
-        <div class="banner-about-us-2">
-            <div class="container">
-                <h1>About Us</h1>
-            </div>
-        </div>
-    </section>
-    <!-- -----------------banner about us page end ----------------------------- -->
-    
+	<!-- ========new heading part here ======== -->
+	<div class="container">
+		<header>
+			<section class="heading-one">
+				<div class="row">
+					<div class="col-md-8">
+						<div class="header-one-left">
+							<ul>
+								<li>
+									<i class="fa-solid fa-clock"></i> 24 Hours
+								</li>
+								<li>
+									<a href="#"><span><i class="fa-regular fa-calendar-days"></i> Everyday And
+											Week</span></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="header-one-right">
+							<a href="tel:403-809-5353"><i class="fa-solid fa-arrow-right"></i>Call Us</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="heading-two">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="logo">
+							<img src="assets/img/logo.png" alt="logo">
+						</div>
+					</div>
+					<dic class="col-md-8">
+						<div class="heading-two-right">
+							<p>
+								<i class="fa-solid fa-location-dot"></i> Airdrie, AB, Canada
+								<a href="tel:403-809-5353">403-809-5353 <i class="fa fa-phone"
+										aria-hidden="true"></i></a>
+							</p>
+						</div>
+					</dic>
+				</div>
+			</section>
+			<section class="heading-three">
+				<div class="header-three-menubar text-center" id="my-top-nav">
+					<ul>
+						<li><a href="index.php" class="active"> HOME</a></li>
+						<li><a href="about.php"> ABOUT US</a></li>
+						<li><a href="#"> SERVICES</a></li>
+						<li><a href="#"> FLEET</a></li>
+						<li><a href="#"> BLOG</a></li>
+						<li><a href="#"> CONTACT</a></li>
+					</ul>
+				</div>
+			</section>
+		</header>
+	</div>
+
+	<!-- ========new heading part here ====== -->
+	<!--------------- banner about us part starts-------- -->
+	<section class="banner-about-us" style="background-image:url('assets/img/g3.jpg');">
+		<div class="banner-about-us-2">
+			<div class="container">
+				<h1>About Us</h1>
+			</div>
+		</div>
+	</section>
+	<!-- -----------------banner about us page end ----------------------------- -->
+
 	<!-- -------------------------------welcome part starts------------------------------------------- -->
 	<section class="welcome-section my-5">
 		<div class="welcome-wrap">
@@ -94,58 +152,58 @@
 								</div>
 							</div>
 							<div class="welcome-part-button">
-							<button><a href="about.php">Read More <i class="fa fa-arrow-right"></a></i></button>
+								<button><a href="about.php">Read More <i class="fa fa-arrow-right"></a></i></button>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 	</section>
-    <!-- -------------------------------welcome part starts------------------------- -->
-    <!-- -----------------why choose us------------- -->
-    <section class="main-why-choose-us" style="background-image:url('assets/img/g2.jpg');">
-    <div class="container position-relative">
-            <div class="why-choose-us-1">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="why-choose-2-box bb1">
-                            <div class="icon-why-choose">
-                                <i class="fa-solid fa-map-location-dot"></i>
-                            </div>
-                            <div class="content-why-choose">
-                                <h2>Fast Services</h2>
-                                <p>Lorem ipsum dolor sit amet, consecter ipisicing elit, sed do eiusmod tempor.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="why-choose-2-box bb2">
-                            <div class="icon-why-choose">
-                                <i class="fa-solid fa-map-location-dot"></i>
-                            </div>
-                            <div class="content-why-choose">
-                                <h2>Fast Services</h2>
-                                <p>Lorem ipsum dolor sit amet, consecter ipisicing elit, sed do eiusmod tempor.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="why-choose-us-2">
-            <div class="wcu-2-content">
-                <p>WELCOME</p>
-                <h3>Few Reasons Why You Choose Us
-                    Protect Youself</h3>
-            </div>
-        </div>
-        
-    </section>
-    <?php
+	<!-- -------------------------------welcome part starts------------------------- -->
+	<!-- -----------------why choose us------------- -->
+	<section class="main-why-choose-us" style="background-image:url('assets/img/g2.jpg');">
+		<div class="container position-relative">
+			<div class="why-choose-us-1">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="why-choose-2-box bb1">
+							<div class="icon-why-choose">
+								<i class="fa-solid fa-map-location-dot"></i>
+							</div>
+							<div class="content-why-choose">
+								<h2>Fast Services</h2>
+								<p>Lorem ipsum dolor sit amet, consecter ipisicing elit, sed do eiusmod tempor.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="why-choose-2-box bb2">
+							<div class="icon-why-choose">
+								<i class="fa-solid fa-map-location-dot"></i>
+							</div>
+							<div class="content-why-choose">
+								<h2>Fast Services</h2>
+								<p>Lorem ipsum dolor sit amet, consecter ipisicing elit, sed do eiusmod tempor.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="why-choose-us-2">
+			<div class="wcu-2-content">
+				<p>WELCOME</p>
+				<h3>Few Reasons Why You Choose Us
+					Protect Youself</h3>
+			</div>
+		</div>
+
+	</section>
+	<?php
 	include('inc/footer.php');
 	include('inc/js.php')
 		?>
-    <!-- -----------------why choose us------------- -->
+	<!-- -----------------why choose us------------- -->
 </body>
 
 </html>

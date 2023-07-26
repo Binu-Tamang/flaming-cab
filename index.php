@@ -17,11 +17,10 @@
 
 <body style="background: rgba(220, 225, 229, 0.17);">
 
-	<?php include('inc/header.php') ?>
 
 	<!-- --------------------------------banner slider start --------------------------->
 	<section class="banner-slider">
-
+	<?php include('inc/header.php') ?>
 		<div id="main-slider" class="carousel slide" data-bs-ride="carousel">
 
 			<!-- Indicators -->

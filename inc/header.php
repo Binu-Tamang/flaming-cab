@@ -1,9 +1,8 @@
-<!---------------------- top header start -------------------->
-<section id="top" class="top-header">
+<header>
 	<div class="container">
-
+	<!---------------------- top header start -------------------->
+	<section id="top" class="top-header">
 		<div class="row">
-
 			<div class="col-md-6">
 				<div class="top-header-left">
 
@@ -22,16 +21,12 @@
 				</div>
 			</div>
 		</div>
-	</div>
 </section>
 <!-- ------------------------top header end ------------------------------------>
 
 <!-- ------------------------2nd top header start ------------------------------->
 <section class="second-top-header ">
-	<div class="container">
-
 		<div class="row">
-
 			<div class="col-md-2 col-sm-2 ">
 				<div class="second-top-header-logo">
 					<img alt="flames-logo" src="assets/img/logo.png" href="index.php">
@@ -54,8 +49,12 @@
 				</div>
 			</div>
 		</div>
+</section>
+<!------------------------------------- 2nd top header end ------------------------>
+<section class="third-top-header">
+	<div class="third-heading">
 
 	</div>
 </section>
-
-<!------------------------------------- 2nd top header end ------------------------>
+	</div>
+</header>
