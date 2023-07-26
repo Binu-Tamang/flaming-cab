@@ -688,8 +688,15 @@ section.main-our-services {
   width: 100%;
   transition: all 1s linear;
 }
-.service-img-intro-container:hover h4 {
-  color: #fbb400;
+.service-img-intro-container h4:after {
+  content: '';
+  border-bottom: 2px solid #fbb400;
+  width: 0;display: block;
+  transition: width 0.5s linear;
+  padding-top: 5px;
+}
+.service-img-intro-container:hover h4:after {
+    width: 100%;
 }
 .service-img-intro-container:hover img {
   transform: scale(1.2);
@@ -706,12 +713,12 @@ section.main-our-services {
   position: absolute;
   top: 150px;
   right: 18px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 0px 10px rgba(0 0 0 / 15%);
 }
 .service-img-intro h4 {
   font-size: 20px;
   line-height: 24px;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
   font-weight: 700;
 }
 .service-img-intro p {
@@ -1133,6 +1140,22 @@ span.review-author {
 .pageheader-wrapper .breadcrumb-item + .breadcrumb-item::before {
   color: #ffffff;
 }
+@media (max-width: 62em) {
+  #google-reviews .review-item:before{
+    font-size: 3rem;
+  }
+  #google-reviews .review-item:after{
+    font-size: 3rem;
+  }
+}
+@media (max-width: 35em) {
+  #google-reviews .review-item:before{
+    font-size: 3rem;
+  }
+  #google-reviews .review-item:after{
+    font-size: 3rem;
+  }
+}
 /*-----------------------------testimonals css ends------------------------------  */
 /* ========scroll up btn==== */
 .back-to-top i {
@@ -1141,7 +1164,7 @@ span.review-author {
 }
 .back-to-top {
   position: fixed;
-  bottom: -50px;
+  bottom: 50px;
   opacity: 0;
   visibility: hidden;
   right: -100px;
@@ -1154,7 +1177,6 @@ span.review-author {
 .back-to-top.visible {
   opacity: 1;
   visibility: visible;
-  bottom: 27px;
 }
 .back-to-top a {
   position: relative;
@@ -1178,13 +1200,16 @@ span.review-author {
 }
 @media (max-width: 35em) {
   #google-reviews .review-text {
-    padding: 0px 18px 20px 18px;
+    padding: 0px 18px 40px 18px;
+    font-size: 20px;
+    height: 260px;
   }
 }
 /* =====responsive of scroll up==== */
 @media (max-width: 991px) {
   .back-to-top.visible {
     bottom: 23px;
+    right: -100px;
   }
   .back-to-top i {
     padding: 12px 0;
@@ -1194,6 +1219,7 @@ span.review-author {
 @media (max-width: 767px) {
   .back-to-top.visible {
     bottom: 42px;
+    right: -100px;
   }
   .back-to-top i {
     padding: 12px 0;
@@ -1292,6 +1318,7 @@ section.footer {
   display: flex;
   margin: 0;
   padding: 0;
+  width: 60%;
 }
 .footer-logo-ul li {
   list-style: none;
@@ -1319,7 +1346,7 @@ section.footer {
   padding: 18px 0;
   border-bottom: 2px solid #b1acac61;
 }
-.footer-boxes li a {
+ul.list-content.list-x2 li a {
   color: #fff;
   text-decoration: none;
 }
@@ -1364,16 +1391,21 @@ i.far.fa-heart {
   color: #ffb400;
   font-size: 20px;
 }
-.footer-boxes.fbox-2 li:before {
+ul.list-content li::before {
   position: relative;
   content: "\f105";
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   margin-right: 10px;
 }
-
-.footer-boxes.fbox-2 li {
+ul.list-content.list-x2 li {
   padding-bottom: 3px;
+}
+.footer-middle::after {
+  content: "";
+  display: block;
+  width: 100%;
+  border-bottom: 2px solid #fbb400;
 }
 /*========================footer css ends======================*/
 /* --------------------------Whole footer part css ends ------------------------- */
@@ -1393,3 +1425,128 @@ i.far.fa-heart {
 .show {
   right: 15px !important;
 }
+/* ========footer payments css starts===== */
+.pay-cards img {
+  height: 38px;
+}
+.pay-cards ul {
+  margin: 0;
+}
+a.payment-img img {
+  display: block;
+}
+
+.pay-cards ul {
+  display: flex;
+}
+
+.pay-cards li {
+  padding:  15px;
+}
+/* =========footer payments css ends===== */
+/* ========call button css starts======== */
+.call-icon button {
+  padding: 20px;
+  border: navajowhite;
+  background: transparent;
+}
+.call-icon i {
+  font-size: 20px;
+}
+
+.call-icon {
+  width: 60px;
+  height: 60px;
+  background-color: #fbb400;
+  border-radius: 50%;
+  display: none;
+}
+@keyframes vibrate {
+  0% {
+    transform: translate(0);
+  }
+  25% {
+    transform: translate(-2px, 2px);
+  }
+  50% {
+    transform: translate(0, -2px);
+  }
+  75% {
+    transform: translate(2px, 2px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+/* ========call button css ends======== */
+/*========= responsive of call icon css starts======== */
+@media (max-width: 62em) {
+  .call-icon{
+    display: block;
+    position: fixed;
+    bottom: 120px;
+    right: 15px;
+
+  }
+  .call-icon:hover{
+    animation: vibrate 1s infinite;
+  }
+  /* ======call button css starts===== */
+.wrap-all-modal {
+  border-radius: 0!important;
+  border-bottom: 1px solid #ffb4007d!important;
+}
+.call-text-btn {
+  text-align: center;
+}
+.call-text-btn button {
+  padding: 6px 20px;
+  margin: 6px;
+  background: #fbb400;
+  border: 2px solid #ffb400;
+}
+.call-text-btn a {
+  color: #000;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 800;
+  padding: 10px;
+}
+/* ======call button css ends===== */
+}
+@media (max-width: 35em) {
+  .call-icon{
+    display: block;
+    position: fixed;
+    bottom: 120px;
+    right: 15px;
+  }
+  .call-icon:hover{
+    animation: vibrate 1s infinite;
+  }
+  /* ======call button css starts===== */
+.wrap-all-modal {
+  border-radius: 0!important;
+  border-bottom: 1px solid #ffb4007d!important;
+}
+.call-text-btn {
+  text-align: center;
+}
+.call-text-btn button {
+  padding: 6px 20px;
+  margin: 6px;
+  background: #fbb400;
+  border: 2px solid #ffb400;
+}
+.call-text-btn a {
+  color: #000;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 800;
+  padding: 10px;
+}
+/* ======call button css ends===== */
+}
+/*========= responsive of call icon css ends======== */
+
+

@@ -9,7 +9,7 @@
 
 
 	<!-- favicon link -->
-	<link rel="icon" type="images/png" href="assets/img/logo.png">
+	<link rel="icon" type="images/png" href="assets/img/service.png">
 
 	<!-- fontawsome link -->
 	<title>Flames Cab</title>
@@ -20,7 +20,7 @@
 	<?php include('inc/header.php') ?>
 
 	<!-- --------------------------------banner slider start --------------------------->
-	<section class="banner-slider"  id="top">
+	<section class="banner-slider">
 
 		<div id="main-slider" class="carousel slide" data-bs-ride="carousel">
 
@@ -35,7 +35,6 @@
 				<li><button title="click button" type="button" data-bs-target="#main-slider"
 						data-bs-slide-to="3"></button></li>
 			</ul>
-	<!-- slideshow -->
 
 			<!-- The slideshow -->
 			<div class="carousel-inner" data-bs-interval="9000">

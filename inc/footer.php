@@ -5,12 +5,12 @@
 		<div class="row">
 			<div class="col-md-6">
 				<div class="footer-up-left">
-				
+
 				</div>
 			</div>
 			<div class="col-md-6">
 				<div class="footer-up-right">
-					
+
 				</div>
 			</div>
 		</div>
@@ -26,9 +26,14 @@
 							<div class="footer-logo">
 								<img src="assets/img/logo.png">
 							</div>
-							<p class="all-p">Auto Care ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+							<p class="all-p">Auto Care ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+								nonummy nibh
 								euismod
 								tincidunt ut laoreet dolore agna aliquam erat.</p>
+								<p>
+								WCB Approved AND Alberta Health Service Vouchers Are Accepted
+								</p>
+							
 							<div class="footer-logo-ul">
 								<ul>
 									<li><a href="#" title="Facebook" class="fab fa-facebook-f"></a></li>
@@ -37,6 +42,7 @@
 									<li><a href="#" title="Instagram" class="fab fa-instagram"></a></li>
 								</ul>
 							</div>
+
 						</div>
 					</div>
 					<div class="col-md-6 col-lg-4 col-12">
@@ -53,7 +59,7 @@
 										<li><a href="#">CONTACT</a></li>
 									</ul>
 								</div>
-								
+
 							</div>
 						</div>
 					</div>
@@ -62,11 +68,21 @@
 							<h3>Contact Us</h3>
 							<div class="footer-contact-ul">
 								<ul>
-									<li><i class="bi bi-geo-alt-fill"></i><strong>address</strong> Airdrie, AB, Canada,
-										Alberta </li>
+									<li><i class="bi bi-geo-alt-fill"></i><strong>address</strong> Airdrie, AB, Canada </li>
 									<li><i class="ti-mobile"></i><strong>phone</strong>403-809-5353</li>
-									<li><i class="ti-printer"></i><strong></strong>403-948-2002 (24/24 Support Line)</li>
+									<li><i class="ti-printer"></i><strong></strong>403-948-2002 (24/24 Support Line)
+									</li>
 								</ul>
+								<div class="pay-cards">
+									<ul>
+										<li><a class="payment-img" href="#"><img src="assets/img/mastercard.png"
+													alt="mastercard"></a></li>
+										<li><a class="payment-img" href="#"><img src="assets/img/visa.png"
+													alt="visacard"></a></li>
+										<li><a class="payment-img" href="#"><img src="assets/img/interac.png"
+													alt="Interac"></a></li>
+									</ul>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -74,10 +90,21 @@
 			</div>
 		</div>
 		<!-- =======================footer middle part ends -->
+		<!-- ======call button======= -->
+		<!-- Button trigger modal -->
+		<div class="call-icon-wrap">
+			<div class="container">
+				<div class="call-icon">
+					<button data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+							class="fa-solid fa-phone"></i></button>
+				</div>
+			</div>
+		</div>
+		<!-- =======call button======= -->
 		<!-- =====scroll up button======== -->
 		<div class="back-to-top visible" id="go-to-top">
 			<a href="#top">
-			<i class="fa-solid fa-chevron-up"></i>
+				<i class="fa-solid fa-chevron-up"></i>
 			</a>
 		</div>
 		<!-- =====scroll up button======== -->
@@ -89,10 +116,30 @@
 					<p class="all-p">Copyright © 2023 Airdrie Flames Taxi Ltd All rights reserved</p>
 				</div>
 				<div class="col-md-6 col-lg-5 col-sm-6">
-					<p class="all-p">Design With<i class="far fa-heart"></i>By MapleLeapGroups</p>
+					<p class="all-p">Designed & Hosted By :<a href="https://www.mapleleapgroups.com" title="MapleLeapGroups"><img src="assets/img/maple.jpg" alt="maple-logo"></a></p>
 				</div>
 			</div>
 		</div>
 	</div>
 	<!-- ----------------------------------------Whole footer part end--------------------------------------- -->
 </footer>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content wrap-all-modal">
+			<div class="modal-header">
+				<h5 class="modal-title Contact-mt" id="exampleModalLabel">Contact Us</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body">
+				<div class="call-text-btn">
+					<button><i class="fa-solid fa-phone"><a href="tel:403-948-2002"> Call Us</a></i></button>
+					<button><i class="fa-regular fa-comments"><a href="#">Text Us</a></i></button>
+				</div>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary close-small" data-bs-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>

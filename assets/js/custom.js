@@ -47,9 +47,7 @@ AOS.init({
 })
 
 window.addEventListener('DOMContentLoaded',function(){
-  console.log('1');
   document.addEventListener("scroll", (event) => {
-  console.log('2');
 
     let lastKnownScrollPosition = window.scrollY;
     const scroll_button= document.querySelector('#go-to-top');
@@ -62,4 +60,17 @@ window.addEventListener('DOMContentLoaded',function(){
     }
   });
 });
+document.addEventListener("DOMContentLoaded", function () {
+  const link = document.querySelector("#go-to-top a");
+    link.addEventListener("click", function (event) {
+      event.preventDefault();
+      const target = document.querySelector(this.getAttribute("href"));
+      if (target) {
 
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth"
+        });
+    }
+    });
+});
