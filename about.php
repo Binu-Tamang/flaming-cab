@@ -14,66 +14,13 @@
 
 <body style="background: rgba(220, 225, 229, 0.17);">
 	<!-- ========new heading part here ======== -->
-	<div class="container">
-		<header>
-			<section class="heading-one">
-				<div class="row">
-					<div class="col-md-8">
-						<div class="header-one-left">
-							<ul>
-								<li>
-									<i class="fa-solid fa-clock"></i> 24 Hours
-								</li>
-								<li>
-									<a href="#"><span><i class="fa-regular fa-calendar-days"></i> Everyday And
-											Week</span></a>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="header-one-right">
-							<a href="tel:403-809-5353"><i class="fa-solid fa-arrow-right"></i>Call Us</a>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section class="heading-two">
-				<div class="row">
-					<div class="col-md-4">
-						<div class="logo">
-							<img src="assets/img/logo.png" alt="logo">
-						</div>
-					</div>
-					<dic class="col-md-8">
-						<div class="heading-two-right">
-							<p>
-								<i class="fa-solid fa-location-dot"></i> Airdrie, AB, Canada
-								<a href="tel:403-809-5353">403-809-5353 <i class="fa fa-phone"
-										aria-hidden="true"></i></a>
-							</p>
-						</div>
-					</dic>
-				</div>
-			</section>
-			<section class="heading-three">
-				<div class="header-three-menubar text-center" id="my-top-nav">
-					<ul>
-						<li><a href="index.php" class="active"> HOME</a></li>
-						<li><a href="about.php"> ABOUT US</a></li>
-						<li><a href="#"> SERVICES</a></li>
-						<li><a href="#"> FLEET</a></li>
-						<li><a href="#"> BLOG</a></li>
-						<li><a href="#"> CONTACT</a></li>
-					</ul>
-				</div>
-			</section>
-		</header>
-	</div>
+
 
 	<!-- ========new heading part here ====== -->
 	<!--------------- banner about us part starts-------- -->
 	<section class="banner-about-us" style="background-image:url('assets/img/g3.jpg');">
+	<?php include('inc/header.php') ?>
+		
 		<div class="banner-about-us-2">
 			<div class="container">
 				<h1>About Us</h1>
@@ -198,6 +145,61 @@
 			</div>
 		</div>
 
+	</section>
+	<section class=fleets>
+		<div class="fleets-pic">
+			<div class="row">
+				<div class="col-md-4">
+					<img src="assets/img/cab1.jpg" alt="car1">
+					<div class="hover-area">
+						<div class="profile-body">
+							<h4>CAR</h4>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<img src="assets/img/cab1.jpg" alt="car2">
+					<div class="hover-area">
+						<div class="profile-body">
+							<h4>CAR</h4>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<img src="assets/img/cab1.jpg" alt="car3">
+					<div class="hover-area">
+						<div class="profile-body">
+							<h4>CAR</h4>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<img src="assets/img/cab1.jpg" alt="car4">
+					<div class="hover-area">
+						<div class="profile-body">
+							<h4>CAR</h4>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<img src="assets/img/cab1.jpg" alt="car5">
+					<div class="hover-area">
+						<div class="profile-body">
+							<h4>CAR</h4>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<img src="assets/img/cab1.jpg" alt="car6">
+					<div class="hover-area">
+						<div class="profile-body">
+							<h4>CAR</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
 	</section>
 	<?php
 	include('inc/footer.php');

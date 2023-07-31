@@ -26,10 +26,7 @@
 							<div class="footer-logo">
 								<img src="assets/img/logo.png">
 							</div>
-							<p class="all-p">Auto Care ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-								nonummy nibh
-								euismod
-								tincidunt ut laoreet dolore agna aliquam erat.</p>
+							<p class="all-p">Our business strives to provide the customers with quality taxi cab service in Airdire with superior service and guaranteed satisfaction. Call Us Todays!</p>
 								<p>
 								WCB Approved AND Alberta Health Service Vouchers Are Accepted
 								</p>
