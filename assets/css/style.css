@@ -12,6 +12,10 @@ body {
 p.all-p {
   line-height: 1.4;
 }
+a:hover{
+  color: #fecc18;
+
+}
 /*--------------------TOP HEADER CSS START-------------------------*/
 section.top-header {
   background: #fecc18;
@@ -91,7 +95,7 @@ section.second-top-header {
   margin-left: 36px;
   transition: ease 0.3s;
 }
-.second-top-header .second-top-header-menubar li a:hover {
+.second-top-header .second-top-header-menubar li a:hover,.second-top-header .second-top-header-menubar li.active a {
   color: #fecc18;
   border-bottom: 1px solid #fecc18 ;
 }
@@ -452,7 +456,7 @@ section.banner-slider a {
     margin: 0;
   }
   .banner-slider-text h3 {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 700;
     color: #fff;
     border-bottom: 1px solid;
@@ -847,9 +851,9 @@ button.serives-respo-btn a {
     text-align: center;
     border: none;
   }
-  .service-img-intro-container.services2 {
+  /* .service-img-intro-container.services2 {
     display: none;
-  }
+  } */
   .our-services-heading p {
     padding: 20px 0 0 0;
     text-align: justify;
@@ -1048,9 +1052,9 @@ section.our-fleets {
     text-align: center;
     border: none;
   }
-  .row.hide-child .col-lg-4:nth-child(n + 3) {
+  /* .row.hide-child .col-lg-4:nth-child(n + 3) {
     display: none;
-  }
+  } */
   .our-fleets-heading p {
     padding: 20px 0 0 0;
     text-align: center;
@@ -1696,7 +1700,8 @@ button.carousel-control-next.test-btn.test-n-btn {
 }
 .card-icon img, svg {
   vertical-align: middle;
-  width: 32%;
+  width: 60px;
+  height: 60px;
 }
 .card-icon i {
   font-size: 24px;
@@ -1707,7 +1712,7 @@ button.carousel-control-next.test-btn.test-n-btn {
   text-align: center;
   margin: 15px 0;
 }
-card-head{
+.card-head{
   font-size: 30px;
 }
 .card-content {
@@ -1803,12 +1808,17 @@ li.breadcrumb-item a {
 
 
 .booking-section{
-  background:#f2f3f3;
+  background:#fff;
 }
 
 button.btn.btn-secondary.w-100.py-3 {
   background: 
   #fecc18;
+}
+
+.border-0 {
+  /* border: 0!important; */
+  border: solid 1px black;
 }
 
 p.text-white.mb-0 {
@@ -1870,21 +1880,25 @@ p.text-white.mb-0 {
 /* reservation */
 .reservbodywrap{
 	max-width:767px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background: white;
+  padding: 30px;
 	margin:0 auto;
 }
-.reservbodywrap h3{
-	font-family:Montserrat;
+.reservbodywrap h3,.reservbodywrap h4{
+	font-family:Roboto;
 	font-size:32px;
-	font-weight:600;
+	font-weight:bold;
 }
 .reservbodywrap p{
-	font-family:Montserrat;
-	font-size:13px;
+	font-family:Roboto;
+	font-size:16px;
 	font-weight:400;
+
 }
 .reservbodywrap span{
 
-	font-size:13px;
+	font-size:16px;
 	font-weight:400;
 	font-style:italic;
 	color:#800000;
@@ -1897,7 +1911,7 @@ p.text-white.mb-0 {
 }
 .reservpage .formfield input,.reservpage .formfield select{
 	height:30px;
-	font-size:13px;
+	font-size:16px;
 }
 .reservtype,.airlineother {
      display: none;   
@@ -1906,12 +1920,12 @@ p.text-white.mb-0 {
 	display:block;
 }
 .reservtype h4 {
-  font-family: Montserrat;
+  font-family: Roboto;
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 600;
   text-transform: capitalize;
   background-color: #ffc107;
-  color:white;
+  color:#191f23;
   margin: 15px 0px;
   padding: 10px 15px;
 }
@@ -1935,7 +1949,7 @@ p.text-white.mb-0 {
 }
 .reservtype .formfield input,.reservtype .formfield select{
 	border-radius:0;
-	height:30px;
+	height:45px;
  
 }
 .reservtype .formfield textarea{
@@ -2027,7 +2041,7 @@ form#frm {
 @media ( max-width: 996px){
   .formfield {
     flex: 0 0 auto;
-    width: 50%;
+    width: 100%;
 }
 }
 
@@ -2037,7 +2051,6 @@ form#frm {
     flex: 0 0 auto;
     width: 100%;
 }
-  
   }
 
 
@@ -2086,14 +2099,15 @@ h4.m-0.font-service ,h4.m-2.font-service{
 
 
 .contact-info {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   display: grid;
   justify-content: center;
- padding-top: 30px;
- color: black;
- border: 2px solid #fecc18;
-    padding: 20px 45px;
+  padding-top: 30px; */
+  color: white;
+  
+  padding: 20px 45px;
+  background-color: #191f23;
 }
 .paragarph-contact{
   padding-bottom:4px ;
@@ -2105,9 +2119,6 @@ h4.m-0.font-service ,h4.m-2.font-service{
   margin: 23px 7px;
 }
 
-.contact-info i {
-  margin-right: 10px;
-}
 
 .map {
   border-radius: 5px;
@@ -2130,13 +2141,37 @@ iframe {
 
 
 
+.contact-info a{
+  color: white;
+}
+.contact-info a:hover{
+  color: #fbb400;
+}
+.social-logo-ul li{
+  list-style: none;
+    padding-right: none;
+}
+.social-logo-ul li{
+  list-style: none;
+    padding-right: none;
+}
 
+.social-logo-ul ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
 
-
-
-
-
-
+.social-logo-ul li a  {
+  color: #fff;
+  list-style: none;
+  text-decoration: none;
+  padding: 5px;
+  margin-right: 10px;
+  border: 1px solid;
+  width: 25px;
+  text-align: center;
+}
 
 
 

@@ -15,7 +15,7 @@
 								<a href="#"><i class="fa-solid fa-clock"></i> 24 Hours</a>
 							</li>
 							<li>
-								<a href="#"><i class="fa fa-phone" aria-hidden="true"></i> 403-809-5353</a>
+								<a href="tel:403-809-5353"><i class="fa fa-phone" aria-hidden="true"></i> 403-809-5353</a>
 							</li>
 						</ul>
 					</div>
@@ -36,23 +36,18 @@
 				</div>
 				<div class="col-md-10 ">
 					<div class="second-top-header-menubar text-end" id="my-top-nav">
-						<ul>
-							<li><a href="index.php" class="active"> HOME</a></li>
+						<ul class="navul">
+							<li><a href="index.php"> HOME</a></li>
 							<li><a href="about.php"> ABOUT US</a></li>
 							<!-- <li><a href="service.php"> SERVICES</a></li> -->
 							<li>
-							<div class="dropdown"><a href="service.php">
-								<button class="dropbtn">SERVICES</button>
-								<div class="dropdown-content">
-									<a href="servicetwo.php">Services 2</a>
-									
-								</div>
-								</div>
-							</a>
+								<a href="services.php">
+									SERVICES
+								</a>
 							</li>
-							
-							<li><a href="fleet.php"> FLEET</a></li>
-							
+
+							<li><a href="fleets.php"> FLEETS</a></li>
+
 							<li><a href="contact.php"> CONTACT</a></li>
 							<li><a href="reservation.php"> RESERVATION</a></li>
 						</ul>
@@ -68,7 +63,7 @@
 
 
 
-	
+
 	<!------------------------------------- 2nd top header end ------------------------>
 	<section class="third-top-header">
 		<div class="third-heading">

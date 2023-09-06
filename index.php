@@ -313,7 +313,7 @@
 				</div>
 				<div class="services-respo text-center">
 					<button title="view more" class="serives-respo-btn">
-						<a href="#">View More <i class="fa fa-arrow-right"></i></a>
+						<a href="services.php">View More <i class="fa fa-arrow-right"></i></a>
 					</button>
 				</div>
 			</div>
@@ -405,7 +405,7 @@
 		</div>
 		<div class="fleets-respo" data-aos="fade-up">
 			<button title="view more" class="fleets-respo-btn">
-				<a href="#">View More <i class="fa fa-arrow-right"></i></a>
+				<a href="fleets.php">View More <i class="fa fa-arrow-right"></i></a>
 			</button>
 		</div>
 		</div>
@@ -496,9 +496,10 @@
 	<!-- ---------------------------footer starts--------------------- -->
 	<?php
 	include('inc/footer.php');
-	include('inc/js.php')
+	include('inc/js.php');
 		?>
 	<!-- ---------------------------footer ends--------------------- -->
+	<script>$('.navul > li').eq(0).addClass("active");</script>
 
 </body>
 

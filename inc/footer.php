@@ -33,10 +33,10 @@
 							
 							<div class="footer-logo-ul">
 								<ul>
-									<li><a href="#" title="Facebook" class="fab fa-facebook-f"></a></li>
-									<li><a href="#" title="Twitter" class="fab fa-twitter"></a></li>
-									<li><a href="#" title="LinkedIn" class="fab fa-linkedin-in"></a></li>
-									<li><a href="#" title="Instagram" class="fab fa-instagram"></a></li>
+									<li><a href="https://www.facebook.com/flamestaxi/" title="Facebook" class="fab fa-facebook-f"></a></li>
+									<li><a href="https://twitter.com/aflamestaxi" title="Twitter" class="fab fa-twitter"></a></li>
+									<!-- <li><a href="#" title="LinkedIn" class="fab fa-linkedin-in"></a></li> -->
+									<li><a href="https://www.instagram.com/aflamestaxi/" title="Instagram" class="fab fa-instagram"></a></li>
 								</ul>
 							</div>
 

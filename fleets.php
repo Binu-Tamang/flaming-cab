@@ -9,7 +9,7 @@
 	<link rel="icon" type="images/png" href="assets/img/service.png">
 
 	<!-- fontawsome link -->
-	<title>About Flames Cab</title>
+	<title>Fleets | Flames Cab</title>
 </head>
 
 <body style="background: rgba(220, 225, 229, 0.17);">
@@ -28,7 +28,7 @@
 	 <div class="container-fluid page-header mb-5 p-0" style="background-image: url(assets/img/slider/1.jpg);">
         <div class="container-fluid page-header-inner py-5">
             <div class="container text-center">
-                <h1 class="display-3 text-white mb-3 animated slideInDown">Our Fleets</h1>
+                <h1 class="display-3 fw-bold text-white mb-3 animated slideInDown">Our Fleets</h1>
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb justify-content-center text-uppercase">
                         <li class="breadcrumb-item " aria-current="page"><a href="#">Home</a></li>
@@ -99,11 +99,11 @@
 				</div>
 			</div>
 		</div>
-		<div class="fleets-respo" data-aos="fade-up">
+		<!-- <div class="fleets-respo" data-aos="fade-up">
 			<button title="view more" class="fleets-respo-btn">
 				<a href="fleet.php">View More <i class="fa fa-arrow-right"></i></a>
 			</button>
-		</div>
+		</div> -->
 		</div>
 	</section>
 	<!-- ----------------Our fleets ends --------------------->
@@ -113,6 +113,8 @@
 	include('inc/js.php')
 		?>
 	<!-- -----------------why choose us------------- -->
+	<script>$('.navul > li').eq(3).addClass("active");</script>
+
 </body>
 
 </html>
