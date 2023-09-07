@@ -6,7 +6,8 @@
   <?php include('inc/css.php') ?>
 
   <!-- favicon link -->
-  <link rel="icon" type="images/png" href="assets/img/service.png">
+	<link rel="icon" type="images/png" href="assets/img/favicon.ico">
+
 
   <!-- fontawsome link -->
   <title>Contact | Flames Cab</title>

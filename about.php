@@ -6,7 +6,7 @@
     <?php include('inc/css.php') ?>
 
     <!-- favicon link -->
-    <link rel="icon" type="images/png" href="assets/img/service.png">
+    <link rel="icon" type="images/png" href="assets/img/favicon.ico">
 
     <!-- fontawsome link -->
     <title>About | Flames Cab</title>
@@ -33,7 +33,7 @@
                 <strong class="display-3 fw-bold text-white mb-3 animated slideInDown">About Us</strong>
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb justify-content-center text-uppercase">
-                        <li class="breadcrumb-item " aria-current="page"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item " aria-current="page"><a >Home</a></li>
                         <li class="breadcrumb-item text-white active" aria-current="page">About</li>
                     </ol>
                 </nav>
@@ -132,7 +132,7 @@
                 <div class="col-md-4 card-responsive">
                     <div class="card about-card">
                         <div class="card-icon">
-                            <img alt="" src="./assets/img/002-insurance.svg" href="#">
+                            <img alt="" src="./assets/img/002-insurance.svg" >
                         </div>
                         <div class="card-title">
                             <h3 class="h4">Safety Guarantee</h3>
@@ -147,7 +147,7 @@
                 <div class="col-md-4 card-responsive">
                     <div class="card about-card">
                         <div class="card-icon">
-                            <img alt="" src="./assets/img/clock.png" href="#">
+                            <img alt="" src="./assets/img/clock.png" >
                         </div>
                         <div class="card-title">
                             <h3 class="h4">Fast Pickups</h3>
@@ -162,7 +162,7 @@
                 <div class="col-md-4 card-responsive">
                     <div class="card about-card">
                         <div class="card-icon">
-                            <img alt="" src="./assets/img/placeholder.png" href="#">
+                            <img alt="" src="./assets/img/taxi-serv.svg" >
                         </div>
                         <div class="card-title">
                             <h3 class="h4">24/7 Service</h3>

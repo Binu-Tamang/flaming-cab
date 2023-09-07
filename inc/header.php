@@ -39,9 +39,9 @@
 						<ul class="navul">
 							<li><a href="index.php"> HOME</a></li>
 							<li><a href="about.php"> ABOUT US</a></li>
-							<!-- <li><a href="service.php"> SERVICES</a></li> -->
+							<!-- <li><a href="services.php"> SERVICES</a></li> -->
 							<li>
-								<a href="services.php">
+								<a href="#">
 									SERVICES
 								</a>
 							</li>

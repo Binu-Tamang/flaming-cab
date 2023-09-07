@@ -48,12 +48,12 @@
 							<div class="row">
 								<div class="col-md-12">
 									<ul class="list-content list-x2">
-										<li><a href="#">HOME</a></li>
-										<li><a href="#">ABOUT US</a></li>
+										<li><a href="index.php">HOME</a></li>
+										<li><a href="about.php">ABOUT US</a></li>
 										<li><a href="#">SERVICE</a></li>
-										<li><a href="#">FLEET</a></li>
-										<li><a href="#">BLOG</a></li>
-										<li><a href="#">CONTACT</a></li>
+										<li><a href="fleet.php">FLEET</a></li>
+										<li><a href="contact.php">CONTACT</a></li>
+										<li><a href="reservation.php">Reservation</a></li>
 									</ul>
 								</div>
 
