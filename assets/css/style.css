@@ -11,6 +11,8 @@ body {
 }
 p.all-p {
   line-height: 1.4;
+  text-align: justify;
+  letter-spacing: 1px;
 }
 a:hover{
   color: #fecc18;
@@ -120,11 +122,6 @@ section.second-top-header {
   color: #bfbfbf;
   right: 0;
 }
-
-
-
-
-
 
 /* Dropdown Button */
 .dropbtn {
@@ -1661,21 +1658,7 @@ button.carousel-control-next.test-btn.test-n-btn {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-/* about us page */
-
-
-
-
+/* ===================about us page====================== */
 .content-design{
   display: flex;
   gap: 45px;
@@ -1790,23 +1773,7 @@ li.breadcrumb-item a {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* booking */
-
-
-
 .booking-section{
   background:#fff;
 }
@@ -1872,8 +1839,6 @@ p.text-white.mb-0 {
   padding: 10px;
   border-radius: 4px;
 }
-
-
 
 
 
@@ -2054,32 +2019,98 @@ form#frm {
   }
 
 
-
-/* services pages */
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
-  background: #ffc107;
+/* ==================services pages ======================*/
+.services-heading-2 {
+  font-size: 32px;
+  line-height: 44px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  padding: 6px 0;
+  color: #292929;
+  border-bottom: 2px solid #fbb400;
+  width: 50%;
+  margin: 15px 0;
 }
-.service-wrapping {
-  background: gainsboro;
+.service-img {
+  height: 350px;
+  width: 100%;
+  object-fit: cover;
+}
+/* ----services list---- */
+ul.services-list li {
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  line-height: 2;
+  word-spacing: 1.1px;
+  letter-spacing: 1px;
+}
+.services-ul {
+  display: inline-flex;
+  margin-bottom: 2rem;
 }
 
-h4.m-0.font-service ,h4.m-2.font-service{
-  font-size: 16px;
+ul.services-list {
+  margin: 0;
+  padding: 0;
+  margin-right: 5rem;
 }
 
-.our-services-heading p{
-  text-align: justify;
-  padding-bottom: 20px;
-  padding-left: 0px;
-  padding-right: 0px;
+ul.services-list li i {
+  color: #fbb400;
+  font-size: 22px;
+  margin-right: 12px;
+}
+/* ------service menu list------ */
+
+.services-details-menu {
+  background: #fff;
+  padding: 15px;
+  box-shadow: 0 6px 35px rgba(0, 0, 0, 0.07);
+  width: 330px;
+  margin-bottom: 2rem;
 }
 
+.services-details-menu strong {
+  font-size: 22px;
+  letter-spacing: 2px;
+  /* color: #fbb400; */
+  margin-left: 8px;
+}
 
+ul.services-menu-list {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  margin-top: 12px;
+}
 
+ul.services-menu-list li {
+  list-style: none;
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 16px;
+  transition: 0.3s ease;
+}
 
+ul.services-menu-list a {
+  text-decoration: none;
+  color: #000;
+  font-size: 17px;
+  letter-spacing: 1px;
+}
 
+ul.services-menu-list li i {
+  margin: 0 10px;
+  font-size: 22px;
+}
 
+ul.services-menu-list li:hover {
+  border-bottom: 1px solid #fbb400;
+}
+/* ----service-part-2------ */
 
+/* ==============our services page css ends========== */
 
 
 /* contact page */

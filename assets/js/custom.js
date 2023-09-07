@@ -1,3 +1,5 @@
+
+
 $(document).ready(function () {
   $(".our-fleets-img").magnificPopup({
     delegate: ".image-link-js", // child items selector, by clicking on it popup will open

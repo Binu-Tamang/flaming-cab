@@ -15,7 +15,8 @@
 								<a href="#"><i class="fa-solid fa-clock"></i> 24 Hours</a>
 							</li>
 							<li>
-								<a href="tel:403-809-5353"><i class="fa fa-phone" aria-hidden="true"></i> 403-809-5353</a>
+								<a href="tel:403-809-5353"><i class="fa fa-phone" aria-hidden="true"></i>
+									403-809-5353</a>
 							</li>
 						</ul>
 					</div>
@@ -40,14 +41,8 @@
 							<li><a href="index.php"> HOME</a></li>
 							<li><a href="about.php"> ABOUT US</a></li>
 							<!-- <li><a href="service.php"> SERVICES</a></li> -->
-							<li>
-								<a href="services.php">
-									SERVICES
-								</a>
-							</li>
-
+							<li><a href="services.php">SERVICES</a></li>
 							<li><a href="fleets.php"> FLEETS</a></li>
-
 							<li><a href="contact.php"> CONTACT</a></li>
 							<li><a href="reservation.php"> RESERVATION</a></li>
 						</ul>
@@ -60,11 +55,16 @@
 			</div>
 		</div>
 	</section>
-
-
-
-
 	<!------------------------------------- 2nd top header end ------------------------>
+
+	<!-- ===============services of flames cab starts============ -->
+<section class="all-services">
+<div class="container">
+	
+</div>
+</section>
+	<!-- ===============services of flames cab starts============ -->
+
 	<section class="third-top-header">
 		<div class="third-heading">
 
