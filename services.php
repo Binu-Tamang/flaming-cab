@@ -5,8 +5,9 @@
     <!-- fontawesome,custom css,bootstrap css -->
     <?php include('inc/css.php') ?>
 
-    <!-- favicon link -->
-    <link rel="icon" type="images/png" href="assets/img/service.png">
+	<!-- favicon link -->
+    <link rel="icon" type="images/png" href="assets/img/favicon.ico">
+
 
     <!-- fontawsome link -->
     <title>Services | Flames Cab</title>

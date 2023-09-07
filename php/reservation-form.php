@@ -43,7 +43,7 @@ if (($fname == "") || ($lname == "") || ($email == "") || ($phone == "")) {
 
 	if ($result['success'] == 1) {
 
-		$headers = "From: FlamesCab<noreply@airdrieflamescab.com>";
+		$headers = "From: FlamesCab<noreply@myclient.site>";
 		$subject = 'Reservation form submission for Flames Cab';
 		$form_message = '<html><head>';
 		$form_message .= '<style>';
@@ -86,7 +86,7 @@ if (($fname == "") || ($lname == "") || ($email == "") || ($phone == "")) {
 		$form_message .= 'This mail is sent by reservation form of <a href="' . $site_url . '">' . $site_url . '</a>';
 		$form_message .= '</body></html>';
 		$headers .= "\r\nContent-type: text/html; charset=iso-8859-1";
-		mail("info@mapleleapgroups.com", $subject, $form_message, $headers);
+		mail("rafik@mapleleapgroups.com", $subject, $form_message, $headers);
 		
 		echo "<script>location.href='msgsuccess.php'</script>";
 	} else {

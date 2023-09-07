@@ -6,7 +6,8 @@
     <?php include('inc/css.php') ?>
 
     <!-- favicon link -->
-    <link rel="icon" type="images/png" href="assets/img/service.png">
+    <link rel="icon" type="images/png" href="assets/img/favicon.ico">
+
 
     <!-- fontawsome link -->
     <title>Reservation | Flames Cab</title>
@@ -115,7 +116,7 @@
                             <div class="top-of-reservation">
                                 <label>Pick-up Date:*</label>
                             </div>
-                            <input type="date" id="pickUpDateField" name="pick_up_date" required="required" class="form-control">
+                            <input type="name" placeholder="YYYY M DD" id="date" name="pick_up_date" required="required" class="form-control">
                         </div>
 
                         <div class="formfield formfieldselectmul col-md-4 col-sm-6 col-xs-12">

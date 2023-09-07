@@ -9,7 +9,9 @@
 
 
 	<!-- favicon link -->
-	<link rel="icon" type="images/png" href="assets/img/service.png">
+	<link rel="icon" type="images/png" href="assets/img/favicon.ico">
+
+
 
 	<!-- fontawsome link -->
 	<title>Flames Cab</title>
@@ -215,7 +217,7 @@
 					<div class="col-md-6 col-sm-12 col-lg-4	">
 						<div class="service-img-intro-container services1" data-aos="fade-right">
 							<div class="figure">
-								<img alt="airplane" class="img-fluid service-img" src="assets/img/g1.jpg">
+								<img alt="airplane" class="img-fluid service-img" data-src="assets/img/g1.jpg">
 							</div>
 							<div class="service-img-intro">
 								<h4>Airdrie Flames Cabs</h4>
@@ -233,7 +235,7 @@
 					<div class="col-md-6 col-sm-12 col-lg-4	">
 						<div class="service-img-intro-container services1" data-aos="fade-down" data-aos-offset="0">
 							<div class="figure">
-								<img alt="yellow car" class="img-fluid service-img" src="assets/img/slider/2.jpg">
+								<img alt="yellow car" class="img-fluid service-img" data-src="assets/img/slider/2.jpg">
 							</div>
 							<div class="service-img-intro">
 								<h4>Airdrie Transportation</h4>
@@ -250,7 +252,7 @@
 					<div class="col-md-6 col-sm-12 col-lg-4	">
 						<div class="service-img-intro-container services2" data-aos="fade-left">
 							<div class="figure">
-								<img alt="raxi sign" class="img-fluid service-img" src="assets/img/slider/taxi4.jpg">
+								<img alt="raxi sign" class="img-fluid service-img" data-src="assets/img/slider/taxi4.jpg">
 							</div>
 							<div class="service-img-intro">
 								<h4>Quick Response Time</h4>
@@ -264,7 +266,7 @@
 					<div class="col-md-6 col-sm-12 col-lg-4	">
 						<div class="service-img-intro-container services2" data-aos="fade-right">
 							<div class="figure">
-								<img alt="girl with car" class="img-fluid service-img" src="assets/img/about.jpg">
+								<img alt="girl with car" class="img-fluid service-img" data-src="assets/img/about.jpg">
 							</div>
 							<div class="service-img-intro">
 								<h4>Hotel Transportation</h4>
@@ -279,7 +281,7 @@
 					<div class="col-md-6 col-sm-12 col-lg-4	">
 						<div class="service-img-intro-container services2" data-aos="fade-up" data-aos-offset="200">
 							<div class="figure">
-								<img alt="city" class="img-fluid service-img" src="assets/img/g2.jpg">
+								<img alt="city" class="img-fluid service-img" data-src="assets/img/g2.jpg">
 							</div>
 							<div class="service-img-intro">
 								<h4>City Tours</h4>
@@ -299,7 +301,7 @@
 					<div class="col-md-6 col-sm-12 col-lg-4	">
 						<div class="service-img-intro-container services2" data-aos="fade-left">
 							<div class="figure">
-								<img alt="handshake" class="img-fluid service-img" src="assets/img/hand-shake.jpg">
+								<img alt="handshake" class="img-fluid service-img" data-src="assets/img/hand-shake.jpg">
 							</div>
 							<div class="service-img-intro">
 								<h4>24 Hrs Services</h4>
@@ -368,34 +370,34 @@
 					<div class="row hide-child">
 						<div class="col-lg-4 col-sm-12 col-md-6 p-3">
 							<a href="assets/img/service.jpg" class="image-link-js">
-								<img alt="airplane" class="fleets" src="assets/img/service.jpg" data-aos="zoom-in-up">
+								<img alt="airplane" class="fleets" data-src="assets/img/service.jpg" data-aos="zoom-in-up">
 							</a>
 						</div>
 						<div class="col-lg-4 col-sm-12 col-md-6 p-3">
 							<a href="assets/img/slider/1.jpg" class="image-link-js">
-								<img alt="yellow taxi" class="fleets" src="assets/img/slider/1.jpg"
+								<img alt="yellow taxi" class="fleets" data-src="assets/img/slider/1.jpg"
 									data-aos="zoom-in-up">
 							</a>
 						</div>
 						<div class="col-lg-4 col-sm-12 col-md-6 p-3">
 							<a href="assets/img/slider/2.jpg" class="image-link-js">
-								<img alt="taxi sign" class="fleets" src="assets/img/slider/2.jpg" data-aos="zoom-in-up">
+								<img alt="taxi sign" class="fleets" data-src="assets/img/slider/2.jpg" data-aos="zoom-in-up">
 							</a>
 						</div>
 						<div class="col-lg-4 col-sm-12 col-md-6 p-3">
 							<a href="assets/img/slider/taxi2.jpg" class="image-link-js">
-								<img alt="girl with car" class="fleets" src="assets/img/slider/taxi2.jpg"
+								<img alt="girl with car" class="fleets" data-src="assets/img/slider/taxi2.jpg"
 									data-aos="zoom-in-up">
 							</a>
 						</div>
 						<div class="col-lg-4 col-sm-12 col-md-6 p-3">
 							<a href="assets/img/slider/taxi3.jpg" class="image-link-js">
-								<img alt="city" class="fleets" src="assets/img/slider/taxi3.jpg" data-aos="zoom-in-up">
+								<img alt="city" class="fleets" data-src="assets/img/slider/taxi3.jpg" data-aos="zoom-in-up">
 							</a>
 						</div>
 						<div class="col-lg-4 col-sm-12 col-md-6 p-3">
 							<a href="assets/img/about.jpg" class="image-link-js">
-								<img alt="hanf hand-shake" class="fleets" src="assets/img/about.jpg"
+								<img alt="hanf hand-shake" class="fleets" data-src="assets/img/about.jpg"
 									data-aos="zoom-in-up">
 							</a>
 						</div>

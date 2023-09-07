@@ -27,7 +27,7 @@ if (($name == "") || ($email == "")) {
 	$url = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=$secret&response=$response&remoteip=$remoteip");
 	$result = json_decode($url, TRUE);
 	if ($result['success'] == 1) {
-		$headers = "From: FlamesCab<noreply@airdrieflamescab.com>";
+		$headers = "From: FlamesCab<noreply@myclient.site>";
 		$subject = 'Contact form submission for "' . $subject . '"';
 		$form_message = '<html><head>';
 		$form_message .= '<style>';
@@ -58,7 +58,7 @@ if (($name == "") || ($email == "")) {
 		$form_message .= 'This mail is sent by contact form of <a href="' . $site_url . '">' . $site_url . '</a>';
 		$form_message .= '</body></html>';
 		$headers .= "\r\nContent-type: text/html; charset=iso-8859-1";
-		mail("info@mapleleapgroups.com", $subject, $form_message, $headers);
+		mail("rafik@mapleleapgroups.com", $subject, $form_message, $headers);
 
 		echo "<script>location.href='msgsuccess.php'</script>";
 	} else {
