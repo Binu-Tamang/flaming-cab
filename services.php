@@ -70,7 +70,7 @@
                                     individuals and communities. They continue to adapt to changing technology and
                                     customer
                                     preferences to remain competitive in the transportation industry.</p>
-                                <div class="services-ul">
+                                <div class="services-ul d-md-inline-flex d-block">
                                     <ul class="services-list">
                                         <li><i class="fa-solid fa-check"></i> Airdrie Flames Cabs</li>
                                         <li><i class="fa-solid fa-check"></i> Airdrie Transportation</li>

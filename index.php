@@ -11,8 +11,6 @@
 	<!-- favicon link -->
 	<link rel="icon" type="images/png" href="assets/img/favicon.ico">
 
-
-
 	<!-- fontawsome link -->
 	<title>Flames Cab</title>
 </head>
