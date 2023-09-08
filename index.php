@@ -228,7 +228,7 @@
 									those
 									regions. We are the town’s high-quality selection for any transportation
 									preparations. </p>
-								<a href="#">Read More</a>
+								<a href="services.php#serve-1">Read More</a>
 							</div>
 						</div>
 					</div>
@@ -245,21 +245,21 @@
 									top choice for any transportation solutions. Airdrie flames Taxi Ltd. offers
 									efficient and reliable taxi service in Airdrie and Cochrane to meet the
 									transportation needs of residents, visitors and our corporate clients. </p>
-								<a href="#">Read More</a>
+								<a href="services.php#serve-4">Read More</a>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-12 col-lg-4	">
 						<div class="service-img-intro-container services2" data-aos="fade-left">
 							<div class="figure">
-								<img alt="raxi sign" class="img-fluid service-img" data-src="assets/img/slider/taxi4.jpg">
+								<img alt="taxi sign" class="img-fluid service-img" data-src="assets/img/slider/taxi4.jpg">
 							</div>
 							<div class="service-img-intro">
 								<h4>Quick Response Time</h4>
 								<p class="all-p">Taxis aim to reach passengers promptly, reducing wait times and
 									providing efficient
 									transportation. We often provide airport transportation services. </p>
-								<a href="#">Read More</a>
+								<a href="services.php#serve-2">Read More</a>
 							</div>
 						</div>
 					</div>
@@ -274,7 +274,7 @@
 									service offers a reliable and affordable pick-up and drop-off service to and from
 									your accommodation.
 								</p>
-								<a href="#">Read More</a>
+								<a href="services.php#serve-5">Read More</a>
 							</div>
 						</div>
 					</div>
@@ -294,7 +294,7 @@
 									know that you will find the best taxi services regardless of wherever you live. the
 									following are some of the best components you’re needed to consider before you make
 									your final choice.</p>
-								<a href="#">Read More</a>
+								<a href="services.php#serve-3">Read More</a>
 							</div>
 						</div>
 					</div>
@@ -308,7 +308,7 @@
 								<p class="all-p">Many taxi and cab services operate 24/7, offering round-the-clock
 									transportation
 									options for passengers, including late-night or early-morning rides.</p>
-								<a href="#">Read More</a>
+								<a href="services.php#serve-6">Read More</a>
 							</div>
 						</div>
 					</div>

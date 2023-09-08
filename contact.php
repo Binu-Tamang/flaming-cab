@@ -2,6 +2,8 @@
 <html lang="en">
 
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <!-- fontawesome,custom css,bootstrap css -->
   <?php include('inc/css.php') ?>
 
@@ -68,8 +70,16 @@
             <div class="info-box mt-3">
               <i class="fa fa-xl fa-location-dot me-3 "></i>
               <div>
-                <span>Location:</span>
+                <span>Address:</span>
                 <span class="d-block">Airdrie, AB, Canada</span>
+              </div>
+            </div>
+
+            <div class="info-box mt-3">
+              <i class="fa fa-xl fa-regular fa-envelope me-3 "></i>
+              <div>
+                <span>E-mail Address:</span>
+                <span class="d-block"><a href="mail:email@gmail.com">email@gmail.com</a></span>
               </div>
             </div>
 

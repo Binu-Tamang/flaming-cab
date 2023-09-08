@@ -40,18 +40,8 @@
 						<ul class="navul">
 							<li><a href="index.php"> HOME</a></li>
 							<li><a href="about.php"> ABOUT US</a></li>
-<<<<<<< HEAD
 							<!-- <li><a href="service.php"> SERVICES</a></li> -->
 							<li><a href="services.php">SERVICES</a></li>
-=======
-							<!-- <li><a href="services.php"> SERVICES</a></li> -->
-							<li>
-								<a href="#">
-									SERVICES
-								</a>
-							</li>
-
->>>>>>> c43eb901bc5edfcfdd2b798e7afb104d47d8fec9
 							<li><a href="fleets.php"> FLEETS</a></li>
 							<li><a href="contact.php"> CONTACT</a></li>
 							<li><a href="reservation.php"> RESERVATION</a></li>
@@ -70,7 +60,7 @@
 	<!-- ===============services of flames cab starts============ -->
 <section class="all-services">
 <div class="container">
-	
+
 </div>
 </section>
 	<!-- ===============services of flames cab starts============ -->

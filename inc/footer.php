@@ -66,8 +66,8 @@
 							<div class="footer-contact-ul">
 								<ul>
 									<li><i class="bi bi-geo-alt-fill"></i><strong>address</strong> Airdrie, AB, Canada </li>
-									<li><i class="ti-mobile"></i><strong>phone</strong>403-809-5353</li>
-									<li><i class="ti-printer"></i><strong></strong>403-948-2002 (24/24 Support Line)
+									<li><i class="ti-mobile"></i><strong>call us</strong><a href="tel:403-809-5353">403-809-5353</a></li>
+									<li><i class="ti-printer"></i><a href="tel:403-948-2002">403-948-2002</a> 24 hrs services
 									</li>
 								</ul>
 								<div class="pay-cards">
